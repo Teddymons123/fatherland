@@ -18,7 +18,7 @@
 # 91000013 # The New Iron Guard returns to Romania
 # 91000014 # Radicalization of Hungary - Arrow Cross Party
 # 91000015 # The Arrow Cross Party in Hungary
-# 91000016 # Radicalization of Hungary - Bulgarian National Socialist Party
+# 91000016 # Radicalization of Bulgaria - Bulgarian National Socialist Party
 # 91000017 # Bulgarian National Socialist Party
 # 91000018 # Radicalization of Spain - The Falange JONS
 # 91000019 # The Falange JONS pressures the government
