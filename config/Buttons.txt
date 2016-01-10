@@ -9,7 +9,7 @@
 	
 generic = {
 	id = "BUTTON_VIEW_INT"
-	background = "topbar_folder.bmp"
+	background = "topbar_intel.bmp"
 	bitmap = "BUTTON_INT"
 	upper = "BUTTON_INT_IRO"
 	lower = "BUTTON_INT_DRO"
@@ -32,21 +32,21 @@ press = {
 press = {
 	id = "BUTTON_VIEW_ARMY"
 	bitmap = "empty.bmp"
-	background = "Army_btn.bmp" #.bmp
+	background = "Army_btn_A.bmp" #.bmp
 	upper = "BVA_IRO"
 	lower = "BVA_DRO"
 	}
 press = {
 	id = "BUTTON_VIEW_NAVY"
 	bitmap = "empty.bmp"
-	background = "Navy_btn.bmp" #.bmp
+	background = "Navy_btn_A.bmp" #.bmp
 	upper = "BVN_IRO"
 	lower = "BVN_DRO"
 	}
 press = {
 	id = "BUTTON_VIEW_AIR"
 	bitmap = "empty.bmp"
-	background = "Airwing_btn.bmp" #.bmp
+	background = "Airwing_btn_A.bmp" #.bmp
 	upper = "BVR_IRO"
 	lower = "BVR_DRO"
 	}
@@ -181,7 +181,7 @@ generic = {
 
 generic = {
 	id = "BUTTON_VP"
-	background = "topbar_folder.bmp"
+	background = "topbar_map.bmp"
 	bitmap = "BUTTON_MAP"
 	shortcut = F2
 	upper = "BUTTON_MAP_IRO"
@@ -190,7 +190,7 @@ generic = {
 
 generic = {
 	id = "BUTTON_VIEW_TECH"
-	background = "topbar_folder.bmp"
+	background = "topbar_tech.bmp"
 	bitmap = "BUTTON_TECH"
 	upper = "BUTTON_TECH_IRO"
 	lower = "BUTTON_TECH_DRO"
@@ -201,7 +201,7 @@ generic = {
 
 generic = {
 	id = "BUTTON_VIEW_PROD"
-	background = "topbar_folder.bmp"
+	background = "topbar_prod.bmp"
 	bitmap = "BUTTON_PROD"
 	upper = "BUTTON_PROD_IRO"
 	lower = "BUTTON_PROD_DRO"
@@ -209,7 +209,7 @@ generic = {
 
 generic = {
 	id = "BUTTON_VIEW_DIP"
-	background = "topbar_folder.bmp"
+	background = "topbar_dipl.bmp"
 	bitmap = "BUTTON_DIP"
 	upper = "BUTTON_DIP_IRO"
 	lower = "BUTTON_DIP_DRO"
@@ -217,7 +217,7 @@ generic = {
 
 generic = {
 	id = "BUTTON_VIEW_STATISTICS"
-	background = "topbar_folder.bmp"
+	background = "topbar_stat.bmp"
 	bitmap = "BUTTON_LEDGER"
 	shortcut = F6
 	upper = "BUTTON_LEDGER_IRO"

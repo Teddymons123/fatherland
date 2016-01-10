@@ -837,8 +837,8 @@ FEBTN_BACK;§777 BACK;§777 RETOUR;§777 INDIETRO;§777 ATRБS;§777 ZURЬCK;§777 Wstec
 FEBTN_CANCEL;CANCEL;ANNULER;ANNULLA;CANCELAR;ABBRECHEN;Anuluj;;ОТМЕНА;;;X
 FEBTN_BAN;BAN;BANNIR;ESPELLI;EXPULSAR;ENTFERNEN;Banuj;;ИСКЛЮЧИТЬ;;;X
 ##;;;;;;;;;;;X
-FESTR_SCENARIOS;SCENARIOS;SCENARIOS;SCENARI;ESCENARIOS;SZENARIEN;Scenariusze;;СЦЕНАРИИ;;;X
-FESTR_SAVEDGAMES;SAVED GAMES;SAUVEGARDES;PARTITE SALVATE;PARTIDAS GUARDADAS;GESPEICHERTE SPIELE;Zapisane gry;;СОХРАНЕННЫЕ ИГРЫ;;;X
+FESTR_SCENARIOS;;;;;;;;;;;X
+FESTR_SAVEDGAMES;;;;;;;;;;;X
 FESTR_PLAYERS;PLAYERS;JOUEURS; GIOCATORE/I;JUGADORES; SPIELER;Gracze;;ИГРОКИ;;;X
 FESTR_NOSELECTION;(no selection);(pas de sйlection);(nessuna scelta);(sin selecciуn);(nichts ausgewдhlt);(brak wyboru);;(выбор не сделан);;;X
 FESTR_STRATEGY;STRATEGY;STRATEGIE;STRATEGIA;ESTRATEGIA;STRATEGIE;Strategia;;СТРАТЕГИЯ;;;X
@@ -1075,11 +1075,11 @@ MESSAGE_HEADER_PROPERTIES;§YMESSAGE PROPERTIES;§YPROPRIETES DES MESSAGES;§YPROPR
 ##;;;;;;;;;;;X
 #  SIDEBAR BUTTONS;;;;;;;;;;;X
 ##;;;;;;;;;;;X
-BUTTON_MAP;View Map;Afficher la carte;Visualizza mappa;Ver mapa;Karte anzeigen;Mapa gіуwna;;Карта мира;;;X
-BUTTON_TECH;Technology;Technologies;Tecnologia;Tecnologнa;Technologie;Technologie;;Технологии;;;X
-BUTTON_PROD;Economy;Economie;Produzione;Producciуn;Produktion;Produkcja;;Производство;;;X
-BUTTON_DIP;Diplomacy;Diplomatie;Diplomazia;Diplomacia;Diplomatie;Dyplomacja;;Дипломатия;;;X
-BUTTON_LEDGER;Statistics;Statistiques;Statistiche;Estadнsticas;Statistik;Statystyki;;Статистика;;;X
+BUTTON_MAP;;;;;;;;;;;X
+BUTTON_TECH;;;;;;;;;;;X
+BUTTON_PROD;;;;;;;;;;;X
+BUTTON_DIP;;;;;;;;;;;X
+BUTTON_LEDGER;;;;;;;;;;;X
 BUTTON_ECO;Economic Mapmode;Carte йconomie;Mappa economica;Mapa econуmico;Wirtschafts-Karte;Mapa ekonomiczna;;Экономическая карта;;;X
 BUTTON_WEATHER;Weather Mapmode;Carte mйtйo;Mappa meteo;Mapa del pronуstico del tiempo;Wetter-Karte;Mapa pogody;;Погодная карта;;;X
 BUTTON_0098;Edit Cities;Йditer les citйs;Modifica cittа;Edit. ciudades;bearbeiten von Stдdten;Edytuj miasta;;Править города;;;X
@@ -2693,7 +2693,7 @@ SYNC_ARRIVAL;Synchronize Arrival;Synchroniser les arrivйes.;Sincronizza l'arrivo
 BASED_IN;Navalbase: %s;Base navale: %s;Base navale: %s;Base naval: %s;Heimathafen: %s;Baza morska: %s;;Морская база: %s;;;X
 LOCATED_IN;%s is a part of %s, currently in %s.;%s fait partie de %s, situй en %s.;%s fa parte di %s, attualmente in %s.;%s forma parte de %s, actualmente en %s.;%s ist ein Teil von %s, momentan in %s.;%s jest czкњci№ %s i stacjonuje aktualnie w: %s.;;%s входит в состав части %s, расположенной в провинции %s.;;;X
 ##;;;;;;;;;;;X
-BUTTON_INT;Intelligence;Services secrets;Servizi Segreti;Inteligencia;Geheimdienst;Wywiad;;Разведка;;;X
+BUTTON_INT;;;;;;;;;;;X
 BUTTON_INT_IRO;Here you can manage your covert activities.;Cet onglet vous permet de gйrer vos services de renseignement.;Qui puoi gestire le tue operazioni segrete.;Aquн puedes gestionar tus actividades encubiertas.;Hier verwalten sie ihre Geheimdienstaktionen.;Tutaj moїesz zarz№dzaж wywiadem.;;В этом сценарии разведывательная деятельность отключена.;;;X
 BUTTON_INT_DRO;;;;;;;;;;;X
 RULES_INT_DISABLED_IRO;The intelligence system is disabled in this scenario.;Le systиme d'espionnage est inactif dans ce scйnario.;Il sistema di spionaggio e' disabilitato nello scenario.;En este escenario estб desactivado el sistema de espionaje.;Das Geheimdienst-System ist in diesem Szenario deaktiviert.;System wywiadowczy nie dziaіa w tym scenariuszu ;;В этом сценарии разведывательная деятельность отключена.;;;X
