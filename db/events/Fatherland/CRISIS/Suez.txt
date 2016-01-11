@@ -108,6 +108,9 @@ event = {
 		command = { type = guarantee which = U01 where = EGY }	
 		
 		command = { type = sleepevent which = 8500302 }
+		command = { type = sleepevent which = 8500303 }
+		command = { type = sleepevent which = 8500304 }		
+		
 	}
 }
 

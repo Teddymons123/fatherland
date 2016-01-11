@@ -10,7 +10,8 @@
 # 354 - The Government Falls!
 # 355 - Case Anton (354C) - GER
 # 356 - We have defeated France - Again! - GER
-# 313 - It is done! Encore une fois!
+# 361 - The Wermacht occupation of Paris
+# 362 - It is done! Encore une fois!
 # 363 - An unexpected flight
 # 364 - Approachment with Free France
 # 367 - United States meddles in France - GER
@@ -284,7 +285,7 @@ event = {
 			command = { type = supplies value = -1000 } 	       
 			
 		    command = { type = sleepevent which = 354 } #The Government falls
-			command = { type = trigger which = 313 } 
+			command = { type = trigger which = 362 }  
 	}
 	
 	action = {
@@ -436,7 +437,7 @@ event = {
 			command = { type = manpowerpool value = -10 }
 			command = { type = supplies value = -1000 } 
 	        command = { type = make_puppet which = FRA }
-			command = { type = trigger which = 313 } #It's done encore un fois
+			command = { type = trigger which = 362 } #It's done encore un fois
             command = { type = peacetime_ic_mod value = 5 } #New economic advantage		
 	}
 		action = {
@@ -447,9 +448,32 @@ event = {
 	}
 }
 
+#The Wermacht occupation of Paris
+event = {
+	id = 361
+	random = no
+	country = FRA
+	style = 2
+	picture = "aar_versailles"
+	
+	name = "The Wermacht occupation of Paris" 
+    desc = "The Wehrmacht has occupy Paris, the  Ultra-Collaborationist Government is secured"
+	
+	action = {
+		name = "The Government is safe" #We have no choice
+		
+		command = { type = dissent value = 20 }
+					
+        command = { type = secedearea which = GER value = "Paris" when = 1 }
+		command = { type = capital which = 74 }
+		
+		command = { type = setflag which = GerVichy } 		
+	}
+}
+
 #It is done! Encore une fois!
 event = {
-	id = 313
+	id = 362
 	random = no
 	country = FRA
 	style = 2
@@ -816,12 +840,13 @@ event = {
 	persistent = yes
 	one_action = yes
 	
-date = { day = 1 month = january year = 1948 }
-offset = 14
-deathdate = { day = 30 month = december year = 1963 }
+	date = { day = 1 month = january year = 1948 }
+	offset = 30
+	deathdate = { day = 30 month = december year = 1955 }
 	
 	trigger = {
-	event = { id = 372 days = 30 }  
+		event = { id = 372 days = 30 }  
+		random = 50
 	}
 	
 	name = "The partisans activity is growing"
