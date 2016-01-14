@@ -464,7 +464,7 @@ event = {
 	action = {
 	name = "ISA Armed Forces deployment"
 	command = { type = add_corps which = "I. SS Army Corps" value = land where = 1806 } # Pittsburgh
-	command = { type = add_division which = "50. SS Division 'Frederick the Great'"  value = paratrooper when = 3 }
+	command = { type = add_division which = "50. SS Division 'Yankee Doodle'"  value = paratrooper when = 3 }
 	command = { type = add_corps which = "II. SS Army Corps" value = land where = 1811 } # Huntington
 	command = { type = add_division which = "51. SS Pz. Division 'Concord and Lexington'" value = armor when = 4 }
 	command = { type = add_corps which = "III. SS Army Corps" value = land where = 1791 } # Buffalo
