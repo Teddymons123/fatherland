@@ -9,6 +9,7 @@
 # 8014104 - British embargo
 # 8014105 - Goulag reopened
 # 8014106 - Reorganization of NKVD
+# 8014107 - Reunification of Soviet Union
 	
 	
 ##########################	
@@ -215,4 +216,69 @@ event = {
 		command = {  type = max_organization which = motorized value = -3  }
 		command = {  type = max_organization which = cavalry value = -3  }
  	}
+}
+
+event = {
+	id = 8014107
+	random = no
+	country = SOV
+
+	decision = { 
+		OR = {
+			exists = SIB
+			exists = MON
+			exists = U57 #Far Eastern
+			exists = U59 #Imperial Russia
+			exists = UPE #Turkestan
+			exists = SIK #East Turkestan
+		}
+	}
+
+	decision_trigger = {  
+		event = 8014106
+		OR = {
+			exists = SIB
+			exists = MON
+			exists = U57 #Far Eastern
+			exists = U59 #Imperial Russia
+			exists = UPE #Turkestan
+			exists = SIK #East Turkestan			
+		}
+		NOT = { war = { country = SOV country = GER } }
+	}
+
+	trigger = {
+		event = 8014106
+		OR = {
+			exists = SIB
+			exists = MON
+			exists = U57 #Far Eastern
+			exists = U59 #Imperial Russia
+			exists = UPE #Turkestan
+			exists = SIK #East Turkestan			
+		}
+		NOT = { war = { country = SOV country = GER } }
+	}
+
+	name = "Reunification of Soviet Union"
+	desc = "We must reunify our glorious nation, war versus all other states in the Soviet Union territories"
+	style = 1
+	picture = "soviet_warposter"
+	decision_picture = "soviet_warposter"
+	
+	date = { day = 25 month = january year = 1948 } 
+	offset = 60
+	deathdate = { day = 29 month = december year = 1990 }
+
+	action = {
+		ai_chance = 100
+		name = "We'll reunify Soviet Union"
+		command = { trigger = { exists = SIB } type = war which = SIB } 
+		command = { trigger = { exists = MON } type = war which = MON } 
+		command = { trigger = { exists = U57 } type = war which = U57 } 
+		command = { trigger = { exists = U59 } type = war which = U59 } 
+		command = { trigger = { exists = UPE } type = war which = U59 } 
+		command = { trigger = { exists = SIK } type = war which = U59 } 				
+	}
+
 }

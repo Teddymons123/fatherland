@@ -12,6 +12,8 @@
 # 90000436 - Astrakhan uprising, Cossacks intervene - TRA
 # 90000437 - Astrakhan uprising, Cossacks intervene
 
+# 90000438 - Turkestan is winning
+
 # ##########################
 # ## Soviet Leadership Crisis
 # ##########################
@@ -566,5 +568,80 @@ event = {
 	name = "We'll retake the full control of the region" # We won!
 	ai_chance = 50
 	command = { type = 	dissent value = -1 }
+	}
+}
+
+event = {
+	id = 90000438
+	random = no
+	country = SOV
+	style = 2
+	picture = "news_paper" 
+
+	date = { day = 1 month = january year = 1948 }
+	offset = 5
+	deathdate = { day = 30 month = december year = 1952 }
+	
+	trigger = { 
+		OR = {
+		
+				AND = {
+					#Turkestan national provinces 1101 1102 1100 1103 1099 1097 1098 1104 1105 1106 1107
+					control = { province = 1101 data = UPE } 
+					control = { province = 1102 data = UPE } 
+					control = { province = 1100 data = UPE } 
+					control = { province = 1103 data = UPE } 
+					control = { province = 1099 data = UPE } 
+					control = { province = 1097 data = UPE } 
+					control = { province = 1098 data = UPE } 
+					control = { province = 1104 data = UPE } 
+					control = { province = 1105 data = UPE } 
+					control = { province = 1106 data = UPE } 
+					control = { province = 1107 data = UPE } 			
+					#Turkestan controlled provinces 504 506 505 507 1108 1112 1109
+					control = { province = 504 data = UPE } 		
+					control = { province = 506 data = UPE } 		
+					control = { province = 505 data = UPE } 		
+					control = { province = 507 data = UPE } 		
+					control = { province = 1108 data = UPE } 		
+					control = { province = 1112 data = UPE } 				
+					control = { province = 1109 data = UPE } 					
+					#Some of Turkestan claimed 500 498 1114 1117 1118 1116
+					control = { province = 500 data = UPE } 	
+					control = { province = 498 data = UPE } 	
+					control = { province = 1114 data = UPE } 	
+					control = { province = 1117 data = UPE } 	
+					control = { province = 1118 data = UPE } 	
+					control = { province = 1116 data = UPE } 	
+				}
+				AND = {
+					year = 1950
+				}
+		}
+			
+	}
+
+	name = "Turkestan is winning!"
+	desc = "Tukestan rebels have succesfully take control of the region, and are even advancing in Soviet Union. We must end this situation quickly, or the others nationalists will rises too, and we may lost control of our nation... Should we seek peace?"
+
+	action = {
+	ai_chance = 75
+	name = "We must accept their victory..."
+		command = { type = peace which = UPE value = 0 }
+		#504 506 505 507 1108 1112 1109
+		command = { type = secedeprovince which = UPE value = 504 } 
+		command = { type = secedeprovince which = UPE value = 505 } 
+		command = { type = secedeprovince which = UPE value = 506 } 
+		command = { type = secedeprovince which = UPE value = 507 } 
+		command = { type = secedeprovince which = UPE value = 1108 } 				
+		command = { type = secedeprovince which = UPE value = 1112 } 		
+		command = { type = secedeprovince which = UPE value = 1109 } 				
+		command = { type = dissent value = 25 }
+	}   
+
+	action = {
+	ai_chance = 25
+	name = "This is only a temporay setback. Onwards to victory!"
+		command = { type = dissent value = 10 }
 	}
 }

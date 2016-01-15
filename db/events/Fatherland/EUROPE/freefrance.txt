@@ -12,9 +12,9 @@
 # 315 - 
 # 316 - 
 # 317 - The department of Morocco
-# 318 # MOR # A New Statut
-# 319 # GER # Mohammed V seeks asylum
-# 320 # U01 # The Moroccan Uprising
+# 318 - A New Statut - MOR
+# 319 - Mohammed V seeks asylum - GER
+# 320 - The Moroccan Uprising
 # 321 # MOR # Independance
 # 322 # U01 # Morocco is winning
 # 323 # U01 # Moroccan rebellion crushed
@@ -336,7 +336,7 @@ event = {
 		ai_chance = 75
 		name = "Welcome here!"
 		command = { type = relation which = U01 value = -50 }
-		command = { type = 	belligerence which = GER value = -1 }
+		command = { type = belligerence which = GER value = -1 }
 		command = { type = money value = -10  }
 	}
 		
@@ -367,7 +367,7 @@ event = {
 
 	action = {
 		name = "ACTION_NAME_DAMN"
-		command = { type = leave_alliance when = 1 } #leave eventaully old alliance wars } 
+		command = { type = leave_alliance when = 1 } #leave eventaully old alliance wars 
 		command = { type = independence which = MOR value = 1 when = 0 }
 		command = { type = secedeprovince which = MOR value = 717 }
 		command = { type = secedeprovince which = MOR value = 718 }
