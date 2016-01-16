@@ -412,6 +412,7 @@ event = 900002 # Kerch attack
 flag = volga_rom_yes
 flag = cossacks_access # Cossacks give access
 NOT = {
+atwar = ROM
 owned = { province = 572 data = SOV } # Soviets don't own Moscow
 owned = { province = 663 data = SOV } # Soviets don't own Stalingrad
 owned = { province = 713 data = SOV } # Soviets don't own Baku
@@ -453,6 +454,7 @@ event = 900002 # Kerch attack
 flag = volga_hun_yes
 flag = cossacks_access # Cossacks give access
 NOT = {
+atwar = HUN
 owned = { province = 572 data = SOV } # Soviets don't own Moscow
 owned = { province = 663 data = SOV } # Soviets don't own Stalingrad
 owned = { province = 713 data = SOV } # Soviets don't own Baku
@@ -494,6 +496,7 @@ event = 900002 # Kerch attack
 flag = volga_ita_yes
 flag = cossacks_access # Cossacks give access
 NOT = {
+atwar = ITA
 owned = { province = 572 data = SOV } # Soviets don't own Moscow
 owned = { province = 663 data = SOV } # Soviets don't own Stalingrad
 owned = { province = 713 data = SOV } # Soviets don't own Baku
@@ -535,6 +538,7 @@ event = 900002 # Kerch attack
 flag = volga_slo_yes
 flag = cossacks_access # Cossacks give access
 NOT = {
+atwar = SLO
 owned = { province = 572 data = SOV } # Soviets don't own Moscow
 owned = { province = 663 data = SOV } # Soviets don't own Stalingrad
 owned = { province = 713 data = SOV } # Soviets don't own Baku
@@ -576,6 +580,7 @@ event = 900002 # Kerch attack
 flag = volga_cro_yes
 flag = cossacks_access # Cossacks give access
 NOT = {
+atwar = CRO
 owned = { province = 572 data = SOV } # Soviets don't own Moscow
 owned = { province = 663 data = SOV } # Soviets don't own Stalingrad
 owned = { province = 713 data = SOV } # Soviets don't own Baku
@@ -617,6 +622,7 @@ event = 900002 # Kerch attack
 flag = volga_bul_yes
 flag = cossacks_access # Cossacks give access
 NOT = {
+atwar = BUL
 owned = { province = 572 data = SOV } # Soviets don't own Moscow
 owned = { province = 663 data = SOV } # Soviets don't own Stalingrad
 owned = { province = 713 data = SOV } # Soviets don't own Baku
@@ -658,6 +664,7 @@ event = 900002 # Kerch attack
 flag = volga_spa_yes
 flag = cossacks_access # Cossacks give access
 NOT = {
+atwar = SPA
 owned = { province = 572 data = SOV } # Soviets don't own Moscow
 owned = { province = 663 data = SOV } # Soviets don't own Stalingrad
 owned = { province = 713 data = SOV } # Soviets don't own Baku

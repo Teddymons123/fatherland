@@ -64,7 +64,7 @@ event = {
 	country = FIN
 
 	name = "The Finnish Army"
-	desc = "The Finnish army guarded by vigilant bloody shores of Lake Onega and Kuollan Peninsula deserted fell tops "of the Eastern enemy" against. As a result of the Continuation War, the military doctrine has changed from defense to attack."
+	desc = "The Finnish army guarded by vigilant bloody shores of Lake Onega and Kuollan Peninsula deserted fell tops of the 'Eastern enemy' against. As a result of the Continuation War, the military doctrine has changed from defense to attack."
 	style = 1
 	picture = "events_empty"
 

@@ -467,7 +467,7 @@ inventions = { 3000027 }
       } 
 	 Division = 
      {  id       = {  type = 20600 id = 115  } 
-       name     = "Divizie 1. 'Banat'" 
+       name     = "Divizie 2. 'Banat'" 
        type     = infantry 
 	   model = 10
        strength = 80 
