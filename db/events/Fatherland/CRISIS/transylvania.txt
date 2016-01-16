@@ -670,19 +670,19 @@ event = {
 
 	action_a = {
 	name = 90000018A
-	ai_chance = 40 #
+	ai_chance = 20 #
 	command = { type = alliance which = HUN }
 	command = { type = set_relation which = HUN value = 100 }
 	}
 	action_b = {
 	name = 90000018B
-	ai_chance = 40 #
+	ai_chance = 20 #
 	command = { type = alliance which = ROM }
 	command = { type = set_relation which = ROM value = 100 }
 	}
 	action_c = {
 	name = 90000018C
-	ai_chance = 40 #
+	ai_chance = 60 #
 	command = { type = domestic which = interventionism value = -1 }
 	command = { type = 	belligerence value = -5 }
 	}

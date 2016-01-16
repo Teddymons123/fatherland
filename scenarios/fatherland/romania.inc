@@ -453,6 +453,26 @@ inventions = { 3000027 }
        strength = 60 
       } 
 	  }
+	  
+	  landunit = 
+   {  location = 285 # Timisoara
+     name     = "Corp I Armata Banat" 
+     id       = {  type = 20600 id = 32  }
+     Division = 
+     {  id       = {  type = 20600 id = 114  } 
+       name     = "Divizie 1. 'Banat'" 
+       type     = infantry 
+	   model = 10
+       strength = 80 
+      } 
+	 Division = 
+     {  id       = {  type = 20600 id = 115  } 
+       name     = "Divizie 1. 'Banat'" 
+       type     = infantry 
+	   model = 10
+       strength = 80 
+      } 
+	  }
 
    navalunit = 
    {  location = 310 # Constanta 
