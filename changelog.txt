@@ -1,87 +1,203 @@
 #######################################################
-# Changelog for Beta version 6.0 codename "xxx"
+# Fatherland - beta version 6.0 codename "Yankee Doodle" 
+# Changelog
 #######################################################
 
-#Events/Decision Modified (*) or Added (+) or Removed (-)
+##################################
+                      Events/Decision 
+(Modified (*) or Added (+) or Removed (-))
+##################################
 	GERMANY
-		- (*) Ost Generalplan
-		- (*) Generalgovernment
-		- (*) Kuaukasus
-		- (+/*) SS
+		- (*) Reviewed Hitler Died chain events
+		- (*) Reviewed RK Kaukasus events
+		- (*) Reviewed RK Ukraine events
+		- (*) Reviewed Cossacks Federation events
+		- (+/*) Added and reviewed SS events
+		- (*) Reviewed Axis events		
+		- (+) Added new path SS-Staat Germania with new events
+		- (+) Added new flavour events
 	EUROPE
-		- (+/*) Free France
-		- (+/*) French State
-	COMINTERN
-		- (*) Soviet Union
-		- (+/*) Turkestan (credits battles25)
-	CHINA
-		- (*) Russian-Chinese alliance
-	AFRICA
-		- (*) South Africa
+		- (+/*) Added and reviewed Italy events
+		- (+/*) Added and reviewed United Kingdom events		
+		- (+/*) Added and reviewed Nationalist Spain events
+		- (+/*) Added and reviewed Free France events		
+		- (+/*) Added and reviewed French State events
+		- (+/*) Added and reviewed Belgium events		
+		- (*) Reviewed Serbia events		
+		- (+) Added new Finland events		
 	AMERICAS
-		- (+) Argentina
-		- (+) Brazil
-		- (+) Canada
-		- (+) Other Minors
-#DB
-	Leaders
-	- New leaders for Free France
-	Ministers
-	- Modified ministers_U01.csv (Free France)
-	
-#Inc
-	- Revision inc for Germany 
-	- Revision inc for USA 
-	- Revision inc for Italy
-	- Revision inc for United Kingdom 
-	- Revision inc for Soviet Union
-	- Revision inc for SS
-	- Revision inc for China Nationalist and Commie China
-	- Revision inc for Axis 
-	- Revision inc for Free France
-	- Revision inc for Canada
-	- Revision inc for Romania
-	- Revision inc for Hungary
-	- Revision inc for Croatia
-	- Revision inc for Burma	
+		- (+/*) Added and reviewed USA events	
+		- (+) Added United Nations events	
+		- (*) Reviewed Marshall Plan events
+		- (*) Reviewed Peru events
+		- (*) Reviewed Uruguay events
+		- (*) Reviewed Ecuador events
+		- (*) Reviewed Venezuela events		
+	COMINTERN
+		- (+/*) Added and reviewed Soviet Union events
+		- (+/*) Added and reviewed Siberia events
+		- (+/*) Added and reviewed Far Eastern events
+		- (*) Reviewed Imperial Russia events		
+		- (+/*) Added and reviewed Turkestan events				
+		- (+/*) Added and reviewed Beria path			
+		- (+/*) Added and reviewed Zhukov path			
+		- (+/*) Added and reviewed Molotovo path			
+	WW3
+		- (+) Axis victory in America chain
+		- (+) Axis victory in Asia
+		- (+) Axis vicotry in Britain
+		- (+) United Nations victory in Asia
+		- (+) United Nations victory in Europe		
+	CRISIS
+		- (*) Reviewed Abadan crisis
+		- (*) Reviewed Colonials crisis
+		- (*) Reviewed IRA crisis
+		- (*) Reviewed Kuwait crisis
+		- (*) Reviewed Morocco crisis
+		- (*) Reviewed Swiss Nuclear crisis
+		- (*) Reviewed Sino-Indian crisis
+		- (*) Reviewed Suez crisis		
+		- (*) Reviewed Transylvania crisis				
+	CHINA
+		- (+/*) Added and reviewed Commie China events
+		- (+/*) Added and reviewed Nationalist China events		
+		- (+/*) Added and reviewed Post Civil China War events		
+	AFRICA
+		- (+/*) Added and reviewed South Africa events	
+		- (+/*) Added and reviewed Egypt events		
+		- (*) Reviewed End colonialism chain		
+	ASIA
+		- (*) Reviewed Brunei events
+		- (*) Reviewed Burma events
+		- (*) Reviewed Ceylon events
+		- (*) Reviewed India events
+		- (*) Reviewed Japan events
+		- (*) Reviewed Korea events
+		- (*) Reviewed Mongolia events
+		- (*) Reviewed Nepal events
+		- (*) Reviewed New Zealand events
+		- (*) Reviewed Pakistan events
+		- (*) Reviewed Philippines events
+		- (*) Reviewed Tibet events		
+		- (*) Reviewed Indochina events				
+	MIDDLE EAST
+		- (*) Reviewed United Arab Republic events
+		- (*) Review Iran events
 
-#GFX
-	- New event pics
-	- New flags
+##################################
+                      Database
+(Modified (*) or Added (+) or Removed (-))
+##################################
+	Leaders
+	- (+) Added United Nations leaders
+	- (+/*) Added and reviewed Free France leaders
+	- (+) Added RK  Ost Sibirien leaders
+	- (+) Added RK Ural leaders
+	- (+) Added RK West Sibirien leaders
+	- (+) Added ISA leaders	
+	Ministers
+	- (+/*) Added and reviewed Free France ministers
+	- (+/*) Added and reviewed Commie China ministers	
+	- (+/*) Added and reviewed Romania ministers
+	- (+/*) Added and reviewed Soviet Union ministers
+	- (+/*) Added and reviewed Nationalist Spain ministers
+	- (+/*) Added and reviewed Egypt ministers
+	- (+/*) Added and reviewed USA ministers
+	- (+) Added United Nations ministers
+	- (+/*) Added and reviewed Other Minors ministers	
+	- (+) Added ISA ministers	
+	Tech Teams
+	- (+) Added RK Ost Sibirien tech teams
+	- (+) Added RK Ural tech teams
+	- (+) Added RK West Sibirien tech teams
+	- (+) Added ISA tech teams
+	- (+) Added Imperial Russia tech teams	
+	- (*) Reviewed Other Minors tech teams		
 	
-# AI
-	- Improved AI for Soviet Union
-	- Improved AI for United Kingdom
-	- Improved AI for Germany
-	- Improved AI for Italy
-	- Improved AI for Bulgaria
-	- Improved AI for Croatia
-	- Improved AI for Finland
-	- Improved AI for France State
-	- Improved AI for Hungary
-	- Improved AI for Romania
-	- Improved AI for Nationalist Spain
-	- Improved AI for SS
-	- New AI for Argentina
-	- New AI for Australia
-	- New AI for Belgium
-	- New AI for Brazil
-	- New AI for Canada
-	- New AI for Denmark
-	- New AI for Greece
-	- New AI for Holland
-	- New AI for Indonesia
-	- New AI for Japan
-	- New AI for Mexico
-	- New AI for Mongolia
-	- New AI for Norway
-	- New AI for New Zealand
-	- New AI for South Africa
-	- New AI for Sweden
-	- New AI for Other Minors	
+##################################
+                      Scenario
+(Modified (*) or Added (+) or Removed (-))
+##################################
+	- (*) Reviewed Germany inc
+	- (*) Reviewed Bulgaria inc
+	- (*) Reviewed Romania inc
+	- (*) Reviewed Burma inc
+	- (*) Reviewed Canada inc
+	- (*) Reviewed United Kingdom inc
+	- (*) Reviewed Axis inc
+	- (*) Reviewed United Nations inc
+	- (*) Reviewed USA inc
+	- (*) Reviewed SS inc
+	- (*) Reviewed Commie China inc
+	- (*) Reviewed Far Eastern inc
+	- (*) Reviewed Korea inc
+	- (*) Reviewed Croatia inc
+	- (*) Reviewed Hungary inc
+	- (*) Reviewed Italy inc
+	- (*) Reviewed Soviet Union inc
+	- (*) Reviewed French State inc
+	- (*) Reviewed Nationalist Spain inc
+	- (*) Reviewed Other Minors inc	
+
+##################################
+                      GFX
+(Modified (*) or Added (+) or Removed (-))
+##################################
+	- (+) Integration with BeBros unit sprites
+	- (+) Integration with the HOI3 Graphics Mod	
+	- (+) New event pics
+	- (+) New flags
 	
-#Other
-	- Update country.csv for complete compatibility with official 1.04 patch
+##################################
+                      AI
+(Modified (*) or Added (+) or Removed (-))
+##################################
+	- (*)  Improved AI for Soviet Union
+	- (*)  Improved AI for United Kingdom
+	- (*)  Improved AI for Germany
+	- (*)  Improved AI for Italy
+	- (*)  Improved AI for Bulgaria
+	- (*)  Improved AI for Croatia
+	- (*)  Improved AI for Finland
+	- (*)  Improved AI for France State
+	- (*)  Improved AI for Hungary
+	- (*)  Improved AI for Romania
+	- (*)  Improved AI for Nationalist Spain
+	- (*)  Improved AI for SS
+	- (*)  New AI for Argentina
+	- (*)  New AI for Australia
+	- (*)  New AI for Belgium
+	- (*)  New AI for Brazil
+	- (*)  New AI for Canada
+	- (*)  New AI for Denmark
+	- (*)  New AI for Greece
+	- (*)  New AI for Holland
+	- (*)  New AI for Indonesia
+	- (*)  New AI for Japan
+	- (*)  New AI for Mexico
+	- (*)  New AI for Mongolia
+	- (*)  New AI for Norway
+	- (*)  New AI for New Zealand
+	- (*)  New AI for South Africa
+	- (*)  New AI for Sweden
+	- (*)  New AI for Other Minors	
+	
+##################################
+                      Others
+(Modified (*) or Added (+) or Removed (-))
+##################################
+		- (*)  Update country.csv for complete compatibility with official 1.04 patch
+		- (+) General : Events for USA and UN Cold War strategies
+		- (+) Added Hellenic State and Republic of Korea to scenario start
+		- (+) Added WW3 victory chains for the Axis Powers in Asia, America and Britain
+		- (+) Added the Independent States of America as Nazi German puppet
+		- (+) Assigned special Waffen-SS unit names to the Independent States of America
+		- (+) Added options to reorganize Ural and Siberian territories into Asian Reichskommissariats or cede them to National Socialist Russia (only after the death of Hitler).
+		- (+) Added army leaders to the UN.
+		- (+) New SKIN for the Empire of Russia warlord state.
+		- (+) The UN and The Axis TAGs will start World War 3 if player declares war on them.
+		- (-) Delayed the Sino-Soviet War to reflect post-Chinese Civil War reconstruction period.
+		- (+) Added SS timeline and creation of SS-Staat Germania (+ Campaign for Radicalization of the Axis)
 	
 #######################################################
 # Changelog for Beta version 5.0 codename "Red Dawn"
