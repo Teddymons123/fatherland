@@ -68,7 +68,7 @@ event = { # A Gold Opportunity
 	
     date = { day = 1 month = january year = 1948 }
 	offset = 100
-	deathdate = { day = 30 month = december year = 1949 }
+	deathdate = { day = 29 month = december year = 1949 }
 	
 action = { 
 	name = "At War !" 
@@ -454,7 +454,7 @@ event = {
 
 	date = { day = 1 month = january year = 1948 }
 	offset = 30
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 
 	action = {
 		ai_chance = 100
@@ -493,7 +493,7 @@ event = {
 
 	date = { day = 1 month = january year = 1948 }
 	offset = 30
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 
 	action = {
 		ai_chance = 100
@@ -520,7 +520,7 @@ event = {
 
 	date = { day = 1 month = january year = 1948 }
 	offset = 5
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 
 	action = {
 	name = "Let's challenge the Reds…"
@@ -554,7 +554,7 @@ event = {
 
 	date = { day = 1 month = january year = 1948 }
 	offset = 5
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 
 	action = {
 	name = "We've lost this battle ..." # We lost!
@@ -580,7 +580,7 @@ event = {
 
 	date = { day = 1 month = january year = 1948 }
 	offset = 5
-	deathdate = { day = 30 month = december year = 1952 }
+	deathdate = { day = 29 month = december year = 1952 }
 	
 	trigger = { 
 		OR = {		

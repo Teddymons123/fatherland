@@ -16,7 +16,7 @@ event = {
 
 	date = { day = 0 month = january year = 1952 }
 	offset = 360
-	deathdate = { day = 30 month = december year = 1953 }
+	deathdate = { day = 29 month = december year = 1953 }
 
 	action = {
 		name = OK
@@ -46,7 +46,7 @@ event = {
 
 	date = { day = 0 month = january year = 1954 }
 	offset = 360
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 
 	action = {
 		name = OK

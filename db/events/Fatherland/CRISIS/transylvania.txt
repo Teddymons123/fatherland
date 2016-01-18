@@ -74,7 +74,7 @@ event = {
 
 	date = { day = 1 month = january year = 1948 }
 	offset = 50
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 
 	action_a = {
 	name = 90000000A
@@ -171,7 +171,7 @@ event = {
 	
 	date = { day = 1 month = january year = 1948 }
 	offset = 5 # 30
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 
 	action_a = {
 	name = 90000004A
@@ -282,7 +282,7 @@ event = {
 	
 	date = { day = 1 month = january year = 1948 }
 	offset = 5 # 30
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 
 	action_a = {
 	name = 90000007A
@@ -329,7 +329,7 @@ event = {
 	
 	date = { day = 1 month = january year = 1948 }
 	offset = 5 # 30
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 
 	action_a = {
 	name = 90000007A
@@ -489,7 +489,7 @@ event = {
 	
 	date = { day = 1 month = january year = 1948 }
 	offset = 5 # 30
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 
 	action = {
 	name = ACTION_NAME_OK
@@ -514,7 +514,7 @@ event = {
 	
 	date = { day = 1 month = january year = 1948 }
 	offset = 5 # 30
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 
 	action = {
 	name = ACTION_NAME_OK
@@ -638,7 +638,7 @@ event = {
 	
 	date = { day = 1 month = january year = 1948 }
 	offset = 5 # 30
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 
 	action = {
 	name = ACTION_NAME_FIGHT
@@ -666,7 +666,7 @@ event = {
 	
 	date = { day = 1 month = january year = 1948 }
 	offset = 5 # 30
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 
 	action_a = {
 	name = 90000018A
@@ -708,7 +708,7 @@ event = {
 	
 	date = { day = 1 month = january year = 1948 }
 	offset = 5 # 30
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 
 	action = {
 	name = 90000018A
@@ -753,7 +753,7 @@ event = {
 
 	date = { day = 1 month = january year = 1948 }
 	offset = 5 # 30
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 	
 	action = {
 	name = ACTION_NAME_GREAT
@@ -1029,7 +1029,7 @@ event = {
 
 	date = { day = 1 month = january year = 1948 }
 	offset = 5 # 30
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 	
 	action = {
 	name = ACTION_NAME_GREAT
@@ -1196,7 +1196,7 @@ event = {
 
 	date = { day = 1 month = january year = 1948 }
 	offset = 3
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 	
 	action_a = {
 	name = 90000032A # Give them Bessarabia and Odessa.
@@ -1412,7 +1412,7 @@ event = {
 
 	date = { day = 1 month = january year = 1948 }
 	offset = 3
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 	
 	action_a = {
 	name = 90000035A # Grant them independence
@@ -1466,7 +1466,7 @@ event = {
 
 	date = { day = 1 month = january year = 1948 }
 	offset = 30
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 	
 	action_a = {
 	name = 90000037A
@@ -1581,7 +1581,7 @@ event = {
 
 	date = { day = 1 month = january year = 1948 }
 	offset = 5 # 30
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 	
 	action = {
 	name = ACTION_NAME_OK
@@ -1711,7 +1711,7 @@ event = {
 	
 	date = { day = 1 month = january year = 1948 }
 	offset = 30
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 
 	action_a = {
 	name = ACTION_NAME_YES
@@ -1750,7 +1750,7 @@ event = {
 	
 	date = { day = 1 month = january year = 1948 }
 	offset = 30
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 
 	action_a = {
 	name = ACTION_NAME_YES

@@ -9,7 +9,7 @@ event = {
 	
 	date = { day = 15 month = january year = 1948 }
 	offset = 15
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 	
 	action = {
 		name = EVT_8020215_A
@@ -31,7 +31,7 @@ event = {
 
 	date = { day = 15 month = january year = 1948 }
 	offset = 360
-	deathdate = { day = 30 month = december year = 1949 }
+	deathdate = { day = 29 month = december year = 1949 }
 
 	action = {
 		name = OK
@@ -56,7 +56,7 @@ event = {
 
 	date = { day = 0 month = january year = 1950 }
 	offset = 360
-	deathdate = { day = 30 month = december year = 1951 }
+	deathdate = { day = 29 month = december year = 1951 }
 
 	action = {
 		name = OK
@@ -81,7 +81,7 @@ event = {
 
 	date = { day = 0 month = january year = 1952 }
 	offset = 360
-	deathdate = { day = 30 month = december year = 1956 }
+	deathdate = { day = 29 month = december year = 1956 }
 
 	action = {
 		name = EVT_ELECTIONS_RIGHT
@@ -123,7 +123,7 @@ event = {
 
 	date = { day = 0 month = january year = 1957 }
 	offset = 360
-	deathdate = { day = 30 month = december year = 1961 }
+	deathdate = { day = 29 month = december year = 1961 }
 
 	action = {
 		name = EVT_ELECTIONS_RIGHT
@@ -165,7 +165,7 @@ event = {
 
 	date = { day = 0 month = january year = 1962 }
 	offset = 360
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 
 	action = {
 		name = EVT_ELECTIONS_RIGHT
@@ -205,7 +205,7 @@ event = {
 
 	date = { day = 0 month = january year = 1962 }
 	offset = 360
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 
 	action = {
 		name = OK
@@ -228,7 +228,7 @@ event = {
 
 	date = { day = 20 month = january year = 1948 }
 	offset = 3
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 
 	action = {
 		name = OK
@@ -297,7 +297,7 @@ trigger = {
 	
 	date = { day = 0 month = may year = 1949 }
 	offset = 10
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 
 	# Iron fist in a velvet glove
 	action = {
@@ -337,7 +337,7 @@ event = {
 
 	date = { day = 1 month = january year = 1948 }
 	offset = 3
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 
 	action = {
 		name = EVT_8007214_A
@@ -366,7 +366,7 @@ event = {
 
 	date = { day = 0 month = january year = 1947 }
 	offset = 3
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 
 	# Kashmir acceeds India
 	action = {
@@ -632,7 +632,7 @@ event = {
 
 	date = { day = 0 month = january year = 1947 }
 	offset = 3
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 	
 	action = {
 		name = EVT_8007224_A
@@ -699,7 +699,7 @@ event = {
 
 	date = { day = 0 month = january year = 1947 }
 	offset = 3
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 	
 	action = {
 		name = EVT_8007226_A
@@ -755,7 +755,7 @@ event = {
 
 	date = { day = 0 month = january year = 1947 }
 	offset = 3
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 	
 	action = {
 		name = EVT_8007228_A
@@ -810,7 +810,7 @@ event = {
 
 	date = { day = 0 month = january year = 1947 }
 	offset = 3
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 	
 	action = {
 		name = EVT_8007230_A
@@ -869,7 +869,7 @@ event = {
 
 	date = { day = 0 month = january year = 1947 }
 	offset = 3
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 	
 	action = {
 		name = EVT_8007224_A
@@ -1018,7 +1018,7 @@ event = {
 	
 	date = { day = 1 month = january year = 1948 }
 	offset = 10
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 	
 	trigger = {
 		war = { country = IND  country = PAK }
@@ -1055,7 +1055,7 @@ event = {
 	
 	date = { day = 1 month = january year = 1948 }
 	offset = 10
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 	
 	trigger = {
 		war = { country = IND  country = PAK }
@@ -1093,7 +1093,7 @@ event = {
 	
 	date = { day = 1 month = january year = 1948 }
 	offset = 10
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 	
 	trigger = {
 		war = { country = IND  country = PAK }

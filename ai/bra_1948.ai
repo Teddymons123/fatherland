@@ -325,9 +325,6 @@ technology = {
 
 		# Assembly Line
 		5180
-
-		# Field Artillery Support
-		2290 2300 2310 2900 2910 2920 2930 2940 2320 2330 2340 2360 2950 2350
 		
 		#Landdoctrines
 		6560 6030 6110 6120 6130 6140 14070

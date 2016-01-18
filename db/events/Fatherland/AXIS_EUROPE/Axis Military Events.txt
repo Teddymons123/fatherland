@@ -44,7 +44,7 @@ style = 1
 picture = "fatherland\baku_oilwells"
 date = { day = 1 month = february year = 1948 }
 offset = 5
-deathdate = { day = 30 month = december year = 1980 }
+deathdate = { day = 29 month = december year = 1980 }
 
 action_a = {
 name = "Perfect, blow up the docks!"
@@ -142,7 +142,7 @@ style = 1
 picture = "fatherland\romanianarmy"
 date = { day = 1 month = january year = 1940 }
 offset = 4
-deathdate = { day = 30 month = december year = 1980 }
+deathdate = { day = 29 month = december year = 1980 }
 
 action_a = {
 name = "Germany must form a pan-European coalition for the East."
@@ -427,7 +427,7 @@ style = 1
 picture = "fatherland\romanianarmy"
 date = { day = 1 month = january year = 1940 }
 offset = 10
-deathdate = { day = 30 month = december year = 1980 }
+deathdate = { day = 29 month = december year = 1980 }
 
 action = {
 name = "Demand Romania deploy a security corps on the Volga."
@@ -469,7 +469,7 @@ style = 1
 picture = "fatherland\hungarianarmy"
 date = { day = 1 month = january year = 1940 }
 offset = 10
-deathdate = { day = 30 month = december year = 1980 }
+deathdate = { day = 29 month = december year = 1980 }
 
 action = {
 name = "Demand Hungary deploy a security corps on the Volga."
@@ -511,7 +511,7 @@ style = 1
 picture = "fatherland\italian_warposter"
 date = { day = 1 month = january year = 1940 }
 offset = 10
-deathdate = { day = 30 month = december year = 1980 }
+deathdate = { day = 29 month = december year = 1980 }
 
 action = {
 name = "Demand Italy deploy a security corps on the Volga."
@@ -553,7 +553,7 @@ style = 1
 picture = "fatherland\german_warposter"
 date = { day = 1 month = january year = 1940 }
 offset = 10
-deathdate = { day = 30 month = december year = 1980 }
+deathdate = { day = 29 month = december year = 1980 }
 
 action = {
 name = "Demand Slovakia deploy a security corps on the Volga."
@@ -595,7 +595,7 @@ style = 1
 picture = "fatherland\german_warposter"
 date = { day = 1 month = january year = 1940 }
 offset = 10
-deathdate = { day = 30 month = december year = 1980 }
+deathdate = { day = 29 month = december year = 1980 }
 
 action = {
 name = "Demand Croatia deploy a security corps on the Volga."
@@ -637,7 +637,7 @@ style = 1
 picture = "fatherland\german_warposter"
 date = { day = 1 month = january year = 1940 }
 offset = 10
-deathdate = { day = 30 month = december year = 1980 }
+deathdate = { day = 29 month = december year = 1980 }
 
 action = {
 name = "Demand Bulgaria deploy a security corps on the Volga."
@@ -679,7 +679,7 @@ style = 1
 picture = "fatherland\german_warposter"
 date = { day = 1 month = january year = 1940 }
 offset = 10
-deathdate = { day = 30 month = december year = 1980 }
+deathdate = { day = 29 month = december year = 1980 }
 
 action = {
 name = "Demand Spain deploy a security corps on the Volga."
@@ -973,7 +973,7 @@ picture = "fatherland\barbarossa2"
 decision_picture = "fatherland\decision_wehrmacht_color"
 date = { day = 1 month = january year = 1953 }
 offset = 5
-deathdate = { day = 30 month = december year = 1980 }
+deathdate = { day = 29 month = december year = 1980 }
 
 action = {
 name = "The Urals must be our natural frontier."
@@ -1043,7 +1043,7 @@ style = 1
 picture = "diplomatic_campaign"
 date = { day = 1 month = january year = 1949 }
 offset = 7
-deathdate = { day = 30 month = december year = 1980 }
+deathdate = { day = 29 month = december year = 1980 }
 
 action = {
 name = "Send envoys to Rome and Berlin."

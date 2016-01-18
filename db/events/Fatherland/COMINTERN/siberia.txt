@@ -49,7 +49,7 @@ event = { # Soviet Resurgent!!
 	
     date = { day = 1 month = january year = 1948 }
 	offset = 3
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 
 
 	    action_a = { # Side with Zdhanov
@@ -137,7 +137,7 @@ event = { # Romanov Defeat - Dzhanov
 	
     date = { day = 1 month = january year = 1948 }
 	offset = 1
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 	
 	name = "Romanov Defeat"
 	desc = "We have marched into Novobirsk and executed the fake Tsarina. Long live Zhdanovism!" 
@@ -163,7 +163,7 @@ event = { # Dzhanov Defeat - Romanov
 	
     date = { day = 1 month = january year = 1948 }
 	offset = 1
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 	
 	name = "Defeat of Zhdanov"
 	desc = "We have marched into Kansk, executed Zhdanov and abolished the fake Siberian autority. Long live the Tsarina!" 
@@ -220,7 +220,7 @@ event = { # Soviet Resurgent!!
 	
     date = { day = 1 month = january year = 1948 }
 	offset = 5
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 
 
 	    action_a = { # Check with Zhdanov
@@ -410,7 +410,7 @@ event = { # Dzhanov Influences
 	
     date = { day = 1 month = january year = 1948 }
 	offset = 30
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 
 	name = "Dzhanov Influences"
 	desc = "Dzhanov's alternative, more democratic form of Communism has attracted some support within the Soviet Union. Perhaps we should check our ranks more often.." 
@@ -436,7 +436,7 @@ event = { # Tsarist Influences
 	
     date = { day = 1 month = january year = 1948 }
 	offset = 30
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 	
 	name = "Tsarist Influences"
 	desc = "Even after all the Soviet purges and propaganda, there are still conservative elements loyal to the Tsar. Perhaps we should check our ranks more often.." 
@@ -462,7 +462,7 @@ event = { # Romanov Defeat - Soviet
 	
     date = { day = 1 month = january year = 1948 }
 	offset = 1
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 	
 	name = "Tsarist Defeat"
 	desc = "We have marched into Novobirsk and executed the fake Tsarina. Long live Bolshevism!" 
@@ -489,7 +489,7 @@ event = { # Dzhanov Defeat - Soviet
 	
     date = { day = 1 month = january year = 1948 }
 	offset = 1
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 	
 	name = "Defeat of Zhdanov"
 	desc = "We have marched into Kansk, executed Zhdanov and abolished the fake Siberian autority. Long live Bolshevism!" 
@@ -521,7 +521,7 @@ event = { # Mongolia defeated - Soviet
 	
     date = { day = 1 month = january year = 1948 }
 	offset = 1
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 	
 action_a = { 
 	name = "Integrate as Mongolia SSR" 
@@ -564,7 +564,7 @@ event = { # Integration of Mongolia SSR
 	
     date = { day = 1 month = january year = 1948 }
 	offset = 1
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 	
 action = { 
 	name = "Hurrah !" 
@@ -591,7 +591,7 @@ event = { # Soviet Defeat - Romanov
 	
     date = { day = 1 month = january year = 1948 }
 	offset = 1
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 	
 	name = "Defeat of the Soviets"
 	desc = "We have marched into Omsk and abolished the crumbling Soviet Union. Long live the Tsarina!" 
@@ -619,7 +619,7 @@ event = { # Soviet Defeat - Dzhanov
 	
     date = { day = 1 month = january year = 1948 }
 	offset = 1
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 	
 	name = "Defeat of the Soviets"
 	desc = "We have marched into Omsk and abolished the crumbling Soviet Union. Long live Zhdanov!" 

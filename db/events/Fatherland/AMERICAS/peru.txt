@@ -13,7 +13,7 @@ event = {
 
 	date = { day = 0 month = january year = 1945 }
 	offset = 360
-	deathdate = { day = 30 month = december year = 1945 }
+	deathdate = { day = 29 month = december year = 1945 }
 
 	action = {
 		name = OK
@@ -48,7 +48,7 @@ event = {
 
 	date = { day = 0 month = january year = 1946 }
 	offset = 360
-	deathdate = { day = 30 month = december year = 1946 }
+	deathdate = { day = 29 month = december year = 1946 }
 
 	action = {
 		name = OK
@@ -73,7 +73,7 @@ event = {
 
 	date = { day = 0 month = january year = 1947 }
 	offset = 360
-	deathdate = { day = 30 month = december year = 1947 }
+	deathdate = { day = 29 month = december year = 1947 }
 
 	action = {
 		name = OK
@@ -95,7 +95,7 @@ event = {
 
 	date = { day = 0 month = january year = 1949 }
 	offset = 360
-	deathdate = { day = 30 month = december year = 1949 }
+	deathdate = { day = 29 month = december year = 1949 }
 
 	action = {
 		name = EVT_8012004_A
@@ -126,7 +126,7 @@ event = {
 
 	date = { day = 0 month = january year = 1950 }
 	offset = 360
-	deathdate = { day = 30 month = december year = 1953 }
+	deathdate = { day = 29 month = december year = 1953 }
 
 	action = {
 		name = OK
@@ -151,7 +151,7 @@ event = {
 
 	date = { day = 0 month = january year = 1954 }
 	offset = 360
-	deathdate = { day = 30 month = december year = 1955 }
+	deathdate = { day = 29 month = december year = 1955 }
 
 	action = {
 		name = OK
@@ -172,7 +172,7 @@ event = {
 
 	date = { day = 0 month = january year = 1956 }
 	offset = 360
-	deathdate = { day = 30 month = december year = 1957 }
+	deathdate = { day = 29 month = december year = 1957 }
 
 	action = {
 		name = EVT_8012007_A
@@ -199,7 +199,7 @@ event = {
 
 	date = { day = 0 month = january year = 1958 }
 	offset = 360
-	deathdate = { day = 30 month = december year = 1958 }
+	deathdate = { day = 29 month = december year = 1958 }
 
 	action = {
 		name = OK
@@ -224,7 +224,7 @@ event = {
 
 	date = { day = 0 month = january year = 1959 }
 	offset = 360
-	deathdate = { day = 30 month = december year = 1961 }
+	deathdate = { day = 29 month = december year = 1961 }
 
 	action = {
 		name = OK
@@ -245,7 +245,7 @@ event = {
 
 	date = { day = 0 month = january year = 1962 }
 	offset = 360
-	deathdate = { day = 30 month = december year = 1962 }
+	deathdate = { day = 29 month = december year = 1962 }
 
 	action = {
 		name = EVT_8012010_A
@@ -272,7 +272,7 @@ event = {
 
 	date = { day = 0 month = january year = 1963 }
 	offset = 360
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 
 	action = {
 		name = EVT_8012011_A

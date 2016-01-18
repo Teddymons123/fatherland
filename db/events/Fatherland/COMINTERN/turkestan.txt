@@ -270,7 +270,7 @@ event = { # Fate of Turkestan
 	
     date = { day = 1 month = january year = 1948 }
 	offset = 1
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 
 
 	action = { # Install a soviet administration
@@ -428,7 +428,7 @@ event = {
 	
     date = { day = 1 month = january year = 1948 }
 	offset = 1
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 	
 action = { 
 	name = "8014252A" # Integrate as Sinkiang SSR
@@ -547,7 +547,7 @@ event = {
 	
         date = { day = 1 month = january year = 1948 }
 	offset = 1
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 	
 action = { 
 name = "Okay!" 

@@ -23,7 +23,7 @@ style = 1
 picture = "fatherland\moscow"
 date = { day = 1 month = february year = 1948 }
 offset = 14
-deathdate = { day = 30 month = december year = 1980 }
+deathdate = { day = 29 month = december year = 1980 }
 
 action = {
 name = "Kasche is an armchair sloth. Destroy the city!"
@@ -76,7 +76,7 @@ style = 2
 picture = "fatherland\moscow"
 date = { day = 5 month = february year = 1948 }
 offset = 3
-deathdate = { day = 30 month = december year = 1980 }
+deathdate = { day = 29 month = december year = 1980 }
 
 action = {
 name = "This will take some time to quell."
@@ -153,7 +153,7 @@ style = 2
 picture = "fatherland\moscow"
 date = { day = 5 month = february year = 1948 }
 offset = 3
-deathdate = { day = 30 month = december year = 1980 }
+deathdate = { day = 29 month = december year = 1980 }
 
 action = {
 name = "This will take some time to quell."
@@ -188,7 +188,7 @@ style = 2
 picture = "fatherland\german_gathering"
 date = { day = 10 month = february year = 1948 }
 offset = 3
-deathdate = { day = 30 month = december year = 1980 }
+deathdate = { day = 29 month = december year = 1980 }
 
 action = {
 name = "Moscow is in German hands once more."

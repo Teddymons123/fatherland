@@ -38,7 +38,7 @@ rare_materials         = 5000
 	relation = { tag = AXI value = 170 access = yes }
   } 
    SpyInfo                = {  country = "BUL" NumberOfSpies = 6  } 
-  nationalprovinces      = {  318 323 325 324 321 320 319 326 364 317 331 307 370 322 
+  nationalprovinces      = {  318 323 325 324 321 320 319 326 364 317 331 307 322 
              #Macedonia and Greece 
              365 366 333 328 363 370
               } 

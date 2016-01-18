@@ -13,7 +13,7 @@ event = {
 
 	date = { day = 0 month = january year = 1946 }
 	offset = 360
-	deathdate = { day = 30 month = december year = 1948 }
+	deathdate = { day = 29 month = december year = 1948 }
 
 	action = {
 		name = EVT_ELECTIONS_RIGHT
@@ -63,7 +63,7 @@ event = {
 
 	date = { day = 0 month = january year = 1949 }
 	offset = 360
-	deathdate = { day = 30 month = december year = 1952 }
+	deathdate = { day = 29 month = december year = 1952 }
 
 	action = {
 		name = EVT_ELECTIONS_LEFT
@@ -105,7 +105,7 @@ event = {
 
 	date = { day = 0 month = january year = 1953 }
 	offset = 360
-	deathdate = { day = 30 month = december year = 1956 }
+	deathdate = { day = 29 month = december year = 1956 }
 
 	action = {
 		name = EVT_ELECTIONS_RIGHT
@@ -147,7 +147,7 @@ event = {
 
 	date = { day = 0 month = january year = 1957 }
 	offset = 360
-	deathdate = { day = 30 month = december year = 1960 }
+	deathdate = { day = 29 month = december year = 1960 }
 
 	action = {
 		name = EVT_ELECTIONS_RIGHT
@@ -189,7 +189,7 @@ event = {
 
 	date = { day = 0 month = january year = 1961 }
 	offset = 360
-	deathdate = { day = 30 month = december year = 1963 }
+	deathdate = { day = 29 month = december year = 1963 }
 
 	action = {
 		name = EVT_ELECTIONS_LEFT

@@ -244,8 +244,8 @@ event = {
 			name = "Stay with Heydrich and take the provinces of Kherson and Melitopol"
 			command = { type = relation which = GER value = -50 }		
 			command = { type = relation which = U41 value = -50 } #Ukraine
-			command = { type =	addcore   which = 623 } #Kherson
-			command = { type =	addcore   which = 624 } #Melitopol
+			command = { type =	addclaim   which = 623 } #Kherson
+			command = { type =	addclaim   which = 624 } #Melitopol
 			command = { type = trigger which = 90002008 }
 		}
 		
@@ -334,6 +334,28 @@ event = {
 		action = {
 			ai_chance = 100
 			name = "Unlock our Divisions!"
+			command = { type = unlock_division which = 14500 value = 11004 }		
+			command = { type = unlock_division which = 14500 value = 11005 }		
+			command = { type = unlock_division which = 14500 value = 11041 }					
+			command = { type = unlock_division which = 14500 value = 11007 }		
+			command = { type = unlock_division which = 14500 value = 11008 }		
+			command = { type = unlock_division which = 14500 value = 11022 }					
+			command = { type = unlock_division which = 14500 value = 11023 }		
+			command = { type = unlock_division which = 14500 value = 11027 }		
+			command = { type = unlock_division which = 14500 value = 11028 }					
+			command = { type = unlock_division which = 14500 value = 11029 }		
+			command = { type = unlock_division which = 14500 value = 11048 }		
+			command = { type = unlock_division which = 14500 value = 11035 }					
+			command = { type = unlock_division which = 14500 value = 11036 }					
+			command = { type = unlock_division which = 14500 value = 11038 }					
+			command = { type = unlock_division which = 14500 value = 11040 }					
+			command = { type = unlock_division which = 14500 value = 11042 }					
+			command = { type = unlock_division which = 14500 value = 11044 }					
+			command = { type = unlock_division which = 14500 value = 11045 }					
+			command = { type = unlock_division which = 14500 value = 11047 }					
+			command = { type = unlock_division which = 14500 value = 11049 }					
+			command = { type = unlock_division which = 14500 value = 11051 }								
+
 			command = { type = unlock_division which = 14500 value = 11049 }		
 			command = { type = unlock_division which = 14501 value = 11051 }				
 		}

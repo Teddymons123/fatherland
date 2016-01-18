@@ -1829,7 +1829,8 @@ event = {
 	id = 90000556
 	picture = "reichstag"
 	country = GER
-
+	style = 2
+	
 	trigger = {
 	AND = {
 	event = { id = 90000502 days = 365 } 
@@ -1856,6 +1857,7 @@ event = {
     command = { type = make_puppet which = BLR }
 	command = { type = independence which = U42 value = 1 }
     command = { type = make_puppet which = U42 }	
+	command = { type = event which = 90000553 where = U58 when = 3 }
 	}	
 }
 
