@@ -1,29 +1,30 @@
 ###########################################################
-# Fatherland Beta 5.0 codename "Red Dawn"
-# A post-WW2 scenario with Germany victorious.
+# Fatherland Beta 6.0 codename "Yankee Doodle"
 ###########################################################
 
 # Compatibility:
 - Darkest Hour Full 1.04
 
 # Installation instructions:
-1: Copy a clean install and unmodified version of Darkest Hour Full 1.04RC1 and rename it "Fatherland".
-2: Download the mod.
-3: Copy contents of the downloaded archive into the newly copied directory (agree to replace all the files when asked).
+1: Unzip the archive
+2: Copy contents of the downloaded archive under Mods directory in the main Darkest Hour Folder 
+3: Enjoy !
 
-# Credits (in no particular order):
+# Credits
 Active members :
--To Pakotorino (aka Pako) for continuing this mod.
--To Tonie112 for tons of acrivities, like AI, bugfix and events.
--To Unsctrooper for his important contribution.
+-To pakotorino (aka Pako) : mod owner
+-To UNSC Trooper : without his contribution the mod wouldn't be the same
 
 Contributors :
 -To Unit101 for concept and starting phase.
 -To Ticket Cookie for support to develop and events and files.
--To Bizon for allowing us to use files from his New World Order 2 mod. The NWO2 mod is also a great inspiration.
+-To Tonie112 for support to develop events and files for French Area.
+-To Battles25 for support to develop events and files  for Soviet Union Area.
+-To Bizon for allowing us to use files from his New World Order 2 mod. The NWO2 mod is ever a great inspiration.
+-To Kaiserreich team for letting me use some of their files, thank you guys ! 
 -To Arcanjo Zero and his greatest Mixed Mod.
 -To Kretoxian for allowing us to incorporate his Cold War Tech Tree Expansion mod.
--To Kaiserreich team for letting me use some of their files for the Cossacks and Idel-Ural State. 
+-To BeBro and The HOI3 Graphics Mod
 -To all members of the community who contributed in the mod thread.
 
 Mod Recruitment:
@@ -34,4 +35,3 @@ Things to help with:
 - Crisis suggestions and events, as well as peace treaties.
 - Internal strife events for Germany.
 - Any other events for a post-WW2 world with Germany victorious.
-

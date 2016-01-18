@@ -45,9 +45,7 @@
 	WW3
 		- (+) Axis victory in America chain
 		- (+) Axis victory in Asia
-		- (+) Axis vicotry in Britain
-		- (+) United Nations victory in Asia
-		- (+) United Nations victory in Europe		
+		- (+) Axis victory in Britain
 	CRISIS
 		- (*) Reviewed Abadan crisis
 		- (*) Reviewed Colonials crisis
