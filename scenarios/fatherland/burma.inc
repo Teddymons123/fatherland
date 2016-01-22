@@ -105,7 +105,7 @@ inventions = { 3000027 }
     } 
    peacetime_ic_mod = 0.6
    wartime_ic_mod = 0.7
-  }
+
   
   	landunit = {
 		id = { type = 9023 id = 1 }

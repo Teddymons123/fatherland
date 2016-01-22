@@ -540,8 +540,9 @@ command = { type = setflag which = FreeVichy }
 command = { type = setflag which = VersaillesRefusal } 
 }
 }
+
 event = {
-id = 362
+id = 390
 	random = no
 	country = GER
 	style = 2

@@ -76,8 +76,8 @@ event = {
 	style = 2
 	picture = "0funeral"
 	
-	name = "The death of Marshal Petain" #Petain has died!
-	desc = "Marshal Petain, our hero in both World Wars, has died in peace. While the Marshal is universally loved in France, his old age prevented him from either establishing unquestionable power or a clear path for the country. Several factions therefor claim the succesion, some of them seeking to strengthen France's power within the German Order, others striving for return France to her former glory. Pierre Laval, the current Prime Minister and official successor stands again against his rival Admiral Darlan, who's prefered by both the army and the French citizens. Of course, there are also riots in the street."
+	name = "351NAME" #Petain has died!
+	desc = "351DESC"
 	
 	date = { day = 1 month = january year = 1948 }
 	offset = 30

@@ -1196,8 +1196,8 @@ event = {
 		                }
 	                   }
 
-	name = "Lebensraum 2.0?"
-	desc = "There are still several territorys which may be colonized and fully integrated into Groﬂdeutschland. Places such as the Brest-Litowsk area, Lithuania and several others have the potential of becoming proper germanized territorys. In addition to that, we may be interested in improving the administrative capabilitys of the far eastern Reichkommissariate in Moskowien and the Kaukasus and one day even Kasachstan. However, for this purpose, we have account for and relocate large numbers of people and equipment from all around Groﬂdeutschland, causing huge unhappiness and expenses. To make it happen, we will first need new ministrys which properly organize these new tasks." 
+	name = "EVT31200000NAME"
+	desc = "EVT31200000DESC" 
 	style = 2
 	picture = "Wehrmacht"
 	decision_picture = "decision_grand_offensive"

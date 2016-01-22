@@ -140,7 +140,7 @@ inventions = { 3000027 }
        strength     = 80
        type     = motorized
 	   model = 2
-	   extra = armor
+	   extra = sp_artillery
       } 
 		Division = 
    {  id       = {  type = 20602 id = 4  } 

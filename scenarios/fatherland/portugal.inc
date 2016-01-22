@@ -60,8 +60,8 @@ country = {
 		relation = { tag = SAF value = 50 }
 		relation = { tag = USA value = -25 }
 		relation = { tag = SPA value = 75 }
-		realtion = { tag = GER value = 45 }
-		realtion = { tag = ITA value = 35 }
+		relation = { tag = GER value = 45 }
+		relation = { tag = ITA value = 35 }
 		relation = { tag = SOV value = -75 }		
 	}
 	
