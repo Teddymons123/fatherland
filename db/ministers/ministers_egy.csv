@@ -165,7 +165,7 @@ EGY;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 340164;Minister of Security;Salah Nasr;1957;1964;1964;SD;Crime Fighter;High;6007;x
 340165;Foreign Minister;Salah Salem;1953;1964;1964;LWR;The Cloak N Dagger Schemer;Medium;6008;x
 340166;Minister of Security;Sayyid Qutb;1952;1964;1964;PA;Silent Lawyer;High;6009;x
-340200;Head of State;Fuad II;1952;1953;2020;SD;Autocratic Charmer;Medium;M340200;x
+340200;Head of State;Fuad II;1952;1953;2020;SD;Autocratic Charmer;Medium;EGY_001;x
 340201;Head of Government;Ali Sabri;1962;1992;1992;SD;Ambitious Union Boss;Medium;5997;x
 340202;Head of Government;Zakaria Mohieddin;1965;2013;2013;LWR;Old Admiral;Medium;M340202;x
 340203;Head of Government;Muhammad Sedki Sulayman;1966;1997;1997;LWR;Silent Workhorse;Medium;M340203;x

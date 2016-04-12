@@ -31,8 +31,8 @@ event = {
 		command = { type = sleepminister which = 295050 } # Abdul Aziz al Saud
 		command = { type = sleepminister which = 295051 } # Abdul Aziz al Saud
 		command = { type = sleepminister which = 295052 } # Abdul Aziz al Saud
-		command = { type = headofstate which = 295100 } # Saud al Saud
-		command = { type = headofgovernment which = 295101 } # Faisal al Saud
+		command = { type = headofstate which = 295053 } # Saud al Saud
+		command = { type = headofgovernment which = 295054 } # Faisal al Saud
 		command = { type = foreignminister which = 295014 } # Saud al Saud
 		command = { type = armamentminister which = 295020 } # Salih al Rajihi
 		command = { type = ministerofsecurity which = 295025 } # Suleiman al Olyan

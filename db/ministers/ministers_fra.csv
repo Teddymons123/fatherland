@@ -394,7 +394,7 @@ FRA;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Per
 5393;Head of State;Pierre Laval;1940;1964;1999;PA;Powerhungry Demagogue;High;M57011;X
 5394;Head of State;Jean-Francois Darlan;1940;1964;1999;PA;Resigned Generalissimo;High;M57002;X
 5395;Head of State;Karl Oberg;1940;1964;1999;NS;Ruthless Powermonger;High;oberg;X
-5396;Head of State;Henri Rol-Tanguy;1940;1964;1999;LWR;Popular Figurehead;High;unknownminister;X
+5396;Head of State;Henri Rol-Tanguy;1940;1964;1999;LWR;Popular Figurehead;High;FRA_Tanguy;X
 5397;Foreign Minister;Pierre Etienne Flandin;1933;1964;1999;SC;Ideological Crusader;Medium;M2003;X
 5398;Minister of Armament;Jean Berthelot;1943;1964;1999;PA;Theoretical Scientist;Medium;berthelot;X
 5399;Chief of Staff;Pierre Héring;1940;1964;1999;PA;School of Manoeuvre;High;hering;X

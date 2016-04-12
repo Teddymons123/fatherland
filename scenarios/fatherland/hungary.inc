@@ -417,14 +417,14 @@ inventions = { 3000027 }
      base     = 284 
      Division = 
      {  id       = {  type = 20500 id = 71  } 
-       name     = "I.Vadászosztály" 
+       name     = "I. Vadászrepuloezred" 
        type     = interceptor 
        model    = 5
        strength = 30 
       } 
      Division = 
      {  id       = {  type = 20500 id = 72  } 
-       name     = "I.Vadászbombázó Osztály" 
+       name     = "I.Vadászrepuloezred Osztály" 
        type     = tactical_bomber 
        model    = 4 
        strength = 30 
