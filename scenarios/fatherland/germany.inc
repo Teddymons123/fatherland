@@ -60,6 +60,7 @@ country = {
       tag        = FRA
       value      = 50
       guaranteed = { year = 1948 month = january day = 1 }
+	  access = yes
     }
     relation = { tag = SWE value = 50 }
     relation = { tag = AST value = -200 }

@@ -128,6 +128,7 @@ country = {
 		relation = { tag = SER value = 50 }
 		# Outside the Axis but German's puppet
 		relation = { tag = DEN value = 100 }
+		relation = { tag = FRA value = 50 access = yes }
 	}
   
     # provinces setup

@@ -68,7 +68,7 @@
     relation = { tag = SWE value = 50 }
     relation = { tag = TUR value = 10 }
     relation = { tag = USA value = -125 }
-    relation = { tag = FRA value = 75 }
+    relation = { tag = FRA value = 75 access = yes }
     relation = { tag = YEM value = -200 }
     relation = { tag = U02 value = -200 }
     relation = { tag = U05 value = -200 }
