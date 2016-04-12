@@ -1400,6 +1400,7 @@ event = {
 	id = 7776300 
 	random = no
 	country = HUN
+	
 	trigger = {
 			exists = HUN
 			}
@@ -1426,8 +1427,10 @@ event = {
 	id = 7776301 
 	random = no
 	country = GER
+	
 	trigger = {
 			exists = GER
+			exists = HUN
 			}
 		
 	date = { day = 01 month = august year = 1952 }
@@ -1435,7 +1438,7 @@ event = {
 	deathdate = { day = 03 month = august year = 1952 }
 	
 	name = "Hungarian State Visit to Germany"
-	desc = "The Hungarian conducted a state visit to Germany, where he was received by the German government with great ceremony."
+	desc = "The Hungarians conducted a state visit to Germany, where they were received by the German government with great ceremony."
 	style = 2
 	picture = "news_paper"
 	action = {
