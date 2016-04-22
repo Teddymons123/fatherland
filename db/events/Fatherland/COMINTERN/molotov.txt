@@ -38,8 +38,8 @@ event = {
 		event = 8014267 # Soviet Union - 8014267 - Purges (Molotov)
 	} 
 	
-	name = "Molotov take the power"
-	desc = "Moving inside the Communist Party of Soviet Union Molotov take the full power taking with his men the main places in the Party's burocracy. His first announce is a call of a Party Congress in 1 month from today."
+	name = "Molotov takes power"
+	desc = "Inside the Communist Party of Soviet Union Molotov takes full power in the Party's burocracy. His first declaration is a call of Congress in 1 month from today."
 	style = 0
 	picture = "Mol_Rib" 
 	
@@ -73,7 +73,7 @@ event = {
 	} 
 	
 	name = "The XVIII Congress of the Communist Party of Soviet Union"
-	desc = "A month after his power grab Molotov party holds a Congress that will define the future of the Union" 
+	desc = "A month after Molotov gaining power the party holds a Congress that will define the future of the Union" 
 	style = 0
 	picture = "tva" 
 	
@@ -99,7 +99,7 @@ event = {
 			event = 8014201 # 8014200 - Molotov
 	} 
 	name = "XVII Congress - Relations with Siberia"
-	desc = "We must return to a Soviet Union strong and independent, we need the Siberia and its resources. Dzhanov is a reasonable person and with the proposal to join the Government probably will allow a peaceful integration of the Siberian Republic"
+	desc = "We must return the Soviet Union into a strong and independent nation. We need the Siberia and its resources. Dzhanov is a reasonable person and with the proposal to join the Government probably will allow a peaceful integration of the Siberian Republic"
 	style = 0
 	picture = "soviet_warposter" 
 	
@@ -128,7 +128,7 @@ event = {
 	country = SIB 
 
 	name = "The Soviet Union and Siberia"
-	desc = "The Soviet Union is asking us to return in the Union and offers to a Government place to Dzanhov. It's time to back home ?"
+	desc = "The Soviet Union is asking us to return in the Union and offers to a Government place to Dzanhov. Is it time to go back home ?"
 	style = 0
 	picture = "soviet_warposter" 
 
@@ -153,8 +153,8 @@ event = {
 	id = 8014204
 	random = no
 	country = SOV 
-	name = "Welcome back Siberia !"
-	desc = "The Siberia has accepted our proposal"
+	name = "Welcome back, Siberia !"
+	desc = "Siberia has accepted our proposal"
 	style = 0
 	picture = "soviet_warposter" 
 
@@ -214,7 +214,7 @@ event = {
 			event = 8014206
 	} 
 	name = "Relations with Far Eastern Republic"
-	desc = "We must return to a Soviet Union strong and independent, we need the Far Eastern Republic and its resources."
+	desc = "We must return the Soviet Union into a strong and independent nation. We need the Far Eastern Republic and its resources."
 	style = 0
 	picture = "soviet_warposter" 
 	date = { day = 1 month = january year = 1949 }
@@ -243,7 +243,7 @@ event = {
 	country = U57 
 
 	name = "XVII Congress - The Soviet Union and the Far Eastern Republic"
-	desc = "It's time to back home ?"
+	desc = "Is it time to go back home ?"
 
 	style = 0
 	picture = "soviet_warposter" 
@@ -267,7 +267,7 @@ event = {
 	id = 8014209
 	random = no
 	country = SOV 
-	name = "Welcome back Far Eastern Republic !"
+	name = "Welcome back, Far Eastern Republic !"
 	desc = "The Far Eastern Republic has accepted our proposal !"
 	style = 0
 	picture = "soviet_warposter" 
@@ -331,7 +331,7 @@ event = {
 		event = 8014206 # Siberia inerhit by URSS
 		exists = MON
 	} 
-	name = "XVII Congress - The Soviet Union and the Mongolia"
+	name = "XVII Congress - The Soviet Union and Mongolia"
 	desc = "They will back in our sphere of influence"
 	style = 0
 	picture = "soviet_warposter" 
@@ -375,7 +375,7 @@ event = {
 	}
 	action = {#KO
 		ai_chance = 10
-		name = "NON è necessario"
+		name = "NON Ã¨ necessario"
 		command = { type = dissent value = 1 }
 	}
 }
@@ -466,8 +466,8 @@ trigger = {
 		headofstate = 30012 # Molotov
 		event = 8014215 # 8014215 - Rilancio dell'economia
 } 
-name = "XVII Congress - Reorganization of agricolture" # Réforme agricole
-desc = "Soviet campaigns have suffered enormously, especially during winter 32-33. Having ousted Stalin, we can choose more rational ways"
+name = "XVII Congress - Reorganization of agricolture" # RÃ©forme agricole
+desc = "Our Five Year Plans have failed enormously, especially during the winter of 32'-33'. With Stalin out of the picture, we can choose more rational ways"
 style = 0
 picture = "soviet_warposter" 
 	date = { day = 1 month = january year = 1949 }
@@ -510,7 +510,7 @@ event = {
 			event = 8014216 # 8014216 -  Riforma agricola
 	} 
 	name = "XVII Congress - Foreign policy - Allies" 
-	desc = "The Congress is gathered to decide on lattitude to adopt to countries that are not (yet) Communists legard."
+	desc = "The Congress is gathered to decide on our stance in international diplomacy with the UN."
 	style = 0
 	picture = "soviet_warposter" 
 	date = { day = 1 month = january year = 1949 }
@@ -518,7 +518,7 @@ event = {
 	deathdate = { day = 12 month = march year = 1966 }
 	action = {
 		ai_chance = 60
-		name = "We may stay more in contact with the our old allies" 
+		name = "We may stay in contact with our old allies" 
 		command = { type = domestic which = interventionism value = -1 }
 
 		command = { type = relation which = U01 value = 50 }
@@ -531,7 +531,7 @@ event = {
 	}
 	action = {
 		ai_chance = 30
-		name = "Just normal relationship" 
+		name = "Just normal a relationship" 
 		command = { type = relation which = U01 value = 5 }
 		command = { type = relation which = ENG value = 5 }
 		command = { type = relation which = USA value = 5 }
@@ -543,7 +543,7 @@ event = {
 	
 	action = {#Ne faire aucun compromis avec les capitalistes !
 		ai_chance = 10
-		name = "Turn on isolationism with the capitalists"
+		name = "Turn to isolationism with the capitalists"
 		command = { type = relation which = U01 value = -50 }
 		command = { type = relation which = ENG value = -50 }
 		command = { type = relation which = USA value = -50 }
@@ -565,7 +565,7 @@ event = {
 			event = 8014217 # 8014216 -  Politica estera - Alleati
 	} 
 	name = "XVII Congress - Foreign Policy - Axis"
-	desc = "The Congress is gathered to decide on lattitude to adopt to countries that are not (yet) Communists legard."
+	desc = "The Congress is gathered to decide on our stance in international diplomacy with the Axis."
 	style = 0
 	picture = "soviet_warposter" 
 	date = { day = 1 month = january year = 1949 }
@@ -573,7 +573,7 @@ event = {
 	deathdate = { day = 12 month = march year = 1966 }
 	action = {
 		ai_chance = 60
-		name = "It's not the time for our revenge" 
+		name = "We are at a bad time to take revenge" 
 		command = { type = domestic which = interventionism value = -2 }
 
 		command = { type = relation which = GER value = 10 }
@@ -582,7 +582,7 @@ event = {
 	}
 action = {
 ai_chance = 40
-		name = "We claim our rightfully land and a day we will take with force" 
+		name = "We claim our rightful land and, one day, we will take with force" 
 		command = { type = domestic which = interventionism value = 2 }
 		command = { type = relation which = ROM value = -200 }
 		command = { type = relation which = GER value = -200 }
@@ -601,7 +601,7 @@ trigger = {
 		headofstate = 30012 # Molotov
 		event = 8014218 # 8014218 -  Politica estera - Asse
 } 
-name = "XVII Congress - Foreign Policy - Neutrals" # IXème Congrès du komintern
+name = "XVII Congress - Foreign Policy - Neutrals" # IXÃ¨me CongrÃ¨s du komintern
 	desc = "The Congress is gathered to decide on lattitude to adopt to countries that are not (yet) Communists legard."
 style = 0
 picture = "parliamentary_scandal" 
