@@ -2,12 +2,12 @@
 # Beria by Pako
 # ##########################
 
-# 8014100 - Beria take the power
-# 8014101 - The cult of personality
+# 8014100 - Beria Takes Power
+# 8014101 - The Cult of Personality
 # 8014102 - Execution of British spies
 # 8014103 - Execution of British spies - British reaction
-# 8014104 - British embargo
-# 8014105 - Goulag reopened
+# 8014104 - British Embargo
+# 8014105 - The Goulags Re-open
 # 8014106 - Reorganization of NKVD
 # 8014107 - Reunification of Soviet Union
 	
@@ -22,8 +22,8 @@ event = {
 	style = 0
 	picture = "nwo/beria_rules_ussr" 
 
-	name = "Beria take the power"
-	desc = "With a policy of verbal and physical violence Beria took power within the Communist Party. The purges that followed allowed the new Secretary of the Communist Party no longer no opponent to contain. Within weeks, Beria has realized the dream of becoming the sole and indisputable heir to Stalin."
+	name = "Beria Takes Power"
+	desc = "With his cunning words and use physical violence Beria took power within the Communist Party. The purges that followed allowed the new Secretary of the Communist Party silenced all opposition with no one daring to speak out against him. Within weeks, Beria has realized the dream of becoming the sole and indisputable heir to Stalin."
 	
 	date = { day = 1 month = january year = 1949 }
 	offset = 5
@@ -37,7 +37,7 @@ event = {
 	} 
 		
 	action = {
-		name = "Long live to the new Secretary of the Communist Party of the Soviet Union, Beria"
+		name = "Long live the new Secretary of the Communist Party of the Soviet Union, Beria"
 		command = { type = belligerence value = 3 }				
         command = { type = dissent value = 5 }		
 		command = { type = manpowerpool value = -50 }		
@@ -52,7 +52,7 @@ event = {
 }
 
 ##########################
-# 8014101 - The cult of personality
+# 8014101 - The Cult of Personality
 ##########################
 event = {
 	id = 8014101
@@ -64,7 +64,7 @@ event = {
 		headofgovernment = 30017 # Beria
 	}
 	name = "The cult of personality"
-	desc = "Beria takes a personal power more and more important, at the expense of the party and has the great concern of the veterans of the revolution. It encourages the cult of personality. Giant portraits of Stalin and Beria are displayed in all public places, the press and movies celebrate their infallibility and their genius."
+	desc = "Beria could not stress more, at the expense of the party and with the great concern of the veterans of the revolution, his the cult of personality. Giant portraits of Stalin and Beria are displayed in all public places, with the press and other mass media celebrate their infallibility and their genius."
 	style = 0
 	picture = "nwo/beria_rules_ussr"
 	date = { day = 15 month = february year = 1949 }
@@ -79,7 +79,7 @@ event = {
 }
 
 ##########################
-# 8014102 - Execution of British spies
+# 8014102 - Execution of British Spies
 ##########################
 event = {
 	id = 8014102
@@ -95,12 +95,12 @@ event = {
 	offset = 35
 	deathdate = { day = 1 month = january year = 1965 }
 	name = "Execution of British spies"
-	desc = "In Omsk, opened the trial of British spies, 6 engineers from Metro-Vickers, who worked on a building site in Urals. Convicted of sabotage and despionnage, Mon was acquitted, two were 5 years in prison, three will be deported to Siberia. Should we judge them? This may dalterer our relations with England but it can also make a good shot of propaganda stigmatising foreign capitalism."
+	desc = "In Omsk the trial British spies opened. 6 engineers from Metro-Vickers, who worked on a building site in Urals, were convicted of suspected sabotage and espionnage. All six were found guilty and are preparing for the death sentence. Should we execute them or send them back to their home country to be judged? This may dalterer our relations with England but it can also make a good shot of propaganda stigmatising foreign capitalism."
 	style = 0
 	picture = "news_paper"
 	action = {	
 		ai_chance = 90
-		name = "Must be judged by the Court of the Soviet People"
+		name = "Carry out the executions"
       	command = { type = dissent value = -1 }
 		command = { type = relation which = ENG value = -50 }
 		command = { type = trigger which = 8014103 }
@@ -114,42 +114,42 @@ event = {
 }
 
 ##########################	
-# 8014103 - Esecuzione di spie britanniche - Reazione britannica
+# 8014103 - Execution of British Spies - British Reaction
 ##########################
 event = {
 	id = 8014103
 	random = no
 	country = ENG
-	name = "Execution of British spies"
-	desc = "In Moscow, opened the trial of British spies, 6 engineers from Metro-Vickers, who worked on a building site in Urals. Convicted of sabotage and despionnage, Mon was acquitted, two did 5 years in prison, three will go to make a trip to Siberia. Our Government decided to react by decreeing an embargo on trade with URSS."
+	name = "Execution of British Spies"
+	desc = "In Omsk the trial British spies opened. 6 engineers from Metro-Vickers, who worked on a building site in Urals, were convicted of suspected sabotage and espionnage. All six were found guilty and are preparing for the death sentence. The Soviet government has refused to bring back our citizens so we can judge them. Our government decided to react by decreeing a trade embargo on the USSR."
 	style = 0	
 	picture = "news_paper"
 	action = {
-		name = "Close diplomatic relations and start an embargo to Soviet Union"
+		name = "Close all diplomatic relations and begin an embargo to the Soviet Union"
 		command = { type = relation which = SOV value = -50 }
 		
-		command = { type = embargo which = ENG where = SOV value = 3} # 3 – enforce both trade and tech embargoes
-		command = { type = embargo which = CAN where = SOV value = 3} # 3 – enforce both trade and tech embargoes
-		command = { type = embargo which = AUS where = SOV value = 3} # 3 – enforce both trade and tech embargoes
-		command = { type = embargo which = NZL where = SOV value = 3} # 3 – enforce both trade and tech embargoes
+		command = { type = embargo which = ENG where = SOV value = 3} # 3 â€“ enforce both trade and tech embargoes
+		command = { type = embargo which = CAN where = SOV value = 3} # 3 â€“ enforce both trade and tech embargoes
+		command = { type = embargo which = AUS where = SOV value = 3} # 3 â€“ enforce both trade and tech embargoes
+		command = { type = embargo which = NZL where = SOV value = 3} # 3 â€“ enforce both trade and tech embargoes
 		
 		command = { type = trigger which = 8014104 }
 		}
 	}
 
 ##########################	
-# 8014104 - Embargo britannico
+# 8014104 - British Embargo
 ##########################
 event = {
 	id = 8014104
 	random = no
 	country = SOV
-	name = "British embargo against Soviet Union"
-	desc = "Because criminal proceedings British citizens were placed under embargo by the commonwealth"
+	name = "British Embargo Against the Soviet Union"
+	desc = "Because of our decision to execute the 6 British citizens, we are now placed under an embargo by the Commonwealth"
 	style = 0
 	picture = "news_paper"
 	action = {	
-		name = "Capitalists do not lose anything to wait"
+		name = "We have nothing to lose"
       	command = { type = dissent value = 5 }
 		command = { type = relation which = ENG value = -50 }
 		command = { type = relation which = AUS value = -50 }
@@ -158,7 +158,7 @@ event = {
 	}
 }
 ##########################
-# 8014105 - Goulag reopened
+# 8014105 - The Goulags Re-open
 ##########################
 event = {
 	id = 8014105
@@ -172,8 +172,8 @@ event = {
 	date = { day = 15 month = february year = 1949 }
 	offset = 50
 	deathdate = { day = 1 month = january year = 1965 }
-	name = "Goulag reopened"
-	desc = "Gulag was the abbreviation for the direction of the camps of forced work and ideological re-education, a Department of the secret police. Created in the 1920s by Lenin, the system reached its peak under Stalin with more than 476 complexes installed in Siberia and Central Asia. These camps included common law prisoners and political opponents. Prisoners built several railways in the Arctic regions, whose line Kotlas Vorkuta."
+	name = "The Goulags Re-open"
+	desc = "The Gulags were a series forced work forced labor camps and ideological re-education centers, a department of our secret police, the NKVD. Created in the 1920's by Lenin, the system reached its peak under Stalin with more than 476 complexes installed in Siberia and Central Asia. These camps included common law prisoners and political opponents. These prisoners built several railways in the Arctic regions, and many other social projects."
 	style = 0
 	picture = "news_paper"
 	action = {
@@ -197,7 +197,7 @@ event = {
 		headofgovernment = 30017 # Beria2
 	}
 	name = "The reorganization of NKVD" 
-	desc = "Lavrenty Beria, who controls the N.K.V.D dune iron hand managed to put in place various measures such as treason in the event of decline against the enemies."
+	desc = "Lavrenty Beria, the chief of the N.K.V.D, has begun to rule with an iron hand and managed to put in place various measures to prevent treason in the declining country."
 	style = 0 
 	picture = "soviet_reinforcments"
 	date = { day = 15 month = february year = 1949 }
@@ -260,8 +260,8 @@ event = {
 		NOT = { war = { country = SOV country = GER } }
 	}
 
-	name = "Reunification of Soviet Union"
-	desc = "We must reunify our glorious nation, war versus all other states in the Soviet Union territories"
+	name = "Reunification of the Soviet Union"
+	desc = "We must reunify all territories of our glorious nation. War versus all other states who wrongfully control our territories"
 	style = 1
 	picture = "soviet_warposter"
 	decision_picture = "soviet_warposter"
