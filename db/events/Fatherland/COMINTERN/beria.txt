@@ -4,8 +4,8 @@
 
 # 8014100 - Beria Takes Power
 # 8014101 - The Cult of Personality
-# 8014102 - Execution of British spies
-# 8014103 - Execution of British spies - British reaction
+# 8014102 - Execution of British Spies
+# 8014103 - Execution of British Spies - British Reaction
 # 8014104 - British Embargo
 # 8014105 - The Goulags Re-open
 # 8014106 - Reorganization of NKVD
@@ -23,7 +23,7 @@ event = {
 	picture = "nwo/beria_rules_ussr" 
 
 	name = "Beria Takes Power"
-	desc = "With his cunning words and use physical violence Beria took power within the Communist Party. The purges that followed allowed the new Secretary of the Communist Party silenced all opposition with no one daring to speak out against him. Within weeks, Beria has realized the dream of becoming the sole and indisputable heir to Stalin."
+	desc = "With his cunning words and use physical violence, Beria took power within the Communist Party. The purges that soon followed afterward allowed the new Secretary of the Communist Party to silence all opposition with no one daring to speak out against him. Within weeks, Beria has succeeded his dream of becoming the sole and indisputable heir to Stalin."
 	
 	date = { day = 1 month = january year = 1949 }
 	offset = 5
@@ -63,15 +63,15 @@ event = {
 		headofstate = 30152 # Beria
 		headofgovernment = 30017 # Beria
 	}
-	name = "The cult of personality"
-	desc = "Beria could not stress more, at the expense of the party and with the great concern of the veterans of the revolution, his the cult of personality. Giant portraits of Stalin and Beria are displayed in all public places, with the press and other mass media celebrate their infallibility and their genius."
+	name = "The Cult of Personality"
+	desc = "Beria could not stress more, at the expense of the Party and with the great concern of the veterans of the revolution, his cult of personality. Giant portraits of Stalin and Beria are displayed in all public places, with the press and other mass media outlets celebrate their infallibility and their genius."
 	style = 0
 	picture = "nwo/beria_rules_ussr"
 	date = { day = 15 month = february year = 1949 }
 	offset = 30
 	deathdate = { day = 1 month = january year = 1965 }
 	action = {
-		name = "A strong guide" 
+		name = "Beria is a strong guide for the people" 
 		command = { type = dissent value = -1 }
 		command = { type = money value = -100 }
 		command = { type = domestic which = freedom value = -1 }
@@ -94,8 +94,8 @@ event = {
 	date = { day = 15 month = february year = 1949 }
 	offset = 35
 	deathdate = { day = 1 month = january year = 1965 }
-	name = "Execution of British spies"
-	desc = "In Omsk the trial British spies opened. 6 engineers from Metro-Vickers, who worked on a building site in Urals, were convicted of suspected sabotage and espionnage. All six were found guilty and are preparing for the death sentence. Should we execute them or send them back to their home country to be judged? This may dalterer our relations with England but it can also make a good shot of propaganda stigmatising foreign capitalism."
+	name = "Execution of British Spies"
+	desc = "In Omsk the trial British spies opened. 6 engineers from Metro-Vickers, who worked on a building site in the Urals, were convicted of suspected sabotage and espionnage. All six were found guilty and are preparing for the death sentence. Should we execute them or send them back to their home country to be judged? This may dalterer our relations with England but it can also make a good shot of propaganda stigmatising foreign capitalism."
 	style = 0
 	picture = "news_paper"
 	action = {	
@@ -107,7 +107,7 @@ event = {
 	}
 	action = {	
 		ai_chance = 10
-		name = "Send them in UK"
+		name = "Send them to the UK"
       	command = { type = dissent value = 5 }
 		command = { type = relation which = ENG value = 10 }
 	}
@@ -121,7 +121,7 @@ event = {
 	random = no
 	country = ENG
 	name = "Execution of British Spies"
-	desc = "In Omsk the trial British spies opened. 6 engineers from Metro-Vickers, who worked on a building site in Urals, were convicted of suspected sabotage and espionnage. All six were found guilty and are preparing for the death sentence. The Soviet government has refused to bring back our citizens so we can judge them. Our government decided to react by decreeing a trade embargo on the USSR."
+	desc = "In Omsk the trial British spies opened. 6 engineers from Metro-Vickers, who worked on a building site in the Urals, were convicted of suspected sabotage and espionnage. All six were found guilty and are preparing for the death sentence. The Soviet government has refused to bring back our citizens so we can judge them. Our government decided to react by decreeing a trade embargo on the USSR."
 	style = 0	
 	picture = "news_paper"
 	action = {
@@ -261,7 +261,7 @@ event = {
 	}
 
 	name = "Reunification of the Soviet Union"
-	desc = "We must reunify all territories of our glorious nation. War versus all other states who wrongfully control our territories"
+	desc = "We must reunify all territories of our glorious nation. This means war against all other states who wrongfully control our territories"
 	style = 1
 	picture = "soviet_warposter"
 	decision_picture = "soviet_warposter"
