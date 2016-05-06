@@ -98,7 +98,7 @@ headofstate = 1 # Hitler
 }
 } 
 ai_chance = 60
-name = "Release Russia and assign territory to it." # Organization of the Russian State
+name = "Release Russia and assign territory to it." 
 command = { type = independence which = RUS value = 1 when = 0 }
 command = { type = make_puppet which = RUS }
 command = { type = trigger which = 300015 } # Organization of the Russian State
@@ -113,8 +113,6 @@ command = { type = secedearea which = RUS value = "Kursk" }
 command = { type = secedearea which = RUS value = "Tambov" }
 command = { type = secedearea which = RUS value = "Engels" }
 command = { type = secedearea which = RUS value = "Astrakhan" }
-command = { type = secedeprovince which = RUS value = 651 }
-command = { type = secedeprovince which = RUS value = 654 } # Voronezh
 command = { type = local_setflag which = ns_russia_arch }
 }
 
@@ -579,6 +577,7 @@ ai_chance = 20
 name = "Integrate with RK Westsibirien."
 command = { type = dissent value = -3 }
 command = { type = secedearea which = U64 value = "Mongolia" }
+command = { type = secedeprovince which = U64 value = 1119 }
 }
 
 action = {
@@ -591,6 +590,7 @@ ai_chance = 15
 name = "Cede to Russia."
 command = { type = dissent value = 2 }
 command = { type = secedearea which = RUS value = "Mongolia" }
+command = { type = secedeprovince which = RUS value = 1119 }
 }
 
 action = {
@@ -599,6 +599,7 @@ name = "Release puppet Mongolia."
 command = { type = independence which = MON value = 1 when = 0 }
 command = { type = make_puppet which = MON }
 command = { type = dissent value = 4 }
+command = { type = secedeprovince which = MON value = 1119 }
 }
 
 action = {
@@ -851,3 +852,70 @@ command = { type = flag_ext where = -1 which = "_NS" }
 }
 }
 
+### Occupation of Sinkiang
+
+event = {
+id = 300016
+random = no
+country = GER
+
+trigger = {
+area = { area = "Xinjiang" country = GER data = 2 value = 80 }
+}
+
+name = "EVT_300016_NAME"
+desc = "EVT_300016_DESC"
+style = 1
+picture = "fatherland\siberia"
+date = { day = 1 month = january year = 1948 } 
+offset = 2
+deathdate = { day = 29 month = december year = 2020 }
+
+action = {
+trigger = {
+NOT = { headofstate = 15 } # Ludwig Beck
+exists = U64
+OR = {
+ideology = NAZI
+ideology = FASCIST
+}
+}
+ai_chance = 20
+name = "Integrate with RK Westsibirien."
+command = { type = dissent value = -3 }
+command = { type = secedearea which = U64 value = "Xinjiang" }
+command = { type = secedeprovince which = U64 value = 1119 }
+}
+
+action = {
+trigger = { 
+exists = RUS 
+alliance = { country = GER country = RUS }
+local_flag = ns_russia_westsiberia
+}
+ai_chance = 15
+name = "Cede to Russia."
+command = { type = dissent value = 2 }
+command = { type = secedearea which = RUS value = "Xinjiang" }
+command = { type = secedeprovince which = RUS value = 1119 }
+}
+
+action = {
+ai_chance = 5
+name = "Release puppet Sinkiang."
+command = { type = independence which = SIK value = 1 when = 0 }
+command = { type = make_puppet which = SIK }
+command = { type = dissent value = 4 }
+}
+
+action = {
+trigger = {
+NOT = { war = { country = GER  country = CHI } }
+}
+ai_chance = 60
+name = "Cede Sinkiang to Nationalist China."
+command = { type = dissent value = 2 }
+command = { type = secedearea which = CHI value = "Xinjiang" }
+command = { type = relation which = CHI value = 50 }
+}
+}
