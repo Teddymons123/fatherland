@@ -101,6 +101,7 @@ ai_chance = 60
 name = "Release Russia and assign territory to it." # Organization of the Russian State
 command = { type = independence which = RUS value = 1 when = 0 }
 command = { type = make_puppet which = RUS }
+command = { type = trigger which = 300015 } # Organization of the Russian State
 command = { type = dissent value = 4 }
 command = { type = secederegion which = RUS value = "Northern Russia" }
 command = { type = secedearea which = RUS value = "Nizhnij Novgorod" }
@@ -554,7 +555,6 @@ random = no
 country = GER
 
 trigger = {
-event = 300004
 area = { area = "Mongolia" country = GER data = 2 value = 80 }
 }
 
@@ -832,3 +832,22 @@ command = { type = add_division which = "1. Far Eastern Jaeger" value = bergsjae
 command = { type = manpowerpool value = -30 }
 }
 }
+
+### Organization of the Russian State
+
+event = {
+id = 300015
+random = no
+country = RUS
+
+name = "EVT_300015_NAME"
+desc = "EVT_300015_DESC"
+style = 1
+picture = "fatherland\german_warposter"
+
+action = {
+name = "Organization of the Russian State"
+command = { type = flag_ext where = -1 which = "_NS" }
+}
+}
+

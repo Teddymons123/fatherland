@@ -10,7 +10,6 @@
  country = 
  {  tag                    = MON 
  	ai_settings	= { flags = { MOB1 = yes MOB2 = yes MOB3 = yes MOB4 = yes MOB5 = yes MOB6 = yes} }
-   name 				   = MON1924
    # Resource Reserves 
 energy                 = 300
 metal                  = 150
