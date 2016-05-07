@@ -1742,43 +1742,6 @@ command = { }
 }
 }
 
-### The Question of the Far Eastern Republic
-# To be continued with aftermath events
-
-event = {
-id = 999548
-random = no
-country = USA
-
-trigger = {
-event = 999545 # UN Liberty Shield: East Asia
-exists = U57
-NOT = { alliance = { country = -1 country = U57 } }
-NOT = { war = { country = -1 country = U57 } }
-}
-
-name = "EVT_999548_NAME"
-desc = "EVT_999548_DESC"
-style = 1
-picture = "nwo\japanese_gains_in_ussr"
-date = { day = 1 month = january year = 1948 } 
-offset = 10
-deathdate = { day = 29 month = december year = 2020 }
-
-action = {
-ai_chance = 80
-name = "They are a threat to our Pacific Order. Crush them."
-command = { type = war which = U57 }
-command = { type = dissent value = 4 }
-}
-
-action = {
-ai_chance = 20
-name = "Ignore them."
-command = { }
-}
-}
-
 ### UN Liberty Shield: Siberia and West Asia
 
 event = {
@@ -2203,4 +2166,5 @@ name = "Ignore the Middle East."
 command = { }
 }
 }
+
 

@@ -156,6 +156,7 @@
     relation = { tag = YEM value = 100 }
     relation = { tag = U05 value = 70  }  
     relation = { tag = ALS value = 200 access = yes }
+	relation = { tag = U57 value = -50 } # Far East Republic
   }   
     SpyInfo = { country = "USA" NumberOfSpies = 11  }   
 	SpyInfo = { country = "U01" NumberOfSpies = 3 }

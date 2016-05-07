@@ -104,6 +104,7 @@ event = "db\events\fatherland\crisis\nuclear.txt"
 event = "db\events\fatherland\crisis\switzerland.txt"
 event = "db\events\fatherland\crisis\colonials.txt"
 event = "db\events\fatherland\crisis\sino_indian_war.txt"
+event = "db\events\fatherland\crisis\Far_Eastern_War.txt"
 #WW3 flashpoints
 event = "db\events\fatherland\crisis\abadan.txt"
 event = "db\events\fatherland\crisis\suez.txt"

@@ -1,0 +1,160 @@
+#########################
+## The Far Eastern War 
+##
+## 1. 
+## Switch to 1949 offset year!
+#########################
+
+
+### The Question of the Far Eastern Republic
+# To be continued with aftermath events
+
+event = {
+id = 600000
+random = no
+country = USA
+
+trigger = {
+exists = U57
+NOT = { 
+alliance = { country = -1 country = U57 }
+alliance = { country = GER country = U57 }
+war = { country = -1 country = U57 } 
+}
+}
+
+name = "EVT_999548_NAME"
+desc = "EVT_999548_DESC"
+style = 1
+picture = "nwo\japanese_gains_in_ussr"
+date = { day = 1 month = january year = 1949 } 
+offset = 10
+deathdate = { day = 29 month = december year = 2020 }
+
+action = {
+ai_chance = 90
+name = "They are a threat to our Pacific Order. Neutralize them."
+command = { type = dissent value = 4 }
+command = { type = 	relation which = U57 value = -30 }
+command = { type = setflag which = us_vs_fareastrep }
+}
+
+action = {
+ai_chance = 10
+name = "Ignore them."
+command = { type = dissent value = 6 }
+}
+}
+
+### Japan in the Far Eastern Question
+
+event = {
+id = 600001
+random = no
+country = USA
+
+trigger = {
+flag = us_vs_fareastrep
+}
+
+name = "EVT_600001_NAME"
+desc = "EVT_600001_DESC"
+style = 0
+picture = "fatherland\rodzaevsky"
+date = { day = 1 month = january year = 1948 } 
+offset = 2
+deathdate = { day = 29 month = december year = 2020 }
+
+action = {
+ai_chance = 90
+name = "Order the Japanese to assassinate Rodzaevsky."
+command = { type = trigger which = 600002 }
+}
+
+action = {
+ai_chance = 10
+name = "Now is not the time."
+command = { }
+}
+}
+
+### The Far East Republic and Konstantin Rodzaevsky
+
+event = {
+id = 600002
+random = no
+country = JAP
+
+name = "EVT_600002_NAME"
+desc = "EVT_600002_DESC"
+style = 0
+picture = "fatherland\rodzaevsky"
+
+action = {
+ai_chance = 90
+name = "Accept the contract."
+command = { type = trigger which = 600003 }
+command = { type = dissent value = 4 }
+command = { type = relation which = U57 value = -30 }
+}
+
+action = {
+ai_chance = 10
+name = "Refuse."
+command = { type = 	relation which = USA value = -5 }
+}
+}
+
+### Assassination attempt on Konstantin Rodzaevsky
+
+event = {
+id = 600003
+random = no
+country = U57
+
+name = "EVT_600003_NAME"
+desc = "EVT_600003_DESC"
+style = 0
+picture = "fatherland\rodzaevsky"
+
+action = {
+name = "This attack will not go unpunished. Enter alliance with Germany."
+command = { type = trigger which = 600004 }
+command = { type = relation which = USA value = -30 }
+command = { type = relation which = JAP value = -30 }
+command = { type = relation which = ENG value = -30 }
+command = { type = relation which = ALS value = -30 }
+command = { type = relation which = GER value = 30 }
+command = { type = relation which = AXI value = 30 }
+}
+}
+
+### Crisis in the Russian Far East
+
+event = {
+id = 600004
+random = no
+country = GER
+
+name = "EVT_600004_NAME"
+desc = "EVT_600004_DESC"
+style = 0
+picture = "fatherland\rodzaevsky"
+
+action = {
+ai_chance = 85
+name = "The Axis will guarantee the Republic's independence."
+command = { type = guarantee which = AXI where = U57 }
+command = { type = relation which = U57 value = 50 }
+command = { type = relation which = USA value = -10 }
+command = { type = relation which = ENG value = -10 }
+command = { type = relation which = JAP value = -10 }
+command = { type = relation which = ALS value = -10 }
+}
+
+action = {
+ai_chance = 15
+name = "This is none of our concern."
+command = { type = relation which = U57 value = -10 }
+}
+}
