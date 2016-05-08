@@ -64,6 +64,7 @@
  province = {  id = 1099 points = 1  } # Samarkand !!!
  province = {  id = 504 points = 1  } # Alma-Ata !!!
  province = {  id = 1151 points = 1  } # Sverdlosk !!!
+ province = {  id = 644 points = 1  } # Rostov on Don
  
  province = {  id = 262  points = 1  } #Kaunas 
  province = {  id = 270  points = 1  } #Tallinn 
@@ -308,3 +309,6 @@
  
  # Siberia
  province = { id = 1157 points = 2 } # Kansk
+
+ # Russian Far East
+ province = { id = 1190 points = 1 } # Khabarovsk

@@ -3,6 +3,8 @@
 ##
 ## 1. 
 ## Switch to 1949 offset year!
+## Add leaders to FER
+## Add techteams to FER
 #########################
 
 
@@ -21,6 +23,7 @@ alliance = { country = -1 country = U57 }
 alliance = { country = GER country = U57 }
 war = { country = -1 country = U57 } 
 }
+atwar = no
 }
 
 name = "EVT_999548_NAME"
@@ -34,15 +37,16 @@ deathdate = { day = 29 month = december year = 2020 }
 action = {
 ai_chance = 90
 name = "They are a threat to our Pacific Order. Neutralize them."
-command = { type = dissent value = 4 }
+command = { type = dissent value = 2 }
 command = { type = 	relation which = U57 value = -30 }
+command = { type = domestic which = interventionism value = 1 }
 command = { type = setflag which = us_vs_fareastrep }
 }
 
 action = {
 ai_chance = 10
 name = "Ignore them."
-command = { type = dissent value = 6 }
+command = { type = dissent value = 4 }
 }
 }
 
@@ -62,7 +66,7 @@ desc = "EVT_600001_DESC"
 style = 0
 picture = "fatherland\rodzaevsky"
 date = { day = 1 month = january year = 1948 } 
-offset = 2
+offset = 1
 deathdate = { day = 29 month = december year = 2020 }
 
 action = {
@@ -120,12 +124,13 @@ picture = "fatherland\rodzaevsky"
 action = {
 name = "This attack will not go unpunished. Enter alliance with Germany."
 command = { type = trigger which = 600004 }
+command = { type = alliance which = AXI }
 command = { type = relation which = USA value = -30 }
 command = { type = relation which = JAP value = -30 }
 command = { type = relation which = ENG value = -30 }
 command = { type = relation which = ALS value = -30 }
 command = { type = relation which = GER value = 30 }
-command = { type = relation which = AXI value = 30 }
+command = { type = relation which = AXI value = 50 }
 }
 }
 
@@ -156,5 +161,130 @@ action = {
 ai_chance = 15
 name = "This is none of our concern."
 command = { type = relation which = U57 value = -10 }
+}
+}
+
+### Konstantin Rodzaevsky lives
+
+event = {
+id = 600005
+random = no
+country = USA
+
+trigger = {
+event = 600003
+}
+
+name = "EVT_600005_NAME"
+desc = "EVT_600005_DESC"
+style = 0
+picture = "fatherland\rodzaevsky"
+date = { day = 1 month = january year = 1948 } 
+offset = 1
+deathdate = { day = 29 month = december year = 2020 }
+
+action = {
+ai_chance = 90
+name = "We must subdue the FER at all costs."
+command = { type = dissent value = 1 }
+command = { type = relation which = GER value = -10 }
+command = { type = relation which = AXI value = -10 }
+command = { type = trigger which = 600006 }
+}
+
+action = {
+ai_chance = 10
+name = "Back down."
+command = { type = domestic which = interventionism value = -1 }
+}
+}
+
+### Ultimatum to the Far East Republic
+
+event = {
+id = 600006
+random = no
+country = USA
+
+name = "EVT_600006_NAME"
+desc = "EVT_600006_DESC"
+style = 1
+picture = "nwo\japanese_gains_in_ussr"
+
+action = {
+ai_chance = 100
+name = "Ultimatum - demand FER leave alliance with Germany."
+command = { type = trigger which = 600007 }
+command = { type = belligerence value = 3 }
+command = { type = relation which = U57 value = -10 }
+command = { type = relation which = AXI value = -10 }
+command = { type = relation which = GER value = -10 }
+}
+
+action = {
+ai_chance = 0
+name = "Back down."
+command = { type = relation which = U57 value = -10 }
+}
+}
+
+### The Far East Republic responds
+
+event = {
+id = 600007
+random = no
+country = U57
+
+name = "EVT_600007_NAME"
+desc = "EVT_600007_DESC"
+style = 2
+picture = "nwo\usa_superpower"
+
+action = {
+ai_chance = 90
+name = "Refuse."
+command = { type = trigger which = 600008 }
+command = { type = belligerence value = 3 }
+command = { type = relation which = U57 value = -10 }
+command = { type = relation which = AXI value = -10 }
+command = { type = relation which = GER value = -10 }
+}
+
+action = {
+ai_chance = 10
+name = "Accept and overthrow the Fascist government."
+command = { type = relation which = USA value = 10 }
+command = { type = end_guarantee which = AXI where = U57 }
+command = { type = set_domestic which = democratic value = 5 }
+command = { type = set_domestic which = political_left value = 7 }
+command = { type = set_domestic which = freedom value = 5 }
+command = { type = set_domestic which = interventionism value = 2 }
+command = { type = dissent value = 8 }
+}
+}
+
+### War with the Far East Republic
+
+event = {
+id = 600008
+random = no
+country = USA
+
+name = "EVT_600008_NAME"
+desc = "EVT_600008_DESC"
+style = 1
+picture = "nwo\japanese_gains_in_ussr"
+
+action = {
+ai_chance = 90
+name = "Then it is war."
+command = { type = dissent value = 2 }
+command = { type = war which = U57 }
+}
+
+action = {
+ai_chance = 10
+name = "Now is not the time for war."
+command = { type = dissent value = -2 }
 }
 }
