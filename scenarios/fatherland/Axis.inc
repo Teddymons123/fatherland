@@ -373,5 +373,35 @@ landdivision = {
 			model = 2
 			experience = 30
 		}
+		
+### Far Eastern Intervention Corps
+
+landdivision = {
+		dormant = yes
+	     id = { type = 17345 id = 66 } 
+		name = "1. Uberwachungsdivision"
+			type = garrison
+			model = 6
+			experience = 10
+			extra = artillery
+		}
+
+landdivision = {
+		dormant = yes
+	     id = { type = 17345 id = 67 } 
+		name = "2. Uberwachungsdivision"
+			type = garrison
+			model = 6
+			experience = 10
+		}
+		
+landdivision = {
+ 		dormant = yes
+	     id = { type = 17345 id = 68 } 
+		name = "SS-Panzerdivision 'Bismarck'"
+			type = armor
+			model = 4
+			experience = 40
+		}
 	 
 }

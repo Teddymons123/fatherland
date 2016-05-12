@@ -176,7 +176,7 @@ country = {
       id             = { type = 14500 id = 414 }
       name           = "245. Garrison-Division"
       type           = garrison
-      model          = 12
+      model          = 6
       strength       = 25
     }
   }
@@ -222,7 +222,7 @@ country = {
       id             = { type = 14500 id = 162 }
       name           = "68. Garrison-Division"
       type           = garrison
-      model          = 12
+      model          = 6
       strength       = 25
     }
   }

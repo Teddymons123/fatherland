@@ -1,10 +1,29 @@
 #########################
 ## The Far Eastern War 
 ##
+## PROLOGUE
+## 600000 The Question of the Far Eastern Republic
+## 600001 Japan in the Far Eastern Question
+## 600002 The Far East Republic and Konstantin Rodzaevsky
+## 600003 Assassination attempt on Konstantin Rodzaevsky
+## 600004 Crisis in the Russian Far East
+## 600005 Konstantin Rodzaevsky lives
+## 600006 Ultimatum to the Far East Republic
+## 600007 America sends FER an ultimatum
+## 600008 The Far East Republic responds
+## 600009 War with the Far East Republic
+## 600010 The Far Eastern War
+## 600011 Activate Far East Intervention Corps - AXIS
+## 600012 Far Eastern Intervention Corps
+##
+## WAR
+
 ## 1. 
 ## Switch to 1949 offset year!
 ## Add leaders to FER
 ## Add techteams to FER
+## Add small navy to FER
+## Edit unit names from Spanish
 #########################
 
 
@@ -273,7 +292,7 @@ country = USA
 name = "EVT_600008_NAME"
 desc = "EVT_600008_DESC"
 style = 1
-picture = "nwo\japanese_gains_in_ussr"
+picture = "nwo\americans_in_vladivostok"
 
 action = {
 ai_chance = 90
@@ -286,5 +305,117 @@ action = {
 ai_chance = 10
 name = "Now is not the time for war."
 command = { type = dissent value = -2 }
+}
+}
+
+### The Far Eastern War
+
+event = {
+id = 600009
+random = no
+country = GER
+
+trigger = {
+war = { country = USA country = U57 }
+alliance = { country = AXI country = U57 }	
+}
+
+name = "EVT_600009_NAME"
+desc = "EVT_600009_DESC"
+style = 0
+picture = "fatherland\rodzaevsky"
+date = { day = 1 month = january year = 1948 } 
+offset = 2
+deathdate = { day = 29 month = december year = 2020 }
+
+action = {
+trigger = { ai = no }
+name = "Deploy Axis troops to the Far East and control their army."
+command = { type = military_control which = GER where = U57 value = 1 }
+command = { type = trigger which = 600010 } # Activate Axis troops
+command = { type = trigger which = 600011 }
+command = { type = supplies value = -400 }
+command = { type = oilpool value = -600 }
+}
+
+action = {
+ai_chance = 70
+name = "Deploy supplies and Axis troops to the Far East."
+command = { type = trigger which = 600010 } # Activate Axis troops
+command = { type = trigger which = 600011 }
+command = { type = supplies value = -400 }
+command = { type = oilpool value = -600 }
+}
+
+action = {
+ai_chance = 20
+name = "Send the FER supplies only."
+command = { type = trigger which = 600011 }
+command = { type = supplies value = -400 }
+command = { type = oilpool value = -600 }
+}
+
+action = {
+ai_chance = 10
+name = "This is none of our concern."
+command = { type = domestic which = interventionism value = -1 }
+}
+}
+
+### Activate Far East Intervention Corps - AXIS
+
+event = {
+id = 600010
+random = no
+country = AXI
+
+name = "EVT_600010_NAME"
+desc = "EVT_600010_DESC"
+style = 1
+picture = "fatherland\rodzaevsky"
+
+action = {
+name = "Activate troops."
+command = { type = add_corps which = "1. Coast Defense Unit" value = land where = 1189 }
+command = { type = add_division which = "1. Uberwachungsdivision" value = garrison when = 6 where = artillery }
+command = { type = add_corps which = "2. Coast Defense Unit" value = land where = 1185 }
+command = { type = add_division which = "2. Uberwachungsdivision" value = garrison when = 6 where = artillery }
+#command = { type = activate_division which = 17345 value = 66 where = 1189 when = 0 } #1189
+#command = { type = activate_division which = 17345 value = 67 where = 1185 when = 0 } #1185
+command = { type = activate_division which = 17345 value = 68 where = 1191 when = 0 } #Vladivostok
+}
+}
+
+### Far Eastern Intervention Corps
+
+event = {
+id = 600011
+random = no
+country = U57
+
+name = "EVT_600011_NAME"
+desc = "EVT_600011_DESC"
+style = 1
+picture = "fatherland\german_warposter"
+
+action = {
+name = "Raise additional troops."
+command = { type = relation which = AXI value = 20 }
+command = { type = coast_fort_eff value = 0.4 }
+command = { type = land_fort_eff value = 0.4 }
+command = { type = add_division which = "1. RFP Blackshirt Brigade" value = militia when = 7 }
+command = { type = add_division which = "2. RFP Blackshirt Brigade" value = militia when = 7 }
+command = { type = add_corps which = "1. Coastal Defense Corps" value = land where = 1189 }
+command = { type = add_division which = "1. Coast Defense Division" value = garrison when = 6 where = artillery }
+command = { type = add_corps which = "2. Coastal Defense Corps" value = land where = 1185 }
+command = { type = add_division which = "2. Coast Defense Division" value = garrison when = 6 where = artillery }
+command = { type = construct which = coastal_fort where = 1189 value = 1 }
+command = { type = construct which = coastal_fort where = 1185 value = 1 }
+command = { type = defensiveness which = infantry value = 5 }
+command = { type = morale which = infantry value = 5 }
+command = { type = defensiveness which = garrison value = 5 }
+command = { type = morale which = garrison value = 5 }
+command = { type = supplies value = 400 }
+command = { type = oilpool value = 600 }
 }
 }
