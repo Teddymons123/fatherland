@@ -409,6 +409,8 @@ command = { type = add_corps which = "1. Coastal Defense Corps" value = land whe
 command = { type = add_division which = "1. Coast Defense Division" value = garrison when = 6 where = artillery }
 command = { type = add_corps which = "2. Coastal Defense Corps" value = land where = 1185 }
 command = { type = add_division which = "2. Coast Defense Division" value = garrison when = 6 where = artillery }
+command = { type = add_corps which = "Vladivostok Defense Corps" value = land where = 1191 }
+command = { type = add_division which = "3. Coast Defense Division" value = garrison when = 6 where = artillery }
 command = { type = construct which = coastal_fort where = 1189 value = 1 }
 command = { type = construct which = coastal_fort where = 1185 value = 1 }
 command = { type = defensiveness which = infantry value = 5 }
@@ -417,5 +419,99 @@ command = { type = defensiveness which = garrison value = 5 }
 command = { type = morale which = garrison value = 5 }
 command = { type = supplies value = 400 }
 command = { type = oilpool value = 600 }
+}
+}
+
+### United Nations vs. Far East Republic War ###
+
+### FER Victory
+
+event = {
+id = 600012
+random = no
+country = U57
+
+# FER will win the war because it still owns Vladivostok after 2 months of war.
+
+trigger = {
+event = 600008 # War with FER
+war = { country = U57 country = USA }
+event = { id = 600008 days = 60 } # 60 days since FER and USA are at war.
+owned = { province = 1191 data = -1 } # Vladivostok
+NOT = { 
+OR = {
+nuked = { country = USA country = U57 data = 1 where = 1191 } # Not nuked in Vladivostok.
+nuked = { country = ENG country = U57 data = 1 where = 1191 }
+nuked = { country = CHI country = U57 data = 1 where = 1191 }
+nuked = { country = KOR country = U57 data = 1 where = 1191 }
+}
+}
+}
+
+name = "EVT_600012_NAME"
+desc = "EVT_600012_DESC"
+style = 0
+picture = "fatherland\russian_swastika"
+date = { day = 1 month = january year = 1948 } 
+offset = 2
+deathdate = { day = 29 month = december year = 2020 }
+
+action = {
+name = "Demand the UN surrender."
+command = { type = trigger which = 600013 }
+}
+}
+
+### The UN has lost the Far Eastern War
+
+event = {
+id = 600013
+random = no
+country = USA
+
+name = "EVT_600013_NAME"
+desc = "EVT_600013_DESC"
+style = 0
+picture = "fatherland\russian_swastika"
+
+action = {
+ai_chance = 80
+name = "We are defeated. Retreat from the Far East."
+command = { type = peace which = U57 value = 0 }
+command = { type = dissent value = 10 }
+command = { type = setflag which = fer_victory_1 }
+}
+
+action = {
+ai_chance = 20
+name = "Never surrender. Victory is close."
+command = { }
+}
+}
+
+### FER Final Victory
+
+event = {
+id = 600014
+random = no
+country = U57
+
+trigger = {
+flag = fer_victory_1
+}
+
+name = "EVT_600014_NAME"
+desc = "EVT_600014_DESC"
+style = 2
+picture = "fatherland\german_warposter"
+date = { day = 1 month = january year = 1948 } 
+offset = 1
+deathdate = { day = 29 month = december year = 2020 }
+
+action = {
+name = "The sun rises for the Far Eastern Republic!"
+command = { type = dissent value = -15 }
+command = { trigger = { alliance = { country = -1 country = AXI } } type = leave_alliance }
+command = { type = clrflag which = fer_victory_1 }
 }
 }

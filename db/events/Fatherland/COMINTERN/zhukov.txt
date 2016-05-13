@@ -287,21 +287,21 @@ event = {
 	style = 0
 	picture = "soviet_warposter" 
 	action = {
-	ai_chance = 25
+	ai_chance = 10
 		name = "Yes, return in the Union"
 		command = { type = set_relation which = SOV value = 50 }
 		command = { type = trigger which = 8014239 } # 8014239 - La FER ha accettato la nostra proposta	
 	}
 	
 	action = {
-		ai_chance = 25
+		ai_chance = 90
 		name = "No, we want a complete independence"
 		command = { type = set_relation which = SOV value = -50 }
 		command = { type = trigger which = 8014240 } # 8014240 - La FER ha rifiutato la nostra proposta					
 	}
 	
 	action = {
-		ai_chance = 50
+		ai_chance = 10
 		name = "We propose just an alliance for now"
 		command = { type = set_relation which = SOV value = 50 }
 		command = { type = trigger which = 8014241 } # 8014241 - La FER preferisce una alleanza ma restando autonoma

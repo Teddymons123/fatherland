@@ -75,14 +75,14 @@ event = {
 	
 	action = { 
 		name = "Ok but we want an international conference"
-        ai_chance = 80
+        ai_chance = 10
 		command = { type = relation which = SOV value = 50 }
         command = { type = event which = 8014282 where = USA when = 14 }		
 	}
 	
 	action = {  
-		name = "We have a different vision of socialism" 
-		ai_chance = 20
+		name = "We have no reason to join the communists." 
+		ai_chance = 90
 		command = { type = relation which = SOV value = -50 }
 		command = { type = relation which = U57 value = 50 }
 	    command = { type = trigger which = 8014281 }	
@@ -127,14 +127,14 @@ event = {
 	
 	action = { 
 		name = "Okay we'll return to be part of the Union"
-        ai_chance = 70
+        ai_chance = 40
 		command = { type = relation which = SOV value = 50 }	
 	    command = { type = trigger which = 8014283 }		
 	}
 	    
 	action = {
 		name = "The Far Eastern Republic remain independent!" 
-		ai_chance = 30
+		ai_chance = 60
 		command = { type = relation which = SOV value = -100 }	
 	    command = { type = trigger which = 8014284 }
 	}
