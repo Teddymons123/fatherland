@@ -299,6 +299,7 @@ ai_chance = 90
 name = "Then it is war."
 command = { type = dissent value = 2 }
 command = { type = war which = U57 }
+command = { type = event which = 6000120 where = U57 when = 70 } # Check if FER won war after 70 days
 }
 
 action = {
@@ -424,10 +425,10 @@ command = { type = oilpool value = 600 }
 
 ### United Nations vs. Far East Republic War ###
 
-### FER Victory
+### FER Victory ###
 
 event = {
-id = 600012
+id = 6000120
 random = no
 country = U57
 
@@ -435,8 +436,7 @@ country = U57
 
 trigger = {
 event = 600008 # War with FER
-war = { country = U57 country = USA }
-event = { id = 600008 days = 60 } # 60 days since FER and USA are at war.
+war = { country = U57 country = USA } 
 owned = { province = 1191 data = -1 } # Vladivostok
 NOT = { 
 OR = {
@@ -452,25 +452,22 @@ name = "EVT_600012_NAME"
 desc = "EVT_600012_DESC"
 style = 0
 picture = "fatherland\russian_swastika"
-date = { day = 1 month = january year = 1948 } 
-offset = 2
-deathdate = { day = 29 month = december year = 2020 }
 
 action = {
 name = "Demand the UN surrender."
-command = { type = trigger which = 600013 }
+command = { type = trigger which = 6000130 }
 }
 }
 
 ### The UN has lost the Far Eastern War
 
 event = {
-id = 600013
+id = 6000130
 random = no
 country = USA
 
-name = "EVT_600013_NAME"
-desc = "EVT_600013_DESC"
+name = "EVT600013_NAME"
+desc = "EVT600013_DESC"
 style = 0
 picture = "fatherland\russian_swastika"
 
@@ -479,6 +476,10 @@ ai_chance = 80
 name = "We are defeated. Retreat from the Far East."
 command = { type = peace which = U57 value = 0 }
 command = { type = dissent value = 10 }
+command = { type = 	non_aggression which = USA where = U57 }
+command = { trigger = { alliance = { country = USA country = KOR } } type = non_aggression which = KOR where = U57 } 
+command = { trigger = { alliance = { country = USA country = ENG } } type = non_aggression which = ENG where = U57 } 
+command = { trigger = { alliance = { country = USA country = JAP } } type = non_aggression which = JAP where = U57 } 
 command = { type = setflag which = fer_victory_1 }
 }
 
@@ -492,7 +493,7 @@ command = { }
 ### FER Final Victory
 
 event = {
-id = 600014
+id = 6000140
 random = no
 country = U57
 
@@ -500,8 +501,8 @@ trigger = {
 flag = fer_victory_1
 }
 
-name = "EVT_600014_NAME"
-desc = "EVT_600014_DESC"
+name = "EVT600014_NAME"
+desc = "EVT600014_DESC"
 style = 2
 picture = "fatherland\german_warposter"
 date = { day = 1 month = january year = 1948 } 
@@ -515,3 +516,142 @@ command = { trigger = { alliance = { country = -1 country = AXI } } type = leave
 command = { type = clrflag which = fer_victory_1 }
 }
 }
+
+### United Nations victory over FER ###
+
+event = {
+id = 6000150
+random = no
+country = USA
+
+trigger = {
+war = { country = U57 country = USA }
+lost_national = { country = U57 value = 40 } # FER lost 40% of territory
+OR = {
+nuked = { country = USA country = U57 data = 1 where = 1191 } # Nuked in Vladivostok.
+nuked = { country = ENG country = U57 data = 1 where = 1191 }
+nuked = { country = CHI country = U57 data = 1 where = 1191 }
+nuked = { country = KOR country = U57 data = 1 where = 1191 }
+control = { province = 1191 data = USA }
+control = { province = 1191 data = ENG }
+control = { province = 1191 data = KOR }
+control = { province = 1191 data = JAP }
+control = { province = 1191 data = CHI }
+NOT = { owned = { province = 1191 data = U57 } } # FER lost Vladivostok
+}
+}
+
+name = "EVT600015_NAME"
+desc = "EVT600015_DESC"
+style = 1
+picture = "fatherland\un_troops"
+date = { day = 1 month = january year = 1948 } 
+offset = 2
+deathdate = { day = 29 month = december year = 2020 }
+
+action = {
+name = "Demand the FER surrender."
+command = { type = trigger which = 6000160 } # FER surrenders
+}
+}
+
+### The UN demands FER surrender
+
+event = {
+id = 6000160
+random = no
+country = U57
+
+name = "EVT600016_NAME"
+desc = "EVT600016_DESC"
+style = 2
+picture = "fatherland\un_troops"
+
+action = {
+ai_chance = 80
+name = "We are defeated."
+command = { type = peace which = USA value = 0 }
+command = { type = trigger which = 6000170 } # USA annexes FER
+}
+
+action = {
+ai_chance = 20
+name = "Never surrender."
+command = { }
+}
+}
+
+### The USA takes over FER
+
+event = {
+id = 6000170
+random = no
+country = USA
+
+name = "EVT600017_NAME"
+desc = "EVT600017_DESC"
+style = 2
+picture = "fatherland\un_troops"
+
+action = {
+name = "The FER falls to our forces."
+command = { type =	inherit which = U57 when = 3 value = 0 }
+command = { type = dissent value = -15 }
+}
+}
+
+### Occupation of Far Eastern Republic by the UN ###
+
+event = {
+id = 6000171
+random = no
+country = USA
+
+trigger = {
+event = 6000170
+owned = { province = 1191 data = USA } # Vladivostok
+}
+
+name = "EVT_6000171_NAME"
+desc = "EVT_6000171_DESC"
+style = 1
+picture = "fatherland\far_east"
+date = { day = 1 month = january year = 1948 } 
+offset = 2
+deathdate = { day = 29 month = december year = 2020 }
+
+action = {
+ai_chance = 10
+name = "Keep it under American military occupation."
+command = { type = dissent value = 2 }
+}
+
+action = {
+ai_chance = 30
+name = "Transfer it under the United Nations."
+command = { type = secedearea which = ALS value = "Primorski" when = 0 } 
+command = { type = secedearea which = ALS value = "Khabarovsk" when = 0 } 
+command = { type = secedearea which = ALS value = "Amur" when = 0 } 
+command = { type = secedearea which = ALS value = "Zabaikalye" when = 0 } 
+command = { type = 	relation which = JAP value = -10 }
+}
+
+action = {
+ai_chance = 10
+name = "Transfer it to Japan."
+command = { type = relation which = JAP value = 20 }
+command = { type = secedearea which = JAP value = "Primorski" when = 0 } 
+command = { type = secedearea which = JAP value = "Khabarovsk" when = 0 } 
+command = { type = secedearea which = JAP value = "Amur" when = 0 } 
+command = { type = secedearea which = JAP value = "Zabaikalye" when = 0 }
+}
+
+action = {
+ai_chance = 50
+name = "Release liberal-democratic Primorsk state."
+command = { type = independence which = PRI value = 1 when = 0 }
+command = { type = make_puppet which = PRI }
+command = { type = relation which = JAP value = -10 }
+}
+}
+

@@ -39,10 +39,13 @@
     relation = { tag = POR value = 50 }
     relation = { tag = ROM value = 50 }
     relation = { tag = SAF value = 50 }
-    relation = { tag = SOV value = 75 }
+    relation = { tag = SOV value = -50 }
     relation = { tag = SPA value = 35 }
     relation = { tag = SWE value = 50 }
-    relation = { tag = USA value = 50 }
+    relation = { tag = USA value = 20 }
+	relation = { tag = SIB value = -10 }
+	relation = { tag = AXI value = 50 }
+	relation = { tag = U59 value = 10 }
   } 
    SpyInfo                = {  country = "U57" NumberOfSpies = 5  } 
    nationalprovinces      = { 1169 1168 1170 1176 1171 1174 1175 1188 1187 1185 1190 1195 1194 1192 1196 1193 1191 1189 1186 } 
@@ -128,12 +131,12 @@ inventions = { 3000027 }
    policy = 
    {  date              = {  year = 0 month = january day = 0  } 
      democratic        = 3 
-     political_left    = 9 
-     free_market       = 1 
+     political_left    = 3 
+     free_market       = 4
      freedom           = 3
      professional_army = 6 
-     defense_lobby     = 5 
-     interventionism   = 2 
+     defense_lobby     = 6 
+     interventionism   = 4 
     } 
    headofstate            = {  type = 9 id = 1100001  } 
    headofgovernment       = {  type = 9 id = 1100002  } 
