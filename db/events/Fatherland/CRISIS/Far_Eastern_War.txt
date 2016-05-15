@@ -17,18 +17,24 @@
 ## 600012 Far Eastern Intervention Corps
 ##
 ## WAR
+## 6000120 FER Victory
+## 6000130 The UN has lost the Far Eastern War
+## 6000140 FER Final Victory
+## 6000150 UN Victory over FER
+## 6000160 UN demands FER surrender
+## 6000170 US annexes FER
+##
+## POSTWAR
+## 6000171 Occupation of the Far East
+## 6000172 Activation of UN peacekeepers in Far East
 
-## 1. 
-## Switch to 1949 offset year!
-## Add leaders to FER
+## Change FER skin
 ## Add techteams to FER
-## Add small navy to FER
 ## Edit unit names from Spanish
 #########################
 
 
 ### The Question of the Far Eastern Republic
-# To be continued with aftermath events
 
 event = {
 id = 600000
@@ -84,7 +90,7 @@ name = "EVT_600001_NAME"
 desc = "EVT_600001_DESC"
 style = 0
 picture = "fatherland\rodzaevsky"
-date = { day = 1 month = january year = 1948 } 
+date = { day = 1 month = january year = 1949 } 
 offset = 1
 deathdate = { day = 29 month = december year = 2020 }
 
@@ -198,7 +204,7 @@ name = "EVT_600005_NAME"
 desc = "EVT_600005_DESC"
 style = 0
 picture = "fatherland\rodzaevsky"
-date = { day = 1 month = january year = 1948 } 
+date = { day = 1 month = january year = 1949 } 
 offset = 1
 deathdate = { day = 29 month = december year = 2020 }
 
@@ -325,7 +331,7 @@ name = "EVT_600009_NAME"
 desc = "EVT_600009_DESC"
 style = 0
 picture = "fatherland\rodzaevsky"
-date = { day = 1 month = january year = 1948 } 
+date = { day = 1 month = january year = 1949 } 
 offset = 2
 deathdate = { day = 29 month = december year = 2020 }
 
@@ -505,7 +511,7 @@ name = "EVT600014_NAME"
 desc = "EVT600014_DESC"
 style = 2
 picture = "fatherland\german_warposter"
-date = { day = 1 month = january year = 1948 } 
+date = { day = 1 month = january year = 1949 } 
 offset = 1
 deathdate = { day = 29 month = december year = 2020 }
 
@@ -545,7 +551,7 @@ name = "EVT600015_NAME"
 desc = "EVT600015_DESC"
 style = 1
 picture = "fatherland\un_troops"
-date = { day = 1 month = january year = 1948 } 
+date = { day = 1 month = january year = 1949 } 
 offset = 2
 deathdate = { day = 29 month = december year = 2020 }
 
@@ -616,7 +622,7 @@ name = "EVT_6000171_NAME"
 desc = "EVT_6000171_DESC"
 style = 1
 picture = "fatherland\far_east"
-date = { day = 1 month = january year = 1948 } 
+date = { day = 1 month = january year = 1949 } 
 offset = 2
 deathdate = { day = 29 month = december year = 2020 }
 
@@ -629,6 +635,7 @@ command = { type = dissent value = 2 }
 action = {
 ai_chance = 30
 name = "Transfer it under the United Nations."
+command = { type = trigger which = 6000172 }
 command = { type = secedearea which = ALS value = "Primorski" when = 0 } 
 command = { type = secedearea which = ALS value = "Khabarovsk" when = 0 } 
 command = { type = secedearea which = ALS value = "Amur" when = 0 } 
@@ -655,3 +662,25 @@ command = { type = relation which = JAP value = -10 }
 }
 }
 
+### Activate UN Peacekeepers in Far East
+
+event = {
+id = 6000172
+random = no
+country = USA
+
+name = "EVT_6000172_NAME"
+desc = "EVT_6000172_DESC"
+style = 1
+picture = "fatherland\un_troops"
+
+action = {
+name = "Activate Far East peacekeepers."
+command = { type = add_corps which = "1. Far East Peacekeeping Corps" value = land where = 1191 }
+command = { type = add_division which = "1. Far East Peacekeeper Brigade" value = garrison when = 13 where = police }
+command = { type = add_corps which = "2. Far East Peacekeeping Corps" value = land where = 1169 }
+command = { type = add_division which = "2. Far East Peacekeeper Brigade" value = infantry when = 13 where = police }
+command = { type = add_corps which = "3. Far East Peacekeeping Corps" value = land where = 1176}
+command = { type = add_division which = "3. Far East Peacekeeper Brigade" value = infantry when = 13 where = tank_destroyer }
+}
+}

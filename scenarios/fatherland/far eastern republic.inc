@@ -143,7 +143,7 @@ inventions = { 3000027 }
    foreignminister        = {  type = 9 id = 1100003  } 
    armamentminister       = {  type = 9 id = 1100004  } 
    ministerofsecurity     = {  type = 9 id = 1100005  } 
-   ministerofintelligence = {  type = 9 id = 1100006  } 
+   ministerofintelligence = {  type = 9 id = 1100011  } 
    chiefofstaff           = {  type = 9 id = 1100007  } 
    chiefofarmy            = {  type = 9 id = 1100008  } 
    chiefofnavy            = {  type = 9 id = 1100009  } 
