@@ -28,7 +28,6 @@
 ## 6000171 Occupation of the Far East
 ## 6000172 Activation of UN peacekeepers in Far East
 
-## Change FER skin
 ## Add techteams to FER
 ## Edit unit names from Spanish
 #########################
