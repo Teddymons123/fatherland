@@ -312,6 +312,42 @@ inventions = { 3000027 }
 	   model    = 9
       }
  }
+ 
+    landunit = 
+   {  id       = {  type = 10848 id =  305 } 
+     name     = "CR. Armeyskiy Corpus" 
+     location = 1189
+     Division = 
+     {  id       = {  type = 10848 id = 306  } 
+       name     = "Iaya brigada Cherno-rubashechnikow 'Aleksandr Kolchak'" 
+       strength = 70 
+       type     = militia 
+	   model    = 6
+	   extra 	= light_armor_brigade
+      }
+     Division = 
+     {  id       = {  type = 10848 id = 307  } 
+       name     = "IIaya brigada Cherno-rubashechnikow 'Ogni woshodyshego solntza'" 
+       strength = 70 
+       type     = militia 
+	   model    = 6
+      }
+     Division = 
+     {  id       = {  type = 10848 id = 308  } 
+       name     = "IIIaya brigada Cherno-rubashechnikow 'Wolki Sibiri'"
+       strength = 70 
+       type     = militia 
+	   model    = 6
+	   extra 	= light_armor_brigade
+      }
+	  Division = 
+     {  id       = {  type = 10848 id = 309  } 
+       name     = "IIaya brigada Cherno-rubashechnikow 'Ogni woshodyshego solntza'" 
+       strength = 70 
+       type     = militia 
+	   model    = 6
+      }
+ }
  # Air OOB
  
 airunit = { 

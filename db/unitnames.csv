@@ -77871,401 +77871,288 @@ U35;Trp;Grupo n.7 de Transporte
 U35;Trp;Grupo n.8 de Transporte
 U35;Trp;Grupo n.9 de Transporte
 U35;Trp;Grupo n.10 de Transporte
-U57;HQ;Cuartel General 1er Ejército
-U57;HQ;Cuartel General 2o Ejército
-U57;HQ;Cuartel General 3er Ejército
-U57;HQ;Cuartel General 4o Ejército
-U57;HQ;Cuartel General 5o Ejército
-U57;HQ;Cuartel General 6o Ejército
-U57;HQ;Cuartel General 7o Ejército
-U57;HQ;Cuartel General 8o Ejército
-U57;HQ;Cuartel General 9o Ejército
-U57;HQ;Cuartel General 10o Ejército
-U57;Inf;I División de Infantería
-U57;Inf;II División de Infantería
-U57;Inf;III División de Infantería
-U57;Inf;IV División de Infantería
-U57;Inf;V División de Infantería
-U57;Inf;VI División de Infantería
-U57;Inf;VII División de Infantería
-U57;Inf;VIII División de Infantería
-U57;Inf;IX División de Infantería
-U57;Inf;X División de Infantería
-U57;Inf;XI División de Infantería
-U57;Inf;XII División de Infantería
-U57;Inf;XIII División de Infantería
-U57;Inf;XIV División de Infantería
-U57;Inf;XV División de Infantería
-U57;Inf;XVI División de Infantería
-U57;Inf;XVII División de Infantería
-U57;Inf;XVIII División de Infantería
-U57;Inf;XIX División de Infantería
-U57;Inf;XX División de Infantería
-U57;Inf;XXI División de Infantería
-U57;Inf;XXII División de Infantería
-U57;Inf;XXIII División de Infantería
-U57;Inf;XXIV División de Infantería
-U57;Inf;XXV División de Infantería
-U57;Inf;XXVI División de Infantería
-U57;Inf;XXVII División de Infantería
-U57;Inf;XXVIII División de Infantería
-U57;Inf;XXIX División de Infantería
-U57;Inf;XXX División de Infantería
-U57;Gar;I División de Infantería
-U57;Gar;II División de Infantería
-U57;Gar;III División de Infantería
-U57;Gar;IV División de Infantería
-U57;Gar;V División de Infantería
-U57;Gar;VI División de Infantería
-U57;Gar;VII División de Infantería
-U57;Gar;VIII División de Infantería
-U57;Gar;IX División de Infantería
-U57;Gar;X División de Infantería
-U57;Gar;XI División de Infantería
-U57;Gar;XII División de Infantería
-U57;Gar;XIII División de Infantería
-U57;Gar;XIV División de Infantería
-U57;Gar;XV División de Infantería
-U57;Gar;XVI División de Infantería
-U57;Gar;XVII División de Infantería
-U57;Gar;XVIII División de Infantería
-U57;Gar;XIX División de Infantería
-U57;Gar;XX División de Infantería
-U57;Gar;XXI División de Infantería
-U57;Gar;XXII División de Infantería
-U57;Gar;XXIII División de Infantería
-U57;Gar;XXIV División de Infantería
-U57;Gar;XXV División de Infantería
-U57;Gar;XXVI División de Infantería
-U57;Gar;XXVII División de Infantería
-U57;Gar;XXVIII División de Infantería
-U57;Gar;XXIX División de Infantería
-U57;Gar;XXX División de Infantería
-U57;Cav;I División de Caballería
-U57;Cav;II División de Caballería
-U57;Cav;III División de Caballería
-U57;Cav;IV División de Caballería
-U57;Cav;V División de Caballería
-U57;Cav;VI División de Caballería
-U57;Cav;VII División de Caballería
-U57;Cav;VIII División de Caballería
-U57;Cav;IX División de Caballería
-U57;Cav;X División de Caballería
-U57;Mot;I División Infantería Motorizada
-U57;Mot;II División Infantería Motorizada
-U57;Mot;III División Infantería Motorizada
-U57;Mot;IV División Infantería Motorizada
-U57;Mot;V División Infantería Motorizada
-U57;Mot;VI División Infantería Motorizada
-U57;Mot;VII División Infantería Motorizada
-U57;Mot;VIII División Infantería Motorizada
-U57;Mot;IX División Infantería Motorizada
-U57;Mot;X División Infantería Motorizada
-U57;Mot;XI División Infantería Motorizada
-U57;Mot;XII División Infantería Motorizada
-U57;Mot;XIII División Infantería Motorizada
-U57;Mot;XIV División Infantería Motorizada
-U57;Mot;XV División Infantería Motorizada
-U57;Mec;I División Infantería Mecanizada
-U57;Mec;II División Infantería Mecanizada
-U57;Mec;III División Infantería Mecanizada
-U57;Mec;IV División Infantería Mecanizada
-U57;Mec;V División Infantería Mecanizada
-U57;Mec;VI División Infantería Mecanizada
-U57;Mec;VII División Infantería Mecanizada
-U57;Mec;VIII División Infantería Mecanizada
-U57;Mec;IX División Infantería Mecanizada
-U57;Mec;X División Infantería Mecanizada
-U57;Mec;XI División Infantería Mecanizada
-U57;Mec;XII División Infantería Mecanizada
-U57;Mec;XIII División Infantería Mecanizada
-U57;Mec;XIV División Infantería Mecanizada
-U57;Mec;XV División Infantería Mecanizada
-U57;L ARM;I División Blindada de México
-U57;L ARM;II División Blindada de México
-U57;L ARM;III División Blindada de México
-U57;L ARM;IV División Blindada de México
-U57;L ARM;V División Blindada de México
-U57;L ARM;VI División Blindada de México
-U57;L ARM;VII División Blindada de México
-U57;L ARM;VIII División Blindada de México
-U57;L ARM;IX División Blindada de México
-U57;L ARM;X División Blindada de México
-U57;L ARM;XI División Blindada de México
-U57;L ARM;XII División Blindada de México
-U57;L ARM;XIII División Blindada de México
-U57;L ARM;XIV División Blindada de México
-U57;L ARM;XV División Blindada de México
-U57;Arm;I División Blindada de México
-U57;Arm;II División Blindada de México
-U57;Arm;III División Blindada de México
-U57;Arm;IV División Blindada de México
-U57;Arm;V División Blindada de México
-U57;Arm;VI División Blindada de México
-U57;Arm;VII División Blindada de México
-U57;Arm;VIII División Blindada de México
-U57;Arm;IX División Blindada de México
-U57;Arm;X División Blindada de México
-U57;Arm;XI División Blindada de México
-U57;Arm;XII División Blindada de México
-U57;Arm;XIII División Blindada de México
-U57;Arm;XIV División Blindada de México
-U57;Arm;XV División Blindada de México
-U57;Par;1a División de Paracaidistas
-U57;Par;2a División de Paracaidistas
-U57;Par;3a División de Paracaidistas
-U57;Par;4a División de Paracaidistas
-U57;Par;5a División de Paracaidistas
-U57;Par;6a División de Paracaidistas
-U57;Par;7a División de Paracaidistas
-U57;Par;8a División de Paracaidistas
-U57;Par;9a División de Paracaidistas
-U57;Par;10a División de Paracaidistas
-U57;Mar;1a División de Comandos Marinos
-U57;Mar;2a División de Comandos Marinos
-U57;Mar;3a División de Comandos Marinos
-U57;Mar;4a División de Comandos Marinos
-U57;Mar;5a División de Comandos Marinos
-U57;Mar;6a División de Comandos Marinos
-U57;Mar;7a División de Comandos Marinos
-U57;Mar;8a División de Comandos Marinos
-U57;Mar;9a División de Comandos Marinos
-U57;Mar;10a División de Comandos Marinos
-U57;Mtn;1a División de Montaña
-U57;Mtn;2a División de Montaña
-U57;Mtn;3a División de Montaña
-U57;Mtn;4a División de Montaña
-U57;Mtn;5a División de Montaña
-U57;Mtn;6a División de Montaña
-U57;Mtn;7a División de Montaña
-U57;Mtn;8a División de Montaña
-U57;Mtn;9a División de Montaña
-U57;Mtn;10a División de Montaña
-U57;Mil;I División de Guardia Policial
-U57;Mil;II División de Guardia Policial
-U57;Mil;III División de Guardia Policial
-U57;Mil;IV División de Guardia Policial
-U57;Mil;V División de Guardia Policial
-U57;Mil;VI División de Guardia Policial
-U57;Mil;VII División de Guardia Policial
-U57;Mil;VIII División de Guardia Policial
-U57;Mil;IX División de Guardia Policial
-U57;Mil;X División de Guardia Policial
-U57;Mil;XI División de Guardia Policial
-U57;Mil;XII División de Guardia Policial
-U57;Mil;XIII División de Guardia Policial
-U57;Mil;XIV División de Guardia Policial
-U57;Mil;XV División de Guardia Policial
-U57;Mil;XVI División de Guardia Policial
-U57;Mil;XVII División de Guardia Policial
-U57;Mil;XVIII División de Guardia Policial
-U57;Mil;XVIX División de Guardia Policial
-U57;Mil;XX División de Guardia Policial
-U57;Mil;XXI División de Guardia Policial
-U57;Mil;XXII División de Guardia Policial
-U57;Mil;XXIII División de Guardia Policial
-U57;Mil;XXIV División de Guardia Policial
-U57;Mil;XXV División de Guardia Policial
-U57;Mil;XXVI División de Guardia Policial
-U57;Mil;XXVII División de Guardia Policial
-U57;Mil;XXVIII División de Guardia Policial
-U57;Mil;XXIX División de Guardia Policial
-U57;Mil;XXX División de Guardia Policial
-U57;Fig;1. Grupo Aéreo de Caza
-U57;Fig;2. Grupo Aéreo de Caza
-U57;Fig;3. Grupo Aéreo de Caza
-U57;Fig;4. Grupo Aéreo de Caza
-U57;Fig;5. Grupo Aéreo de Caza
-U57;Fig;6. Grupo Aéreo de Caza
-U57;Fig;7. Grupo Aéreo de Caza
-U57;Fig;8. Grupo Aéreo de Caza
-U57;Fig;9. Grupo Aéreo de Caza
-U57;Fig;10. Grupo Aéreo de Caza
-U57;Fig;11. Grupo Aéreo de Caza
-U57;Fig;12. Grupo Aéreo de Caza
-U57;Fig;13. Grupo Aéreo de Caza
-U57;Fig;14. Grupo Aéreo de Caza
-U57;Fig;15. Grupo Aéreo de Caza
-U57;Int F;1. Grupo Aéreo de Caza
-U57;Int F;2. Grupo Aéreo de Caza
-U57;Int F;3. Grupo Aéreo de Caza
-U57;Int F;4. Grupo Aéreo de Caza
-U57;Int F;5. Grupo Aéreo de Caza
-U57;Int F;6. Grupo Aéreo de Caza
-U57;Int F;7. Grupo Aéreo de Caza
-U57;Int F;8. Grupo Aéreo de Caza
-U57;Int F;9. Grupo Aéreo de Caza
-U57;Int F;10. Grupo Aéreo de Caza
-U57;Int F;11. Grupo Aéreo de Caza
-U57;Int F;12. Grupo Aéreo de Caza
-U57;Int F;13. Grupo Aéreo de Caza
-U57;Int F;14. Grupo Aéreo de Caza
-U57;Int F;15. Grupo Aéreo de Caza
-U57;Str;1. Grupo Aéreo Estratégico
-U57;Str;2. Grupo Aéreo Estratégico
-U57;Str;3. Grupo Aéreo Estratégico
-U57;Str;4. Grupo Aéreo Estratégico
-U57;Str;5. Grupo Aéreo Estratégico
-U57;Str;6. Grupo Aéreo Estratégico
-U57;Str;7. Grupo Aéreo Estratégico
-U57;Str;8. Grupo Aéreo Estratégico
-U57;Str;9. Grupo Aéreo Estratégico
-U57;Str;10. Grupo Aéreo Estratégico
-U57;Tac;1. Grupo Aéreo Táctico
-U57;Tac;2. Grupo Aéreo Táctico
-U57;Tac;3. Grupo Aéreo Táctico
-U57;Tac;4. Grupo Aéreo Táctico
-U57;Tac;5. Grupo Aéreo Táctico
-U57;Tac;6. Grupo Aéreo Táctico
-U57;Tac;7. Grupo Aéreo Táctico
-U57;Tac;8. Grupo Aéreo Táctico
-U57;Tac;9. Grupo Aéreo Táctico
-U57;Tac;10. Grupo Aéreo Táctico
-U57;Tac;11. Grupo Aéreo Táctico
-U57;Tac;12. Grupo Aéreo Táctico
-U57;Tac;13. Grupo Aéreo Táctico
-U57;Tac;14. Grupo Aéreo Táctico
-U57;Tac;15. Grupo Aéreo Táctico
-U57;CAS;1. Grupo Aéreo de Asalto
-U57;CAS;2. Grupo Aéreo de Asalto
-U57;CAS;3. Grupo Aéreo de Asalto
-U57;CAS;4. Grupo Aéreo de Asalto
-U57;CAS;5. Grupo Aéreo de Asalto
-U57;CAS;6. Grupo Aéreo de Asalto
-U57;CAS;7. Grupo Aéreo de Asalto
-U57;CAS;8. Grupo Aéreo de Asalto
-U57;CAS;9. Grupo Aéreo de Asalto
-U57;CAS;10. Grupo Aéreo de Asalto
-U57;CAS;11. Grupo Aéreo de Asalto
-U57;CAS;12. Grupo Aéreo de Asalto
-U57;CAS;13. Grupo Aéreo de Asalto
-U57;CAS;14. Grupo Aéreo de Asalto
-U57;CAS;15. Grupo Aéreo de Asalto
-U57;Nav;. Grupo Aéreo de la Marina
-U57;Nav;2. Grupo Aéreo de la Marina
-U57;Nav;3. Grupo Aéreo de la Marina
-U57;Nav;4. Grupo Aéreo de la Marina
-U57;Nav;5. Grupo Aéreo de la Marina
-U57;Nav;6. Grupo Aéreo de la Marina
-U57;Nav;7. Grupo Aéreo de la Marina
-U57;Nav;8. Grupo Aéreo de la Marina
-U57;Nav;9. Grupo Aéreo de la Marina
-U57;Nav;10. Grupo Aéreo de la Marina
-U57;Nav;11. Grupo Aéreo de la Marina
-U57;Nav;12. Grupo Aéreo de la Marina
-U57;Nav;13. Grupo Aéreo de la Marina
-U57;Nav;14. Grupo Aéreo de la Marina
-U57;Nav;15. Grupo Aéreo de la Marina
-U57;Nav;1. Grupo Aéreo Torpedero
-U57;Nav;2. Grupo Aéreo Torpedero
-U57;Nav;3. Grupo Aéreo Torpedero
-U57;Nav;4. Grupo Aéreo Torpedero
-U57;Nav;5. Grupo Aéreo Torpedero
-U57;Nav;6. Grupo Aéreo Torpedero
-U57;Nav;7. Grupo Aéreo Torpedero
-U57;Nav;8. Grupo Aéreo Torpedero
-U57;Nav;9. Grupo Aéreo Torpedero
-U57;Nav;10. Grupo Aéreo Torpedero
-U57;Nav;11. Grupo Aéreo Torpedero
-U57;Nav;12. Grupo Aéreo Torpedero
-U57;Nav;13. Grupo Aéreo Torpedero
-U57;Nav;14. Grupo Aéreo Torpedero
-U57;Trp;Lineas Aerotr. Mexicanas nro. 1
-U57;Trp;Lineas Aerotr. Mexicanas nro. 2
-U57;Trp;Lineas Aerotr. Mexicanas nro. 3
-U57;Trp;Lineas Aerotr. Mexicanas nro. 4
-U57;Trp;Lineas Aerotr. Mexicanas nro. 5
-U57;Trp;Lineas Aerotr. Mexicanas nro. 6
-U57;Trp;Lineas Aerotr. Mexicanas nro. 7
-U57;Trp;Lineas Aerotr. Mexicanas nro. 8
-U57;Trp;Lineas Aerotr. Mexicanas nro. 9
-U57;Trp;Lineas Aerotr. Mexicanas nro. 10
-U57;BB;Juarez
-U57;BB;Ciudad de México
-U57;BB;Montezuma
-U57;BC;Juarez
-U57;BC;Ciudad de México
-U57;BC;Montezuma
-U57;CV;República de México
-U57;CV;Xochichapal
-U57;CV;Cauhtemoc
-U57;27;Allende
-U57;27;Abasolo
-U57;27;Victoria
-U57;27;Mina
-U57;27;Bravo
-U57;27;Galeana
-U57;31;Allende
-U57;31;Abasolo
-U57;31;Victoria
-U57;31;Mina
-U57;31;Bravo
-U57;31;Galeana
-U57;CA;Guadalajara
-U57;CA;Carranza
-U57;CA;Río Lobo
-U57;CA;Merida
-U57;CA;Monterrey
-U57;CA;Río Grande
-U57;CA;Tijuana
-U57;CA;Río del Norte
-U57;CA;Chiapas
-U57;CA;Chuela
-U57;CL;Guadalajara
-U57;CL;Carranza
-U57;CL;Río Lobo
-U57;CL;Merida
-U57;CL;Monterrey
-U57;CL;Río Grande
-U57;CL;Tijuana
-U57;CL;Río del Norte
-U57;CL;Chiapas
-U57;CL;Chuela
-U57;DD;1a Flotilla de Destructores
-U57;DD;2a Flotilla de Destructores
-U57;DD;3a Flotilla de Destructores
-U57;DD;4a Flotilla de Destructores
-U57;DD;5a Flotilla de Destructores
-U57;DD;6a Flotilla de Destructores
-U57;DD;7a Flotilla de Destructores
-U57;DD;8a Flotilla de Destructores
-U57;DD;9a Flotilla de Destructores
-U57;DD;10a Flotilla de Destructores
-U57;DD;11a Flotilla de Destructores
-U57;DD;12a Flotilla de Destructores
-U57;DD;13a Flotilla de Destructores
-U57;DD;14a Flotilla de Destructores
-U57;DD;15a Flotilla de Destructores
-U57;SS;1a Flotilla de Submarinos
-U57;SS;2a Flotilla de Submarinos
-U57;SS;3a Flotilla de Submarinos
-U57;SS;4a Flotilla de Submarinos
-U57;SS;5a Flotilla de Submarinos
-U57;SS;6a Flotilla de Submarinos
-U57;SS;7a Flotilla de Submarinos
-U57;SS;8a Flotilla de Submarinos
-U57;SS;9a Flotilla de Submarinos
-U57;SS;10a Flotilla de Submarinos
-U57;SS;11a Flotilla de Submarinos
-U57;SS;12a Flotilla de Submarinos
-U57;SS;13a Flotilla de Submarinos
-U57;SS;14a Flotilla de Submarinos
-U57;SS;15a Flotilla de Submarinos
-U57;TP;1a Flotilla Naval Militar
-U57;TP;2a Flotilla Naval Militar
-U57;TP;3a Flotilla Naval Militar
-U57;TP;4a Flotilla Naval Militar
-U57;TP;5a Flotilla Naval Militar
-U57;TP;6a Flotilla Naval Militar
-U57;TP;7a Flotilla Naval Militar
-U57;TP;8a Flotilla Naval Militar
-U57;TP;9a Flotilla Naval Militar
-U57;TP;10a Flotilla Naval Militar
-U57;TP;11a Flotilla Naval Militar
-U57;TP;12a Flotilla Naval Militar
-U57;TP;13a Flotilla Naval Militar
-U57;TP;14a Flotilla Naval Militar
-U57;TP;15a Flotilla Naval Militar
+U57;HQ;1. Command HQ
+U57;HQ;2. Command HQ
+U57;HQ;3. Command HQ
+U57;HQ;4. Command HQ
+U57;HQ;5. Command HQ
+U57;HQ;6. Command HQ
+U57;HQ;7. Command HQ
+U57;HQ;8. Command HQ
+U57;HQ;9. Command HQ
+U57;HQ;10. Command HQ
+U57;Inf;I Fascist Republican Inf. 'Wrangel'
+U57;Inf;II Fascist Republican Inf. 'Tsar's Fist'
+U57;Inf;III Fascist Republican Infantry
+U57;Inf;IV Fascist Republican Infantry
+U57;Inf;V Fascist Republican Infantry
+U57;Inf;VI Fascist Republican Infantry
+U57;Inf;VII Fascist Republican Infantry
+U57;Inf;VIII Fascist Republican Infantry
+U57;Inf;IX Fascist Republican Infantry
+U57;Inf;X Fascist Republican Infantry
+U57;Inf;XI Fascist Republican Infantry
+U57;Inf;XII Fascist Republican Infantry
+U57;Inf;XIII Fascist Republican Infantry
+U57;Inf;XIV Fascist Republican Infantry
+U57;Inf;XV Fascist Republican Infantry
+U57;Inf;XVI Fascist Republican Infantry
+U57;Inf;XVII Fascist Republican Infantry
+U57;Inf;XVIII Fascist Republican Infantry
+U57;Inf;XIX Fascist Republican Infantry
+U57;Inf;XX Fascist Republican Infantry
+U57;Inf;XXI Fascist Republican Infantry
+U57;Inf;XXII Fascist Republican Infantry
+U57;Inf;XXIII Fascist Republican Infantry
+U57;Inf;XXIV Fascist Republican Infantry
+U57;Inf;XXV Fascist Republican Infantry
+U57;Inf;XXVI Fascist Republican Infantry
+U57;Inf;XXVII Fascist Republican Infantry
+U57;Inf;XXVIII Fascist Republican Infantry
+U57;Inf;XXIX Fascist Republican Infantry
+U57;Inf;XXX Fascist Republican Infantry
+U57;Gar;I Republican Security Division
+U57;Gar;II Republican Security Division
+U57;Gar;III Republican Security Division
+U57;Gar;IV Republican Security Division
+U57;Gar;V Republican Security Division
+U57;Gar;VI Republican Security Division
+U57;Gar;VII Republican Security Division
+U57;Gar;VIII Republican Security Division
+U57;Gar;IX Republican Security Division
+U57;Gar;X Republican Security Division
+U57;Gar;XI Republican Security Division
+U57;Gar;XII Republican Security Division
+U57;Gar;XIII Republican Security Division
+U57;Gar;XIV Republican Security Division
+U57;Gar;XV Republican Security Division
+U57;Gar;XVI Republican Security Division
+U57;Gar;XVII Republican Security Division
+U57;Gar;XVIII Republican Security Division
+U57;Gar;XIX Republican Security Division
+U57;Gar;XX Republican Security Division
+U57;Gar;XXI Republican Security Division
+U57;Gar;XXII Republican Security Division
+U57;Gar;XXIII Republican Security Division
+U57;Gar;XXIV Republican Security Division
+U57;Gar;XXV Republican Security Division
+U57;Gar;XXVI Republican Security Division
+U57;Gar;XXVII Republican Security Division
+U57;Gar;XXVIII Republican Security Division
+U57;Gar;XXIX Republican Security Division
+U57;Gar;XXX Republican Security Division
+U57;Cav;I Cavalry Division
+U57;Cav;II Cavalry Division
+U57;Cav;III Cavalry Division
+U57;Cav;IV Cavalry Division
+U57;Cav;V Cavalry Division
+U57;Cav;VI Cavalry Division
+U57;Cav;VII Cavalry Division
+U57;Cav;VIII Cavalry Division
+U57;Cav;IX Cavalry Division
+U57;Cav;X Cavalry Division
+U57;Mot;I Motorized Infantry
+U57;Mot;II Motorized Infantry
+U57;Mot;III Motorized Infantry
+U57;Mot;IV Motorized Infantry
+U57;Mot;V Motorized Infantry
+U57;Mot;VI Motorized Infantry
+U57;Mot;VII Motorized Infantry
+U57;Mot;VIII Motorized Infantry
+U57;Mot;IX Motorized Infantry
+U57;Mot;X Motorized Infantry
+U57;Mot;XI Motorized Infantry
+U57;Mot;XII Motorized Infantry
+U57;Mot;XIII Motorized Infantry
+U57;Mot;XIV Motorized Infantry
+U57;Mot;XV Motorized Infantry
+U57;Mec;I Mechanized Infantry
+U57;Mec;II Mechanized Infantry
+U57;Mec;III Mechanized Infantry
+U57;Mec;IV Mechanized Infantry
+U57;Mec;V Mechanized Infantry
+U57;Mec;VI Mechanized Infantry
+U57;Mec;VII Mechanized Infantry
+U57;Mec;VIII Mechanized Infantry
+U57;Mec;IX Mechanized Infantry
+U57;Mec;X Mechanized Infantry
+U57;Mec;XI Mechanized Infantry
+U57;Mec;XII Mechanized Infantry
+U57;Mec;XIII Mechanized Infantry
+U57;Mec;XIV Mechanized Infantry
+U57;Mec;XV Mechanized Infantry
+U57;L ARM;I Light Tank Division
+U57;L ARM;II Light Tank Division
+U57;L ARM;III Light Tank Division
+U57;L ARM;IV Light Tank Division
+U57;L ARM;V Light Tank Division
+U57;L ARM;VI Light Tank Division
+U57;L ARM;VII Light Tank Division
+U57;L ARM;VIII Light Tank Division
+U57;L ARM;IX Light Tank Division
+U57;L ARM;X Light Tank Division
+U57;L ARM;XI Light Tank Division
+U57;L ARM;XII Light Tank Division
+U57;L ARM;XIII Light Tank Division
+U57;L ARM;XIV Light Tank Division
+U57;L ARM;XV Light Tank Division
+U57;Arm;I Armored Division
+U57;Arm;II Armored Division
+U57;Arm;III Armored Division
+U57;Arm;IV Armored Division
+U57;Arm;V Armored Division
+U57;Arm;VI Armored Division
+U57;Arm;VII Armored Division
+U57;Arm;VIII Armored Division
+U57;Arm;IX Armored Division
+U57;Arm;X Armored Division
+U57;Arm;XI Armored Division
+U57;Arm;XII Armored Division
+U57;Arm;XIII Armored Division
+U57;Arm;XIV Armored Division
+U57;Arm;XV Armored Division
+U57;Par;1. Special Ops Division
+U57;Par;2. Special Ops Division
+U57;Par;3. Special Ops Division
+U57;Par;4. Special Ops Division
+U57;Par;5. Special Ops Division
+U57;Par;6. Special Ops Division
+U57;Par;7. Special Ops Division
+U57;Par;8. Special Ops Division
+U57;Par;9. Special Ops Division
+U57;Par;10. Special Ops Division
+U57;Mar;1. Marine Division
+U57;Mar;2. Marine Division
+U57;Mar;3. Marine Division
+U57;Mar;4. Marine Division
+U57;Mar;5. Marine Division
+U57;Mar;6. Marine Division
+U57;Mar;7. Marine Division
+U57;Mar;8. Marine Division
+U57;Mar;9. Marine Division
+U57;Mar;10. Marine Division
+U57;Mtn;1. Mountain Infantry
+U57;Mtn;2. Mountain Infantry
+U57;Mtn;3. Mountain Infantry
+U57;Mtn;4. Mountain Infantry
+U57;Mtn;5. Mountain Infantry
+U57;Mtn;6. Mountain Infantry
+U57;Mtn;7. Mountain Infantry
+U57;Mtn;8. Mountain Infantry
+U57;Mtn;9. Mountain Infantry
+U57;Mil;Vaya brigada Cherno-rubashechnikow
+U57;Mil;VIaya brigada Cherno-rubashechnikow
+U57;Mil;VIIaya brigada Cherno-rubashechnikow
+U57;Mil;VIIIaya brigada Cherno-rubashechnikow
+U57;Mil;IXaya brigada Cherno-rubashechnikow
+U57;Mil;Xaya brigada Cherno-rubashechnikow
+U57;Mil;XI Blackshirt Brigade
+U57;Mil;XII Blackshirt Brigade
+U57;Mil;XIII Blackshirt Brigade
+U57;Mil;XIV Blackshirt Brigade
+U57;Mil;XV Blackshirt Brigade
+U57;Mil;XVI Blackshirt Brigade
+U57;Mil;XVII Blackshirt Brigade
+U57;Mil;XVIII Blackshirt Brigade
+U57;Mil;XIX Blackshirt Brigade
+U57;Mil;XX Blackshirt Brigade
+U57;Mil;XXI Blackshirt Brigade
+U57;Fig;1. Fighter Group
+U57;Fig;2. Fighter Group
+U57;Fig;3. Fighter Group
+U57;Fig;4. Fighter Group
+U57;Fig;5. Fighter Group
+U57;Fig;6. Fighter Group
+U57;Fig;7. Fighter Group
+U57;Fig;8. Fighter Group
+U57;Fig;9. Fighter Group
+U57;Fig;10. Fighter Group
+U57;Fig;11. Fighter Group
+U57;Fig;12. Fighter Group
+U57;Fig;13. Fighter Group
+U57;Fig;14. Fighter Group
+U57;Fig;15. Fighter Group
+U57;Int F;1. Interceptor Group
+U57;Int F;2. Interceptor Group
+U57;Int F;3. Interceptor Group
+U57;Int F;4. Interceptor Group
+U57;Int F;5. Interceptor Group
+U57;Int F;6. Interceptor Group
+U57;Int F;7. Interceptor Group
+U57;Int F;8. Interceptor Group
+U57;Int F;9. Interceptor Group
+U57;Int F;10. Interceptor Group
+U57;Int F;11. Interceptor Group
+U57;Int F;12. Interceptor Group
+U57;Int F;13. Interceptor Group
+U57;Int F;14. Interceptor Group
+U57;Int F;15. Interceptor Group
+U57;Str;1. Strategic Bomber Group
+U57;Str;2. Strategic Bomber Group
+U57;Str;3. Strategic Bomber Group
+U57;Str;4. Strategic Bomber Group
+U57;Str;5. Strategic Bomber Group
+U57;Str;6. Strategic Bomber Group
+U57;Str;7. Strategic Bomber Group
+U57;Str;8. Strategic Bomber Group
+U57;Str;9. Strategic Bomber Group
+U57;Str;10. Strategic Bomber Group
+U57;Tac;1. Tactical Bombing Group
+U57;Tac;2. Tactical Bombing Group
+U57;Tac;3. Tactical Bombing Group
+U57;Tac;4. Tactical Bombing Group
+U57;Tac;5. Tactical Bombing Group
+U57;Tac;6. Tactical Bombing Group
+U57;Tac;7. Tactical Bombing Group
+U57;Tac;8. Tactical Bombing Group
+U57;Tac;9. Tactical Bombing Group
+U57;Tac;10. Tactical Bombing Group
+U57;Tac;11. Tactical Bombing Group
+U57;Tac;12. Tactical Bombing Group
+U57;Tac;13. Tactical Bombing Group
+U57;Tac;14. Tactical Bombing Group
+U57;Tac;15. Tactical Bombing Group
+U57;CAS;1. Air Assault Group
+U57;CAS;2. Air Assault Group
+U57;CAS;3. Air Assault Group
+U57;CAS;4. Air Assault Group
+U57;CAS;5. Air Assault Group
+U57;CAS;6. Air Assault Group
+U57;CAS;7. Air Assault Group
+U57;CAS;8. Air Assault Group
+U57;CAS;9. Air Assault Group
+U57;Nav;1. Naval Bombing Group
+U57;Nav;2. Naval Bombing Group
+U57;Nav;3. Naval Bombing Group
+U57;Nav;4. Naval Bombing Group
+U57;Nav;5. Naval Bombing Group
+U57;Nav;6. Naval Bombing Group
+U57;Nav;7. Naval Bombing Group
+U57;Nav;8. Naval Bombing Group
+U57;Nav;9. Naval Bombing Group
+U57;Nav;10. Naval Bombing Group
+U57;Trp;1. Air Transport Brigade
+U57;Trp;2. Air Transport Brigade
+U57;Trp;3. Air Transport Brigade
+U57;Trp;4. Air Transport Brigade
+U57;Trp;5. Air Transport Brigade
+U57;Trp;6. Air Transport Brigade
+U57;Trp;7. Air Transport Brigade
+U57;Trp;8. Air Transport Brigade
+U57;Trp;9. Air Transport Brigade
+U57;Trp;10. Air Transport Brigade
+U57;BB;Aleksandr Kolchak
+U57;BB;Nakhimov
+U57;BB;Makarov
+U57;BC;Ricord
+U57;CV;Kedrov
+U57;CA;Istomin
+U57;CL;Ushakov
+U57;DD;1. Destroyer Fleet
+U57;DD;2. Destroyer Fleet
+U57;DD;3. Destroyer Fleet
+U57;DD;4. Destroyer Fleet
+U57;DD;5. Destroyer Fleet
 U58;HQ;1. Armee
 U58;HQ;2. Armee
 U58;HQ;3. Armee
