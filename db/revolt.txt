@@ -3056,6 +3056,8 @@ U35 = { # Spain
  1101 1102 1100 1103
  #Claims on Persia
  1080 1092
+ #Sinkiang (East Turkestan)
+ 1273 1274 1275 1276 1277 1279 1280 1281 1282
  } 
  country = { GER }
  capital = 1070  

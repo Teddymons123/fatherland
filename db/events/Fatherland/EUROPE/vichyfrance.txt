@@ -1229,6 +1229,7 @@ event = {
 		command = { type = relation which = ENG value = 50 }
 		command = { type = relation which = USA value = 50 }
 		command = { type = setflag which = VichyStrong } 
+		command = { type = end_non_aggression which = GER where = FRA }
 	}
 }
 event = {

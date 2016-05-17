@@ -174,36 +174,36 @@ command = { }
 
 ### Fate of SS State Burgundy ###
 
-event = {
-id = 91000005
-country = GER
-random = no
+#event = {
+#id = 91000005
+#country = GER
+#random = no
 
-trigger = { flag = SSGermany # Flag set in hilterdied.txt 
-exists = U52 # SS-Burgundy
-} 
+#trigger = { flag = SSGermany # Flag set in hilterdied.txt 
+#exists = U52 # SS-Burgundy
+#} 
 
-name = "EVT_91000005_NAME"
-desc = "EVT_91000005_DESC"
-style = 1
-picture = "fatherland\burgundy-ss"
-date = { day = 1 month = january year = 1948 }
-offset = 1
-deathdate = { day = 1 month = january year = 2020 }	
+#name = "EVT_91000005_NAME"
+#desc = "EVT_91000005_DESC"
+#style = 1
+#picture = "fatherland\burgundy-ss"
+#date = { day = 1 month = january year = 1948 }
+#offset = 1
+#deathdate = { day = 1 month = january year = 2020 }	
 
-action = {
-ai_chance = 100
-name = "Incorporate into SS-Staat Germania"
-command = { type = inherit which = U52 when = 0 value = 1 }
-command = { type = dissent value = -2 }
-}
+#action = {
+#ai_chance = 100
+#name = "Incorporate into SS-Staat Germania"
+#command = { type = inherit which = U52 when = 0 value = 1 }
+#command = { type = dissent value = -2 }
+#}
 
-action = {
-ai_chance = 0
-name = "Not now"
-command = { }
-}
-}
+#action = {
+#ai_chance = 0
+#name = "Not now"
+#command = { }
+#}
+#}
 
 ### Waffen-SS transition into the Army ###
 

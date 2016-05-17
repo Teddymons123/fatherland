@@ -860,6 +860,7 @@ random = no
 country = GER
 
 trigger = {
+exists = U48
 area = { area = "Xinjiang" country = GER data = 2 value = 80 }
 }
 
@@ -880,11 +881,11 @@ ideology = NAZI
 ideology = FASCIST
 }
 }
-ai_chance = 20
-name = "Integrate with RK Westsibirien."
+ai_chance = 60
+name = "Integrate with RK Turkestan."
 command = { type = dissent value = -3 }
-command = { type = secedearea which = U64 value = "Xinjiang" }
-command = { type = secedeprovince which = U64 value = 1119 }
+command = { type = secedearea which = U48 value = "Xinjiang" }
+command = { type = secedeprovince which = U48 value = 1119 }
 }
 
 action = {
@@ -912,7 +913,7 @@ action = {
 trigger = {
 NOT = { war = { country = GER  country = CHI } }
 }
-ai_chance = 60
+ai_chance = 20
 name = "Cede Sinkiang to Nationalist China."
 command = { type = dissent value = 2 }
 command = { type = secedearea which = CHI value = "Xinjiang" }

@@ -205,7 +205,7 @@ headofstate = { type = 9 id = 50001 }
 		division = {
 			experience = 0
 			id = { type = 9061 id = 2 }
-			name = "1st Division"
+			name = "3rd Division"
 			type = infantry
 			model = 13
 			strength = 100
@@ -231,7 +231,7 @@ headofstate = { type = 9 id = 50001 }
 		division = {
 			experience = 0
 			id = { type = 9061 id = 10 }
-			name = "1st Division"
+			name = "2nd Division"
 			type = infantry
 			model = 13
 			strength = 100
