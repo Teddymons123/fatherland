@@ -263,7 +263,7 @@ event = {
 	name = "Reunification of the Soviet Union"
 	desc = "We must reunify all territories of our glorious nation. This means war against all other states who wrongfully control our territories"
 	style = 1
-	picture = "soviet_warposter"
+	picture = "fatherland\decision_redstar"
 	decision_picture = "soviet_warposter"
 	
 	date = { day = 25 month = january year = 1948 } 

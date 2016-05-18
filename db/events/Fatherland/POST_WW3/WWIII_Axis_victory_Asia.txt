@@ -576,8 +576,8 @@ ideology = FASCIST
 ai_chance = 20
 name = "Integrate with RK Westsibirien."
 command = { type = dissent value = -3 }
-command = { type = secedearea which = U64 value = "Mongolia" }
-command = { type = secedeprovince which = U64 value = 1119 }
+command = { type = secedearea which = U63 value = "Mongolia" }
+command = { type = secedeprovince which = U63 value = 1119 }
 }
 
 action = {
