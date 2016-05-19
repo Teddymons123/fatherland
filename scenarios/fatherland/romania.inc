@@ -523,14 +523,21 @@ inventions = { 3000027 }
        name     = "Grup 2 Tactic Bombardier" 
        type     = tactical_bomber 
        model    = 3
-       strength = 42 
+       strength = 40 
       } 
      Division = 
      {  id       = {  type = 20600 id = 108  } 
        name     = "Grup 1 Hidroavioane" 
        type     = naval_bomber 
        model    = 1
-       strength = 34 
+       strength = 35 
+      } 
+	      Division = 
+     {  id       = {  type = 20600 id = 109  } 
+       name     = "Grup 1 Transp. Aerian" 
+       type     = transport_plane 
+       model    = 3
+       strength = 40
       } 
     } 
 	

@@ -3380,5 +3380,9 @@ LOSSES_TAKEN_LINE;%s: §R%d§§\n;%s: §R%d§§\n;%s: §R%d§§\n;%s: §R%d§§\n;%s: §R%d§§
 LOSSES_NEUTRAL_LINE;%s: §W%d§§\n;%s: §W%d§§\n;%s: §W%d§§\n;%s: §W%d§§\n;%s: §W%d§§\n;%s: §W%d§§\n;;%s: §W%d§§\n;;;X
 CRB_ENCIRCLE_BONUS;An encircled unit receives a slight bonus to its effectiveness in defending itself (no place to retreat).;Une unité encerclée reçoit un léger bonus d'efficacité pour se défendre (aucune retraite possible).;Un'unità circondata riceve un piccolo bonus alla sua capacità di difendersi (nessuna possibilità di ritirarsi);Una unidad rodeada recibe una ligera ventaja a su eficacia en la defensa de sí mismo (sin lugar para retirarse).;Eine umzingelte Einheit erhält einen Verteidigungsbonus, da sie sich nicht mehr weiter zurückziehen kann.;Okr¹¿ona jednostka otrzymuje niewielki bonus do swej efektywnoœci obronnej (brak mo¿liwoœci odwrotu).;;Ïğè îêğóæåíèè ïîäğàçäåëåíèå ïîëó÷àåò íåáîëüøîé áîíóñ ê ıôôåêòèâíîñòè çàùèòû (íåêóäà îòñòóïàòü).;;;X
 UNIT_MAY_NOTFIRE;This unit can not fire in combat.;Cette unité de peut pas tirer lors d'un combat.;Questa unità non può sparare.;Esta unidad no puede disparar en combate.;Diese Einheit kann im Kampf nicht zurückschießen.;Ta jednostka nie mo¿e strzelaæ w czasie walki.;;İòî ïîäğàçäåëåíèå íå ìîæåò ó÷àñòâîâàòü â áîş.;;;X
+NPERSONALITY_REICHSKOMMISSAR;Reichskommissar;;;;;;;;;;;X
+DPERSONALITY_REICHSKOMMISSAR;The Reichskommissar directs all energy toward gathering as much manpower, resources and industrial output from his respective Reichskommissariat as possible.;;;;;;;;;;;X
+NPERSONALITY_POLICE;Secret Police Chief;;;;;;;;;;;X
+DPERSONALITY_POLICE;The Secret Police Chief utilizes cunning and manipulation toward maintaining order and monitoring any political activity that might threaten the government that employed him.;;;;;;;;;;;X
 #EOF;;;;;;;;;;;X
 #EOF;;;;;;;;;;;X

@@ -137,7 +137,7 @@ event = {
 	
 	action = {
 		name = "Ok, but they must remain in our sphere of influence"	
-		ai_chance = 35
+		ai_chance = 25
 		
 		command = { type = dissent value = 25 }
 		
