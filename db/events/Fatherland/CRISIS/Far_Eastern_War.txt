@@ -663,7 +663,7 @@ command = { type = relation which = JAP value = -10 }
 event = {
 id = 6000172
 random = no
-country = USA
+country = ALS
 
 name = "EVT_6000172_NAME"
 desc = "EVT_6000172_DESC"
