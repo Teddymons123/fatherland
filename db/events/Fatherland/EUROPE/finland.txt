@@ -271,3 +271,301 @@ event = {
 		command = { type = domestic which = interventionism value = -10 }
 	}
 }
+
+event = {
+
+	id = 8014399
+	name = "The growing Finnish Heavy Industries"
+	country = FIN
+	desc = "Thanks to the war, our need for resources exploded and while we imported what we lacked, we invested little by little into our heavy industry sector to make it grow enough to fill our need much better."
+	image = "fatherland/FIN_industries"
+	style = 2
+	
+	date = { day = 5 month = january year = 1948 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 1999 }
+
+
+	action = {
+		name = "Excellent!"
+
+		command = { type = add_prov_resource which = 525 value = 10 where = energy } #Helsinki
+		command = { type = add_prov_resource which = 525 value = 2 where = rare_materials } #Helsinki
+		
+		command = { type = add_prov_resource which = 516 value = 2 where = energy } #Tornio
+		command = { type = add_prov_resource which = 516 value = 1 where = metal } #Tornio
+		
+		command = { type = add_prov_resource which = 524 value = 5 where = energy }	#Turku
+		command = { type = add_prov_resource which = 524 value = 2 where = rare_materials }	#Turku
+		
+		command = { type = add_prov_resource which = 527 value = 5 where = energy } #Tampere
+		command = { type = add_prov_resource which = 527 value = 2 where = rare_materials }	#Tampere	
+		
+		command = { type = add_prov_resource which = 533 value = 2 where = rare_materials }	#Joensuu
+		
+		command = { type = add_prov_resource which = 523 value = 2 where = metal } #Kajaani
+		command = { type = add_prov_resource which = 523 value = 1 where = rare_materials }	#Kajaani
+		
+		command = { type = add_prov_resource which = 517 value = 3 where = rare_materials } #Petsamo
+		command = { type = add_prov_resource which = 517 value = 1 where = energy } #Petsamo
+
+		command = { type = add_prov_resource which = 531 value = 2 where = energy }	#Viipri
+
+		command = { type = add_prov_resource which = 529 value = 2 where = energy }	#Kouvola
+
+		command = { type = add_prov_resource which = 528 value = 2 where = energy }	#Mikkeli
+
+		command = { type = add_prov_resource which = 512 value = 2 where = energy }	#Pori
+
+		command = { type = add_prov_resource which = 521 value = 2 where = energy }	#Vaasa
+
+		command = { type = add_prov_resource which = 520 value = 2 where = energy }	#Oulu
+
+		command = { type = add_prov_resource which = 522 value = 2 where = energy }	#Kuopio		
+
+				}
+			}
+				
+				
+event = {
+
+	id = 8014398
+	name = "The growing Finnish Industries"
+	country = FIN
+	desc = "The development of our armament, aircraft, and automotive industries has been triggered by the war that we fought against the Soviet Union, thus spurring industrial growth into these sectors, principally in the Helsinki region."
+	image = "fatherland/FIN_industries"
+	style = 2
+			
+	date = { day = 10 month = january year = 1948 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 1999 }				
+				
+				
+	action = {
+		name = "Excellent!"			
+		command = { type = construct which = ic where = 522 value = 1 } #Kuopio
+		command = { type = construct which = ic where = 525 value = 4 } #Helsinki
+
+				}
+		}
+		
+		
+		
+		
+event = {
+
+	id = 8014397
+	name = "Extending the East Karelian Heavy Industries"
+	country = FIN
+	desc = "Now that Eastern Karelia is under our control, so is their Heavy Industries... To improve our country self sufficiency, we need to expand these crucial industries and free some money for other projects."
+	image = "fatherland/FIN_industries"
+	style = 2
+	
+	date = { day = 1 month = july year = 1948 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 1999 }	
+	
+	action = {
+		name = "We need those resources!!"
+		
+		command = { type = money value = -100 }
+		command = { type = supplies value = -1000}
+		
+		
+		command = { type = add_prov_resource which = 535 value = 4 where = metal } #Murmansk
+		command = { type = add_prov_resource which = 535 value = 5 where = energy } #Murmansk
+		command = { type = add_prov_resource which = 535 value = 2 where = rare_materials } #Murmansk
+		
+		command = { type = add_prov_resource which = 534 value = 3 where = rare_materials } #Kola
+		command = { type = add_prov_resource which = 534 value = 1 where = energy } #Kola
+		
+		command = { type = add_prov_resource which = 541 value = 3 where = metal } #Belomorsk
+		command = { type = add_prov_resource which = 541 value = 1 where = energy } #Belomorsk
+		
+		command = { type = add_prov_resource which = 536 value = 3 where = energy } #Petrozavodsk
+		
+		command = { type = add_prov_resource which = 539 value = 1 where = energy } #Kandalaksha
+		
+				}
+
+			}
+			
+event = {
+
+	id = 8014313
+	name = "Invest into our country's needed resources"
+	random = no
+	persistent = yes
+	TAG = {}
+	desc = "Our country's might can only grow that much by only creating new production facilities... And now is the time to invest into one of the things that keeps our nation running : coal, metal, rare materials, oil, and men."
+	image = "fatherland/invest_HI"
+	style=2
+
+	decision = { 
+		money = 250
+		supplies = 500
+				}
+
+				
+				
+	decision_trigger = {
+		money = 300
+		supplies = 450
+		NOT = { local_flag = build_dam }
+		NOT = { local_flag = build_coal_plant }
+		NOT = { local_flag = build_metal_mine }
+		NOT = { local_flag = build_rares_mine }
+		NOT = { local_flag = build_oil_well }
+		NOT = { local_flag = build_barracks }
+						}
+
+	trigger = {
+		money = 300
+		supplies = 450
+		NOT = { local_flag = build_dam }
+		NOT = { local_flag = build_coal_plant }
+		NOT = { local_flag = build_metal_mine }
+		NOT = { local_flag = build_rares_mine }
+		NOT = { local_flag = build_oil_well }
+		NOT = { local_flag = build_barracks }
+				}
+
+				
+				
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 1999 }
+
+	
+	action = {
+		trigger = { AND = { money = 300 supplies = 450 } }
+		name = "Build a dam"
+		command = { type = event which = 8014303 where = -1 when = 90 }
+		command = { type = local_setflag which = build_dam }
+		command = { type = money value = -300 }
+		command = { type = supplies value = -450 }
+			}
+			
+			
+	action = {
+		trigger = { AND = { money = 450 supplies = 600 } }
+		name = "Build a coal-fired power plant"
+		command = { type = event which = 8014303 where = -1 when = 60 }
+		command = { type = local_setflag which = build_coal_plant }
+		command = { type = money value = -450 }
+		command = { type = supplies value = -600 }
+			}
+			
+			
+	action = {
+		trigger = { AND = { money = 500 supplies = 750 } }
+		name = "Build a metal mine"
+		command = { type = event which = 8014303 where = -1 when = 45 }
+		command = { type = local_setflag which = build_metal_mine }
+		command = { type = money value = -500 }
+		command = { type = supplies value = -750 }
+				}
+							
+	action = {
+		trigger = { AND = { money = 650 supplies = 1000 } }
+		name = "Build a rares mine"
+		command = { type = event which = 8014303 where = -1 when = 45 }
+		command = { type = local_setflag which = build_rares_mine }
+		command = { type = money value = -650 }
+		command = { type = supplies value = -1000 }
+				}
+				
+							
+	action = {
+		trigger = { AND = { money = 750 supplies = 1350 } }
+		name = "Build a oil well"
+		command = { type = event which = 8014303 where = -1 when = 75 }
+		command = { type = local_setflag which = build_oil_well }
+		command = { type = money value = -750 }
+		command = { type = supplies value = -1350 }
+				}
+				
+							
+	action = {
+		trigger = { AND = { money = 400 supplies = 2000 } }
+		name = "Build military barracks"
+		command = { type = event which = 8014303 where = -1 when = 60 }
+		command = { type = local_setflag which = build_barracks }
+		command = { type = money value = -400 }
+		command = { type = supplies value = -2000 }
+				}
+				
+				
+		}
+
+		
+		
+event = {
+
+	id = 8014314
+	name = "Results of investment into our contry's resources"
+	TAG = {}
+	one_action = no
+	persistent = yes
+	desc = "Now that we have invested into a specific project, it's time to reep what we sowed. "
+	image = "fatherland/invest_HI"
+	style = 2
+
+
+	action = {
+		name = "Dam built and running"
+		trigger = { local_flag = build_dam }
+		command = { type = add_prov_resource which = -1 value = 3 where = energy }
+		command = { type = province_manpower value = 1 }
+		command = { type = local_clrflag which = build_dam }
+		command = { type = dissent value = 3 }
+				}
+
+
+	action = {
+		name = "Coal plant built and running"
+		trigger = { local_flag = build_coal_plant }
+		command = { type = add_prov_resource which = -1 value = 5 where = energy }
+		command = { type = local_clrflag which = build_coal_plant }
+		command = { type = dissent value = 5 }
+				}
+
+
+	action = {
+		name = "Metal mine built and running"
+		trigger = { local_flag = build_metal_mine }
+		command = { type = add_prov_resource which = -1 value = 4 where = metal }
+		command = { type = local_clrflag which = build_metal_mine }
+		command = { type = dissent value = 5 }
+				}
+
+
+	action = {
+		name = "Rares mine built and running"
+		trigger = { local_flag = build_rares_mine}
+		command = { type = add_prov_resource which = -1 value = 3 where = rare_materials }
+		command = { type = local_clrflag which = build_rares_mine }
+		command = { type = dissent value = 5 }
+				}
+				
+
+	action = {
+		name = "Oil well built and running"
+		trigger = { local_flag = build_oil_well }
+		command = { type = add_prov_resource which = -1 value = 2 where = oil }
+		command = { type = local_clrflag which = build_oil_well }
+		command = { type = dissent value = 5 }
+				}
+
+				
+	action = {
+		name = "Military barracks built"
+		trigger = { local_flag = build_barracks }
+		command = { type = province_manpower which = -1 value = 3 }
+		command = { type = local_clrflag which = build_barracks }
+		command = { type = dissent value = 5 }
+				}
+
+
+		}
+		
