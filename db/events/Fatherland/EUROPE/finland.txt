@@ -278,7 +278,7 @@ event = {
 	name = "The growing Finnish Heavy Industries"
 	country = FIN
 	desc = "Thanks to the war, our need for resources exploded and while we imported what we lacked, we invested little by little into our heavy industry sector to make it grow enough to fill our need much better."
-	image = "fatherland/FIN_industries"
+	picture = "fatherland/FIN_industries"
 	style = 2
 	
 	date = { day = 5 month = january year = 1948 }
@@ -333,7 +333,7 @@ event = {
 	name = "The growing Finnish Industries"
 	country = FIN
 	desc = "The development of our armament, aircraft, and automotive industries has been triggered by the war that we fought against the Soviet Union, thus spurring industrial growth into these sectors, principally in the Helsinki region."
-	image = "fatherland/FIN_industries"
+	picture = "fatherland/FIN_industries"
 	style = 2
 			
 	date = { day = 10 month = january year = 1948 }
@@ -358,7 +358,7 @@ event = {
 	name = "Extending the East Karelian Heavy Industries"
 	country = FIN
 	desc = "Now that Eastern Karelia is under our control, so is their Heavy Industries... To improve our country self sufficiency, we need to expand these crucial industries and free some money for other projects."
-	image = "fatherland/FIN_industries"
+	picture = "fatherland/FIN_industries"
 	style = 2
 	
 	date = { day = 1 month = july year = 1948 }
@@ -398,7 +398,7 @@ event = {
 	persistent = yes
 	TAG = {}
 	desc = "Our country's might can only grow that much by only creating new production facilities... And now is the time to invest into one of the things that keeps our nation running : coal, metal, rare materials, oil, and men."
-	image = "fatherland/invest_HI"
+	picture = "fatherland/invest_HI"
 	style=2
 
 	decision = { 
@@ -508,7 +508,7 @@ event = {
 	one_action = no
 	persistent = yes
 	desc = "Now that we have invested into a specific project, it's time to reep what we sowed. "
-	image = "fatherland/invest_HI"
+	picture = "fatherland/invest_HI"
 	style = 2
 
 
