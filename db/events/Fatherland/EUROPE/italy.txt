@@ -978,10 +978,10 @@ event = {
 event = {															
 	id = 90000620 # Principality of the Pindus
 	random = no
-	country = ITA	
+	country = GRE	
 	
 	trigger = {
-			event = 90000619
+			event = 90000661
 		}
 	
 	name = EVT_90000620_NAME
@@ -2360,7 +2360,7 @@ event = {
 		command = { type = revolt which = 372 }
 		command = { type = revolt which = 374 }
 		command = { type = revolt which = 373 }
-		command = { type = dissent value = 5 }
+		command = { type = dissent value = 25 }
 	}
 }
 ##################################

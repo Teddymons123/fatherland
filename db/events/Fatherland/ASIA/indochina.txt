@@ -139,7 +139,7 @@ event = {
 	country = U03	
 	
 	name = "The Indochina reaction"
-	desc = "In response at the Socialist Democratic Republic of Vietnam we must made a new puppet Vietnamese State"
+	desc = "In response at the Socialist Democratic Republic of Vietnam we must made a new Vietnamese State"
 	style = 2
 	picture = "news_paper"	
 
@@ -152,10 +152,12 @@ event = {
 	deathdate = { day = 29 month = january year = 1951 }
 	
 	action = {
-		name = "Made a new puppet Vietnamese State"
+		name = "Made a new Vietnamese State"
 		command = { type = dissent value = -3 }		
 		command = { type = relation which = U72 value = -50 }
 		command = { type = independence which = VIE }
+		command = { type = end_puppet }
+		command = { type = alliance which = VIE }
 		}
 }
 event = {

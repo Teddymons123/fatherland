@@ -281,7 +281,7 @@ event = {
 	picture = "fatherland/FIN_industries"
 	style = 2
 	
-	date = { day = 5 month = january year = 1948 }
+	date = { day = 5 month = january year = 1951 }
 	offset = 1
 	deathdate = { day = 29 month = december year = 1999 }
 
@@ -336,7 +336,7 @@ event = {
 	picture = "fatherland/FIN_industries"
 	style = 2
 			
-	date = { day = 10 month = january year = 1948 }
+	date = { day = 10 month = january year = 1951 }
 	offset = 1
 	deathdate = { day = 29 month = december year = 1999 }				
 				
@@ -361,7 +361,7 @@ event = {
 	picture = "fatherland/FIN_industries"
 	style = 2
 	
-	date = { day = 1 month = july year = 1948 }
+	date = { day = 1 month = july year = 1951 }
 	offset = 1
 	deathdate = { day = 29 month = december year = 1999 }	
 	

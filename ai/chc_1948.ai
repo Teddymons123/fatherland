@@ -89,7 +89,7 @@ trade = {
 		MON = 70
 		SIK = 70
 	}
-    embargo = { CHI KOR JAP GER ITA HUN }
+    embargo = { CHI GER ITA U58 }
 }
 tech_sharing = {
     favored = { 		
@@ -98,7 +98,7 @@ tech_sharing = {
 		MON = 70
 		SIK = 70
 	}
-    embargo = { CHI KOR JAP GER ITA HUN }
+    embargo = { CHI GER ITA U58 }
     not = { }
     prioritized = {    }
 }

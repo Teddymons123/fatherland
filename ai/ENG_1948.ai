@@ -102,7 +102,7 @@ trade = {
 		POR = 10
 		CHI = 10
 	}
-	embargo = { }
+embargo = { GER SLO ITA BUL CRO FIN MTN U44 UTC U46 U45 U41 U40 U42 WLL FLA HUN ROM SER BLR }
 }
 tech_sharing = {
 	favored = {
@@ -124,7 +124,7 @@ tech_sharing = {
 		POR = 10
 		CHI = 10
 	}
-	embargo = { }
+embargo = { GER SLO ITA BUL CRO FIN MTN U44 UTC U46 U45 U41 U40 U42 WLL FLA HUN ROM SER BLR }
 	not = { }
 	prioritized = {
 		# Agriculture

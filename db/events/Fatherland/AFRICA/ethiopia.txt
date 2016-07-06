@@ -319,7 +319,8 @@
 		ai_chance = 80
 		name = "Then, it's war !"
 		command = { type = relation which = ENG value = -200 }
-		command = { type = war which = ENG }
+		#command = { type = war which = ENG }
+		command = { type = setflag which = ETHUKWAR}
 		command = { type = add_corps which = "1st Ethiopian Army" value = land where = 825 }
 		command = { type = add_division which = "1st Rifle Division" value = infantry when = 10 }
 		command = { type = add_division which = "2nd Rifle Division" value = infantry when = 10 }
@@ -356,6 +357,38 @@
 	 }
 
 #########################################################
+#### 91680 - ENG - War in the Horn of Africa
+#########################################################		 
+	event = {
+	 id = 91680
+	 random = no
+	 country = ENG
+
+	 name = "Then it's war"
+	 desc = "Then it's war"
+	 style = 2
+	 picture = "news_paper"		 
+
+		 date = { day = 0 month = december year = 1949 }
+		 offset = 10 
+		 deathdate = { day = 29 month = january year = 1960 }
+
+	 
+	 trigger = {
+		flag = ETHUKWAR
+		event = 91671
+	 }
+	 
+	 action = {
+		ai_chance = 100
+		name = "At War!"
+		command = { type = leave_alliance when = 1 } #leave allies
+		command = { type = war which = ETH }		
+	 }
+
+	 }
+	 
+#########################################################
 #### 91672 - ENG - Armistice - Lost Eritrea (England)
 #########################################################		 
 	event = {
@@ -389,6 +422,7 @@
 		command = { type = secedeprovince which = ETH value = 815 } #Eritrea
 		command = { type = secedeprovince which = ETH value = 816 } #Eritrea
 		command = { type = secedeprovince which = ETH value = 817 } #Eritrea
+		command = { type = alliance which = USA }
 	 }
 	 action = {
 		 ai_chance = 20
@@ -452,6 +486,7 @@
 		command = { type = trigger which = 91675 }
 		command = { type = secedeprovince which = ETH value = 832 } #Somaliland
 		command = { type = secedeprovince which = ETH value = 834 } #Somaliland
+		command = { type = alliance which = USA }		
 	 }
 	 action = {
 		 ai_chance = 20
@@ -520,6 +555,7 @@
 		command = { type = secedeprovince which = ETH value = 836 } #Somalia
 		command = { type = secedeprovince which = ETH value = 837 } #Somalia
 		command = { type = secedeprovince which = ETH value = 838 } #Somalia
+		command = { type = alliance which = USA }		
 	 }
 	 action = {
 		 ai_chance = 20
@@ -584,6 +620,7 @@
 		command = { type = secedeprovince which = ETH value = 815 }
 		command = { type = secedeprovince which = ETH value = 832 }
 		command = { type = secedeprovince which = ETH value = 836 }
+		command = { type = alliance which = USA }		
 	 }
 	 action = {
 		 ai_chance = 20

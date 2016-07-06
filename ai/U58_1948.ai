@@ -44,11 +44,11 @@ trade = {
    money     = -1 
   
    favored = { GER = 100 } 
-   embargo = { } 
+	embargo = { USA ENG U01 AST NZL CAN SAF BEL KOR }
  } 
  tech_sharing = { 
    favored = { GER = 100 } 
-   embargo = { } 
+	embargo = { USA ENG U01 AST NZL CAN SAF BEL KOR }
    not = { } 
    prioritized = { 
      # Agriculture 
@@ -76,6 +76,7 @@ trade = {
      5130 = 100 
      5150 = 100 
      5180 = 100 
+	 
    } 
  } 
  ################################### 

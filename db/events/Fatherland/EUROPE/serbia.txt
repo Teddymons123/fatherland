@@ -243,20 +243,18 @@ event = {
 		command = { type = set_relation which = BUL value = 10 }
 		command = { type = set_relation which = CRO value = -50 }
 		
-		#command = { type = removecore which = 336 } 
-		#command = { type = removecore which = 331 } 
-		#command = { type = removecore which = 341 } 
-		#command = { type = removecore which = 337 } 
+		command = { type = addcore which = 336 } 
 		
 		command = { type = add_division value = infantry when = 10 }
 		command = { type = add_division value = infantry when = 10 }
 		command = { type = add_division value = militia when = 6 }
 		command = { type = add_division value = militia when = 6 }
-			command = { type = add_division value = militia when = 6 }
+		command = { type = add_division value = militia when = 6 }
 			
       	command = { type = dissent value = -5 }
 		
-		command = { type = 	end_puppet }
+		command = { type = end_puppet }		
+		command = { type = alliance which = GER }
 		}
 	}
 

@@ -182,6 +182,7 @@ command = { trigger = { participant = { country = TRA value = 2 } } type = event
 command = { trigger = { participant = { country = ITA value = 2 } } type = event which = 90000542 where = ITA when = 2 }
 command = { trigger = { participant = { country = PER value = 2 } } type = event which = 90000542 where = PER when = 2 }
 command = { trigger = { participant = { country = SAF value = 2 } } type = event which = 90000542 where = SAF when = 2 }
+command = { trigger = { participant = { country = CHI value = 2 } } type = event which = 90000542 where = CHI when = 2 }
 }
 }
 # 90000503 # GER # Bormann realizes the Nazi Senate
@@ -1418,9 +1419,33 @@ desc = "90000538DESC"
 action_a = {
 name = 90000538A
 ai_chance = 99
-command = { type = name where = UTC which = "Russian State" }
+command = { type = name where = UTC which = "Russian National State" }
 command = { type = capital which = 572 }
 command = { type = belligerence value = 5 }
+command = { type = addcore which = 580 }
+command = { type = addcore which = 579 }
+command = { type = addcore which = 679 }
+command = { type = addcore which = 682 }
+command = { type = addcore which = 677 }
+command = { type = addcore which = 678 }
+command = { type = addcore which = 570 }
+command = { type = addcore which = 568 }
+command = { type = addcore which = 571 }
+command = { type = addcore which = 572 }
+command = { type = addcore which = 567 }
+command = { type = addcore which = 584 }
+command = { type = addcore which = 576 }
+command = { type = addcore which = 574 }
+command = { type = add_corps which = "1st Russian National Army" value = land where = 572 }
+command = { type = add_division which = "9th Militia Division" value = militia when = 6 }
+command = { type = add_division which = "10th Militia Division" value = militia when = 6 }
+command = { type = add_division which = "11th Militia Division" value = militia when = 6 }
+command = { type = add_division which = "12th Militia Division" value = militia when = 6 }
+command = { type = add_corps which = "2nd Russian National Army" value = land where = 572 }
+command = { type = add_division which = "1st Cavalry Division" value = cavalry when = 10 }
+command = { type = add_division which = "2nd Cavalry Division" value = cavalry when = 10 }
+command = { type = add_division which = "3rd Cavalry Division" value = cavalry when = 10 }
+
 }
 
 action_b = {
@@ -1505,6 +1530,15 @@ name = 90000541A
 ai_chance = 80
 command = { type = war which = U42 }
 command = { type = end_non_aggression which = TRA where = SOV }
+command = { type = add_corps which = "1st Cossack National Army" value = land where = 691 }
+command = { type = add_division which = "9th Militia Division" value = militia when = 6 }
+command = { type = add_division which = "10th Militia Division" value = militia when = 6 }
+command = { type = add_division which = "11th Militia Division" value = militia when = 6 }
+command = { type = add_division which = "12th Militia Division" value = militia when = 6 }
+command = { type = add_corps which = "2nd Cossack National Army" value = land where = 691 }
+command = { type = add_division which = "1st Cavalry Division" value = cavalry when = 10 }
+command = { type = add_division which = "2nd Cavalry Division" value = cavalry when = 10 }
+command = { type = add_division which = "3rd Cavalry Division" value = cavalry when = 10 }
 }
 action_b = {
 name = 90000541B
@@ -1555,7 +1589,7 @@ picture = "reichstag"
 trigger = {
 event = 90000544
 war = { country = SER country = CRO }
-random = 50
+random = 20
 	}
 	
 date = { day = 1 month = january year = 1948 }

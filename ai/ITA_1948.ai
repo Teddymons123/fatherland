@@ -88,6 +88,7 @@ trade = {
 		BUL = 50
 		SWE = 100
 	}
+	embargo = { USA ENG U01 AST NZL CAN SAF BEL KOR }
 }
 tech_sharing = {
 	favored = {
@@ -103,7 +104,7 @@ tech_sharing = {
 		JAP = 150
 		TUR = 100
 	}
-	embargo = { }
+	embargo = { USA ENG U01 AST NZL CAN SAF BEL KOR }
 	not = { }
 	prioritized = {
 		# Agriculture

@@ -21,11 +21,11 @@ FIN;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;
 145020;Merivoimien Tutkimuslaitos;100114;4;1917;1970;centralized_execution;naval_training;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 145021;Arne Somersalo;100115;4;1919;1946;centralized_execution;fighter_tactics;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 145022;Karl Fredrik Wilkama;100754;3;1918;1928;small_unit_tactics;infantry_focus;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-145023;Aimo Lathi;Aimo;7;1922;1970;general_equipement;mechanics;munitions;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+145023;Aimo Lathi;Aimo;7;1922;1970;general_equipment;mechanics;munitions;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 145024;Sisu Automobile;Sisu;3;1931;1999;electronics;mechanics;technical_efficiency;vehicle_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 145025;Murmansk Harbor Facilities;Murmansk;3;1999;1999;naval_engineering;naval_artillery;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-145026;Tampella;Tampella;4;1914;1999;artillery;general_equipement;munitions;mechanics;vehicle_engineering;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-145027;Valmet Heavy State Industries;T1304;4;1946;1999;general_equipement;munitions;artillery;mechanics;vehicle_engineering;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-145028;SAKO;SAKO;4;1921;1999;munitions;general_equipement;mechanics;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-145029;Suomen Kaapelitehdas;NOKIA;3;1914;1967;electronics;mathematics;general_equipement;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-145030;NOKIA Corporation;NOKIA;6;1967;1999;electronics;industrial_engineering;elecronics;general_equipement;management;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+145026;Tampella;Tampella;4;1914;1999;artillery;general_equipment;munitions;mechanics;vehicle_engineering;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+145027;Valmet Heavy State Industries;T1304;4;1946;1999;general_equipment;munitions;artillery;mechanics;vehicle_engineering;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+145028;SAKO;SAKO;4;1921;1999;munitions;general_equipment;mechanics;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+145029;Suomen Kaapelitehdas;NOKIA;3;1914;1967;electronics;mathematics;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+145030;NOKIA Corporation;NOKIA;6;1967;1999;electronics;industrial_engineering;electronics;general_equipment;management;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;x

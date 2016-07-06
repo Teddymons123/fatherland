@@ -129,7 +129,7 @@ trade = {
 		JAP = 40
 		CHI = 50
 	}
-	embargo = { }
+embargo = { GER SLO ITA BUL CRO FIN MTN U44 UTC U46 U45 U41 U40 U42 WLL FLA HUN ROM SER BLR }
 }
 tech_sharing = {
 	favored = {
@@ -145,7 +145,7 @@ tech_sharing = {
 		TAN = 20
 		MON = 20
 	}
-	embargo = { }
+embargo = { GER SLO ITA BUL CRO FIN MTN U44 UTC U46 U45 U41 U40 U42 WLL FLA HUN ROM SER BLR }
 	not = { }
 	prioritized = {
 		# Agriculture

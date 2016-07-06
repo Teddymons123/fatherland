@@ -776,7 +776,7 @@ event = {
 		control = { province = 2104 data = -1 }
 	}
 
-	date = { day = 0 month = january year = 1947 }
+	date = { day = 0 month = january year = 1949 }
 	offset = 360
 	deathdate = { day = 29 month = december year = 1963 }
 
