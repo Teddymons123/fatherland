@@ -62,3 +62,62 @@ event = {
         command = { type = remove_division which = -1 }
 	}
 }
+
+event = {
+	id = 780002
+	country = GER
+
+	name = "Pull back from Far Eastern Republic"
+	desc = "Ever since the defeat of the Soviet Union in World War II, we have been covertly supporting Far Eastern elements in the Soviet Union. However, Far Eastern nationalism is bound to fail against the still formidable Soviets. Perhaps it'd be wise to pull back, before it's too late."
+	picture = "0turkestan0"
+	decision_picture = "decision_asienkorps"
+	style = 1	
+	
+	decision = {
+		war = { country = AXI country = SOV }
+	}
+		
+	decision_trigger = {
+		war = { country = AXI country = SOV }
+	}
+	
+	trigger = {
+		control = { province = 1192 data = SOV } #Semyonovka
+		control = { province = 1196 data = SOV } #Nikolsk
+	}
+
+	date = { day = 1 month = january year = 1948 }
+	offset = 5
+	deathdate = { day = 1 month = january year = 1964 }
+
+	action = {
+		name = "Retreat!"
+		command = { type = domestic which = interventionism value = 1 }
+		command = { type = trigger which = 780003 } 
+		command = { type = manpowerpool value = 50 }
+		command = { type = supplies value = 5000 }
+		command = { type = oilpool value = 2500 }
+	}
+}
+
+event = {
+	id = 780003
+	random = no
+	country = AXI
+
+    name = "Pull back from Far Eastern"
+	desc = "Ever since the defeat of the Soviet Union in World War II, we have been covertly supporting Far Eastern elements in the Soviet Union. However, Far Eastern nationalism is bound to fail against the still formidable Soviets. Perhaps it'd be wise to pull back, before it's too late."
+	style = 2
+	picture = "0turkestan0"
+	
+	    action = {
+		name = "Retreat!"
+		command = { type = peace which = SOV value = 1 }
+        command = { type = leave_alliance when = 1 }
+        #command = { type = remove_division which = -1 }
+        #command = { type = remove_division which = -1 }
+        #command = { type = remove_division which = -1 }
+        #command = { type = remove_division which = -1 }
+        #command = { type = remove_division which = -1 }
+	}
+}

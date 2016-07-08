@@ -183,6 +183,7 @@ command = { trigger = { participant = { country = ITA value = 2 } } type = event
 command = { trigger = { participant = { country = PER value = 2 } } type = event which = 90000542 where = PER when = 2 }
 command = { trigger = { participant = { country = SAF value = 2 } } type = event which = 90000542 where = SAF when = 2 }
 command = { trigger = { participant = { country = CHI value = 2 } } type = event which = 90000542 where = CHI when = 2 }
+command = { trigger = { participant = { country = U87 value = 2 } } type = event which = 90000542 where = U87 when = 2 }
 }
 }
 # 90000503 # GER # Bormann realizes the Nazi Senate
@@ -341,9 +342,11 @@ command = { type = event which = 90000507 where = GER when = 3 }
 command = { type = event which = 90000508 where = GER when = 4 }
 command = { type = event which = 90000509 where = GER when = 5 }
 command = { type = event which = 90000510 where = GER when = 6 }
-command = { type = flag_ext where = GER which = "_U19" }
+command = { type = flag_ext where = -1 which = "_WER" }
 command = { type = clrflag which = GoringGoebbels } 
 command = { type = setflag which = MilGermany } 
+command = { type = sleepevent which=999484 } #Reichsparteitag
+command = { type = sleepevent which=999485 } #Reichsparteitag Organization
 }
 action_d = {
 trigger = { flag = GoringGoebbels }
@@ -1071,6 +1074,7 @@ command = { type = inherit which = U41 value = 1 }
 command = { type = end_puppet }
 command = { type = end_access which = GER }
 command = { type = leave_alliance when = 1 } # leave eventaully old alliance wars
+command = { type = ai_prepare_war	which = GER }
 command = { type = manpowerpool value = -500 }
 command = { type = strength which = land when = 0 where = 0 value = 0.33 }
 command = { type = event which = 90000529 where = GER when = 1 }
@@ -1245,6 +1249,13 @@ desc = "90000531DESC"
 action_a = {
 name = ACTION_NAME_OK
 command = { type = war which = U58 }
+command = { type = dissent value = 15 }
+command = { type = revolt which = -2}
+command = { type = revolt which = -2}
+command = { type = revolt which = -2}
+command = { type = revolt which = -2}
+command = { type = revolt which = -2}
+command = { type = revolt which = -2}
 }
 }
 event = {

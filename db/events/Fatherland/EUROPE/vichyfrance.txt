@@ -445,6 +445,7 @@ event = {
 			ai_chance = 20
 			command = { type = dissent value = 3 }
 			command = { type = inherit which = FRA value = 0 }
+			command = { trigger = { alliance = { country = ITA country = GER } } type = secedeprovince which = ITA value = 94 when = 0 } # Corsica - France 					
 	}
 }
 

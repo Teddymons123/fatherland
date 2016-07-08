@@ -12,9 +12,9 @@ metal                  = 180
 rare_materials         = 90
 oil                    = 100 
 supplies               = 100 
-money                  = 50 
+money                  = 250 
 capital                = 1103
-manpower               = 250
+manpower               = 300
    policy = 
    {  date              = {  year = 0 month = january day = 0  } 
      democratic        = 3 
@@ -305,4 +305,34 @@ landunit = {
    	extra = artillery 
         }
         }
+landunit = {
+ id = { type = 17345  id = 30 }
+ name = "10. Ordu"
+ location = 1099
+  	division = {
+   	id = { type = 17345  id = 31 }
+   	name = "20. Piyade Tümeni"
+   	strength = 60
+   	type = infantry
+	model = 8
+   	extra = artillery 
+        }
+  	division = {
+   	id = { type = 17345  id = 32 }
+   	name = "21. Piyade Tümeni"
+   	strength = 60
+   	type = infantry
+	model = 8
+   	extra = artillery 
+        }
+  	division = {
+   	id = { type = 17345  id = 33 }
+   	name = "22. Piyade Tümeni"
+   	strength = 60
+   	type = infantry
+	model = 8
+   	extra = artillery 
+        }
+        }		
+		
 		}

@@ -73,7 +73,7 @@ event = {
 	style = 2
 	picture = "generalgovernment"	
 
-	date = { day = 1 month = october year = 1949 }
+	date = { day = 1 month = october year = 1953 }
 	offset = 7
 	deathdate = { day = 30 month = december year = 1963 }
 

@@ -158,6 +158,8 @@ event = {
 		command = { type = independence which = VIE }
 		command = { type = end_puppet }
 		command = { type = alliance which = VIE }
+		command = { type = alliance which = LAO }
+		command = { type = alliance which = CMB }		
 		}
 }
 event = {
@@ -225,6 +227,8 @@ event = {
 		command = { type = add_division which = "5th Militia Division" value = militia when = 8 }
 		command = { type = add_division which = "6th Militia Division" value = militia when = 8 }
 		command = { type = add_division which = "7th Militia Division" value = militia when = 8 }
+		command = { type = alliance which = LAO }
+		command = { type = alliance which = CMB }			
 	}
 }
 event = {
@@ -480,6 +484,7 @@ event = {
 		name = EVT_8228011_A #"It is time for war!"
 		ai_chance = 25
 		command = { type = war which = U72 }
+		command = { type = war which = U03 }		
 	}	
 
 	action = {

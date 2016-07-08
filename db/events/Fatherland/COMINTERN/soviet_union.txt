@@ -535,6 +535,7 @@ event = {
 		name = "This is too dangerous ..."
 		ai_chance = 40
 		command = { type = 	belligerence which = TRA value = -1 }
+		command = { type = sleepevent which = 90000437}
 	}
 }
 event = {
@@ -579,7 +580,7 @@ event = {
 	picture = "news_paper" 
 
 	date = { day = 1 month = january year = 1948 }
-	offset = 5
+	offset = 30
 	deathdate = { day = 29 month = december year = 1952 }
 	
 	trigger = { 
@@ -614,8 +615,20 @@ event = {
 					control = { province = 1116 data = UPE } 	
 				}
 				AND = {
-					year = 1950
-					war = { country =SOV  country = UPE }	
+					OR = {
+						AND = {
+							year = 1949
+							random = 20
+							war = { country = SOV  country = UPE }	
+						}
+						AND = {
+							year = 1950
+							random = 80
+							war = { country = SOV  country = UPE }	
+						}
+
+					
+					}
 				}
 		}
 			

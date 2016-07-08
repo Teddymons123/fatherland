@@ -17,6 +17,8 @@
 #### 91677 - ETH - Armistice - Lost Somalia (Ethiopia)
 #### 91678 - ENG - Armistice - Lost East Africa (England)
 #### 91679 - ETH - Armistice - Lost East Africa (Ethiopia)
+#### 91680 - ENG - War in the Horn of Africa
+#### 91681 - ENG - We've won !
 ################################################
 
 #########################################################
@@ -355,38 +357,6 @@
 	 }
 
 	 }
-
-#########################################################
-#### 91680 - ENG - War in the Horn of Africa
-#########################################################		 
-	event = {
-	 id = 91680
-	 random = no
-	 country = ENG
-
-	 name = "Then it's war"
-	 desc = "Then it's war"
-	 style = 2
-	 picture = "news_paper"		 
-
-		 date = { day = 0 month = december year = 1949 }
-		 offset = 10 
-		 deathdate = { day = 29 month = january year = 1960 }
-
-	 
-	 trigger = {
-		flag = ETHUKWAR
-		event = 91671
-	 }
-	 
-	 action = {
-		ai_chance = 100
-		name = "At War!"
-		command = { type = leave_alliance when = 1 } #leave allies
-		command = { type = war which = ETH }		
-	 }
-
-	 }
 	 
 #########################################################
 #### 91672 - ENG - Armistice - Lost Eritrea (England)
@@ -650,3 +620,62 @@
 	 }
 
 	 }
+
+#########################################################
+#### 91680 - ENG - War in the Horn of Africa
+#########################################################		 
+	event = {
+	 id = 91680
+	 random = no
+	 country = ENG
+
+	 name = "Then it's war"
+	 desc = "Then it's war"
+	 style = 2
+	 picture = "news_paper"		 
+
+		 date = { day = 0 month = december year = 1949 }
+		 offset = 10 
+		 deathdate = { day = 29 month = january year = 1960 }
+
+	 
+	 trigger = {
+		flag = ETHUKWAR
+		event = 91671
+	 }
+	 
+	 action = {
+		ai_chance = 100
+		name = "At War!"
+		command = { type = leave_alliance when = 1 } #leave allies
+		command = { type = war which = ETH }		
+	 }
+
+	 }
+	 
+#########################################################
+#### 91681 - ENG - We've won
+#########################################################		 
+	 event = {
+	 id = 91681
+	 random = no
+	 country = ENG
+
+	 name = "We've won"
+	 desc = "The Ethiopia don't exist anymore"
+	 style = 2
+	 picture = "news_paper"		 
+	 
+	 trigger = {
+		NOT = { exists = ETH }
+	 }
+	 
+	 action = {
+		ai_chance = 100
+		name = "Yes, we have won!"
+		command = { type = relation which = USA value = 20 }
+		command = { type = dissent value = -1 }		
+		command = { type = alliance which = USA }
+	 }
+
+	 }	 

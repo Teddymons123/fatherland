@@ -86,8 +86,13 @@ command = { type = revolt which = 572 when = 0 } # Moscow
 command = { type = revolt which = 572 when = 0 } # Moscow
 command = { type = revolt which = 572 when = 0 } # Moscow
 command = { type = revolt which = 572 when = 0 } # Moscow
+command = { type = revolt which = 572 when = 0 } # Moscow
+command = { type = revolt which = 572 when = 0 } # Moscow
+command = { type = revolt which = 572 when = 0 } # Moscow
 command = { type = revolt which = 678 when = 0 } # Vladimir
 command = { type = revolt which = 678 when = 0 } # Vladimir
+command = { type = revolt which = 678 when = 0 } # Vladimir
+command = { type = revolt which = 570 when = 0 } # Zagorsk
 command = { type = revolt which = 570 when = 0 } # Zagorsk
 command = { type = revolt which = 570 when = 0 } # Zagorsk
 command = { type = revolt which = 568 when = 0 } # Solnecnogorsk

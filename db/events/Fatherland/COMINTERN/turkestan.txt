@@ -47,7 +47,7 @@ action = {
         name = "EVT_8014300A"
         command = { type = inherit which = UPE }
         command = { type = event which = 8014301 where = SIK when = 1 }
-		command = { type = peace which = AXI value = 0 }
+		command = { type = peace which = AXI value = 1 }
       }
 }
 

@@ -31,7 +31,7 @@ claim_acceptance = -69
 demand_claims = {
 	#YUG
 }
-liberate = { SCH SPA U66 }
+liberate = { SCH SPA U66 YUG }
 # Special resistance against "influence" by the listed nations. Value range = [0 - 10]  
 resistance = {  
 	ENG = 1
