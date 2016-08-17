@@ -611,10 +611,13 @@ event = { # Soviet Defeat - Dzhanov
 	save_date = yes
 	
 	trigger = {
-    war = { country = SIB country = SOV }
-	control = { province = 1138 data = SIB }
-	control = { province = 1137 data = SIB }
-	control = { province = 1132 data = SIB }	
+		war = { country = SIB country = SOV }
+		control = { province = 1138 data = SIB } #Omsk
+		OR = {
+			control = { province = 1131 data = SIB } #Ufa
+			control = { province = 1151 data = SIB } #Sverdlovsk
+		}
+	
 	}
 	
     date = { day = 1 month = january year = 1948 }
@@ -630,5 +633,8 @@ event = { # Soviet Defeat - Dzhanov
 		name = "Okay!"
         command = { type = dissent value = -5 }
 	    command = { type = inherit which = SOV value = 1 }
+		command = { type = name where = SIB which = "Soviet Democratic Republic" }
+		#command = { type = country which = SOV }
+		
 	}
 }
